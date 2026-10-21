@@ -7,8 +7,10 @@ from collections import Counter
 from datetime import datetime
 from pathlib import Path
 
+import os as _os
+
 ROOT = Path(__file__).resolve().parent
-RUNS = ROOT / "runs"
+RUNS = Path("/tmp/runs") if _os.environ.get("VERCEL") else ROOT / "runs"
 JEV_URL = "https://openrouter.ai/api/alpha/decisions"
 JEV_MODEL = "typesafe/jev-1.13"
 TIPOS_POS_VENDA = ["Produto", "Entrega", "Troca", "Atendimento", "Disponibilidade"]
@@ -53,11 +55,14 @@ QUESTIONS = {
 
 
 def _carregar_env():
-    env = {}
-    for linha in (ROOT / ".env").read_text(encoding="utf-8").splitlines():
-        if "=" in linha and not linha.lstrip().startswith("#"):
-            chave, valor = linha.split("=", 1)
-            env[chave.strip()] = valor.strip()
+    import os
+    env = dict(os.environ)
+    env_file = ROOT / ".env"
+    if env_file.is_file():
+        for linha in env_file.read_text(encoding="utf-8").splitlines():
+            if "=" in linha and not linha.lstrip().startswith("#"):
+                chave, valor = linha.split("=", 1)
+                env.setdefault(chave.strip(), valor.strip())
     return env
 
 
@@ -301,11 +306,14 @@ def analisar_mes(mes):
 
     RUNS.mkdir(exist_ok=True)
     arquivo = RUNS / f"jev_{mes}_{datetime.now():%Y%m%d_%H%M%S}.json"
-    arquivo.write_text(json.dumps(
-        {"mes": mes, "enviado": enviado, "recebido": recebido, "prioridades": prioridades},
-        ensure_ascii=False, indent=2), encoding="utf-8")
+    registro = {"mes": mes, "enviado": enviado, "recebido": recebido, "prioridades": prioridades}
+    try:
+        arquivo.write_text(json.dumps(registro, ensure_ascii=False, indent=2), encoding="utf-8")
+    except OSError:
+        pass
 
-    return dict(resumir_decisao(recebido), mes=mes, prioridades=prioridades, arquivo=f"runs/{arquivo.name}")
+    return dict(resumir_decisao(recebido), mes=mes, prioridades=prioridades,
+                arquivo=f"runs/{arquivo.name}", _registro=registro)
 
 
 def resumir_decisao(recebido):
@@ -383,7 +391,7 @@ def fatos_haiku(mes, registro):
     return "\n".join(linhas)
 
 
-def gerar_acao(mes, tipo, pedido, arquivo):
+def gerar_acao(mes, tipo, pedido, arquivo="", decisao_jev=None):
     if tipo not in TIPOS_ACAO:
         raise ValueError(f"Tipo inválido: {tipo}. Use gerente, diretoria ou livre.")
     if tipo == "livre":
@@ -392,7 +400,10 @@ def gerar_acao(mes, tipo, pedido, arquivo):
             raise ValueError("Digite o pedido para o texto livre.")
         if len(pedido) > 1000:
             raise ValueError("O pedido deve ter no máximo 1000 caracteres.")
-    nome, registro = ler_decisao(mes, arquivo)
+    if decisao_jev:
+        nome, registro = "(inline)", decisao_jev
+    else:
+        nome, registro = ler_decisao(mes, arquivo)
     tarefa = pedido if tipo == "livre" else TAREFAS[tipo]
     user = (f"FATOS (decisão do JEV e números calculados):\n{fatos_haiku(mes, registro)}\n\n"
             f"TAREFA:\n{tarefa}\n\nLembrete: não altere a causa nem o score, não invente números.")
@@ -402,14 +413,17 @@ def gerar_acao(mes, tipo, pedido, arquivo):
 
     RUNS.mkdir(exist_ok=True)
     saida = RUNS / f"haiku_{mes}_{tipo}_{datetime.now():%Y%m%d_%H%M%S_%f}.json"
-    saida.write_text(json.dumps({"mes": mes, "tipo": tipo, "decisao_jev": f"runs/{nome}",
-                                 "enviado": enviado, "recebido": recebido}, ensure_ascii=False, indent=2), encoding="utf-8")
+    try:
+        saida.write_text(json.dumps({"mes": mes, "tipo": tipo, "decisao_jev": f"runs/{nome}",
+                                     "enviado": enviado, "recebido": recebido}, ensure_ascii=False, indent=2), encoding="utf-8")
+    except OSError:
+        pass
     try:
         texto = recebido["choices"][0]["message"]["content"].strip()
     except (KeyError, IndexError, TypeError, AttributeError):
-        raise RuntimeError(f"Resposta do Haiku sem texto (gravada em runs/{saida.name})") from None
+        raise RuntimeError("Resposta do Haiku sem texto") from None
     if not texto:
-        raise RuntimeError(f"O Haiku devolveu um texto vazio (gravado em runs/{saida.name})")
+        raise RuntimeError("O Haiku devolveu um texto vazio")
     return {"texto": texto, "modelo": recebido.get("model"), "arquivo": f"runs/{saida.name}", "decisao_jev": f"runs/{nome}"}
 
 

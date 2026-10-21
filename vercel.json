@@ -1,0 +1,15 @@
+{
+  "rewrites": [
+    { "source": "/api/meses", "destination": "/api/meses" },
+    { "source": "/api/filtros", "destination": "/api/filtros" },
+    { "source": "/api/dados", "destination": "/api/dados" },
+    { "source": "/api/jev", "destination": "/api/jev" },
+    { "source": "/api/acao", "destination": "/api/acao" }
+  ],
+  "functions": {
+    "api/*.py": {
+      "runtime": "@vercel/python@4.6.0",
+      "maxDuration": 60
+    }
+  }
+}

@@ -1,0 +1,545 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Decisão do Mês</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #F6F7F9; --card: #FFFFFF; --txt: #1A1F29; --txt2: #6B7280; --borda: #E5E7EB;
+    --jev: #0EA5A4; --jev-escuro: #0B7F7E; --agir: #16A34A; --confirmar: #D97706; --investigar: #DC2626;
+    --foco: #334155; --neutro: #CBD5E1;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--txt); font: 14px/1.45 Inter, system-ui, -apple-system, "Segoe UI", sans-serif; }
+  .num, .val, .score-num { font-variant-numeric: tabular-nums; }
+  .wrap { max-width: 1440px; margin: 0 auto; padding: 16px 24px 24px; }
+  button, select { font: inherit; }
+  button:focus-visible, select:focus-visible { outline: 2px solid var(--jev); outline-offset: 2px; }
+
+  header.topo { display: flex; flex-wrap: wrap; gap: 16px; align-items: flex-end; justify-content: space-between; margin-bottom: 8px; }
+  h1 { font-size: 20px; font-weight: 700; margin: 0; }
+  .sub { margin: 2px 0 0; color: var(--txt2); font-size: 13px; }
+  .filtros { display: flex; flex-wrap: wrap; gap: 8px; }
+  .filtros label { display: flex; flex-direction: column; gap: 4px; font-size: 12px; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; color: var(--txt2); }
+  .filtros select { min-width: 170px; height: 40px; padding: 0 12px; border: 1px solid var(--borda); border-radius: 8px; background: var(--card); color: var(--txt); cursor: pointer; }
+  .filtros select:hover { border-color: #9CA3AF; }
+
+  .barra-filtros { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; min-height: 40px; margin-bottom: 16px; }
+  .chip { display: inline-flex; align-items: center; gap: 6px; height: 32px; padding: 0 6px 0 12px; border-radius: 16px; background: #E8EDF3; color: var(--foco); font-size: 13px; font-weight: 500; }
+  .chip button { width: 24px; height: 24px; border: 0; border-radius: 12px; background: transparent; color: var(--foco); cursor: pointer; font-size: 16px; line-height: 1; }
+  .chip button:hover { background: #D5DDE7; }
+  .btn-limpar { height: 32px; padding: 0 12px; border: 1px solid var(--borda); border-radius: 8px; background: var(--card); color: var(--txt); cursor: pointer; font-size: 13px; }
+  .btn-limpar:hover:not(:disabled) { border-color: #9CA3AF; }
+  .btn-limpar:disabled { color: #A0A6B1; cursor: default; }
+  .exibindo { color: var(--txt2); font-size: 13px; }
+  .exibindo b { color: var(--txt); font-weight: 600; }
+
+  .card { background: var(--card); border: 1px solid var(--borda); border-radius: 12px; box-shadow: 0 1px 2px rgba(16,24,40,.04); padding: 16px; min-width: 0; }
+  .card h2 { font-size: 14px; font-weight: 600; margin: 0 0 8px; }
+  .lbl { font-size: 12px; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; color: var(--txt2); }
+
+  .kpis { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-bottom: 16px; }
+  .kpi .val { font-size: 32px; font-weight: 600; margin: 4px 0 2px; }
+  .kpi .var { font-size: 13px; font-weight: 500; }
+  .var.bom { color: var(--agir); } .var.ruim { color: var(--investigar); } .var.neutra { color: var(--txt2); }
+  .kpi .ctx { font-size: 12px; color: var(--txt2); margin-top: 2px; }
+
+  .grid { display: grid; grid-template-columns: repeat(12, 1fr); gap: 16px; }
+  .c-reg { grid-column: 1 / 6; grid-row: 1; }
+  .c-evo { grid-column: 1 / 6; grid-row: 2; }
+  .jev { grid-column: 6 / 13; grid-row: 1 / 3; border-color: #9EDDDC; border-width: 1px; }
+  .c-acao { grid-column: 1 / 13; grid-row: 3; }
+  .c-lojas { grid-column: 1 / 13; grid-row: 4; }
+  .acao-titulo { font-size: 18px; font-weight: 700; margin: 4px 0; }
+  .acao-resumo { margin: 0 0 16px; color: var(--txt2); }
+  .acao-resumo b { color: var(--txt); }
+  .acao-botoes { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; }
+  .btn-sec { min-height: 40px; padding: 0 16px; border: 1px solid var(--jev); border-radius: 8px; background: var(--card); color: var(--jev-escuro); font-weight: 600; cursor: pointer; }
+  .btn-sec:hover:not(:disabled) { background: #ECF8F8; }
+  .btn-sec:disabled { opacity: .55; cursor: default; }
+  .acao-livre .lbl { display: block; margin-bottom: 6px; }
+  .livre-linha { display: flex; gap: 8px; align-items: stretch; }
+  .livre-linha textarea { flex: 1; min-height: 44px; padding: 10px 12px; border: 1px solid var(--borda); border-radius: 8px; font: inherit; resize: vertical; color: var(--txt); }
+  .livre-linha textarea:focus-visible { outline: 2px solid var(--jev); outline-offset: 1px; }
+  .saida { margin-top: 16px; border: 1px solid var(--borda); border-radius: 10px; background: #FAFBFC; }
+  .saida-topo { display: flex; justify-content: space-between; align-items: center; gap: 8px; padding: 8px 12px; border-bottom: 1px solid var(--borda); }
+  .saida pre { margin: 0; padding: 12px 16px; white-space: pre-wrap; font: 14px/1.6 Inter, system-ui, sans-serif; color: var(--txt); }
+  .saida-rodape { padding: 8px 12px; border-top: 1px solid var(--borda); font-size: 11px; color: #8A909B; }
+  .carregando { margin-top: 16px; color: var(--txt2); }
+  .chart { position: relative; height: 210px; }
+  .dica { font-size: 12px; color: var(--txt2); margin: -4px 0 8px; }
+
+  .jev { display: flex; flex-direction: column; padding: 24px; }
+  .jev-tag { color: var(--jev-escuro); }
+  .jev h3 { font-size: 20px; font-weight: 700; margin: 4px 0 8px; }
+  .jev p { margin: 0 0 16px; color: var(--txt2); }
+  .btn-jev { align-self: flex-start; height: 48px; padding: 0 28px; border: 0; border-radius: 10px; background: var(--jev); color: #fff; font-size: 16px; font-weight: 600; cursor: pointer; }
+  .btn-jev:hover:not(:disabled) { background: var(--jev-escuro); }
+  .btn-jev:disabled { opacity: .6; cursor: default; }
+  .antes { margin: auto 0; }
+  .etapas { list-style: none; padding: 0; margin: 16px 0 0; display: flex; flex-direction: column; gap: 8px; }
+  .etapas li { color: #A0A6B1; display: flex; align-items: center; gap: 8px; }
+  .etapas li::before { content: ""; width: 10px; height: 10px; border-radius: 5px; background: var(--borda); }
+  .etapas li.ativa { color: var(--txt); font-weight: 500; }
+  .etapas li.ativa::before { background: var(--jev); animation: pulso 1s infinite alternate; }
+  .etapas li.feita { color: var(--txt2); }
+  .etapas li.feita::before { background: var(--jev); }
+  @keyframes pulso { from { opacity: .35; } to { opacity: 1; } }
+
+  .res-topo { display: flex; flex-wrap: wrap; gap: 16px; align-items: center; justify-content: space-between; }
+  .causa { font-size: 34px; font-weight: 700; line-height: 1.15; margin-top: 4px; }
+  .gauge { text-align: center; }
+  .gauge svg { display: block; width: 180px; height: auto; }
+  .badge { display: inline-block; margin-top: 4px; padding: 3px 12px; border-radius: 12px; color: #fff; font-size: 13px; font-weight: 600; }
+  .probs { margin: 16px 0; display: flex; flex-direction: column; gap: 6px; }
+  .prob { display: grid; grid-template-columns: 160px 1fr 44px; gap: 8px; align-items: center; font-size: 13px; }
+  .prob .trilho { height: 10px; background: #F1F3F6; border-radius: 5px; overflow: hidden; }
+  .prob .barra { height: 100%; background: var(--neutro); border-radius: 5px; }
+  .prob.principal { font-weight: 600; }
+  .prob.principal .barra { background: var(--jev); }
+  .prob .p { text-align: right; }
+  .prios { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-top: 8px; }
+  .prio { text-align: left; min-height: 64px; padding: 10px 12px; border: 1px solid var(--borda); border-radius: 10px; background: var(--card); cursor: pointer; color: var(--txt); }
+  .prio:hover { border-color: var(--jev); }
+  .prio.ativa { border-color: var(--jev); background: #ECF8F8; }
+  .prio b { display: block; font-size: 13px; }
+  .prio span { display: block; font-size: 12px; color: var(--txt2); }
+  .prio .at { color: var(--investigar); font-weight: 600; font-size: 13px; margin-top: 2px; }
+  .discreta { margin-top: 16px; font-size: 13px; color: var(--txt2); }
+  .discreta b { color: var(--txt); font-weight: 600; }
+  .rodape-jev { margin-top: auto; padding-top: 12px; font-size: 11px; color: #8A909B; word-break: break-all; }
+  .erro { color: var(--investigar); font-weight: 500; margin: 0 0 12px; }
+  .aviso-erro { background: #FEF2F2; border: 1px solid #FECACA; color: #991B1B; border-radius: 8px; padding: 10px 12px; margin-bottom: 16px; }
+
+  footer { margin-top: 16px; font-size: 12px; color: var(--txt2); }
+
+  @media (max-width: 1100px) { .kpis { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 900px) {
+    .wrap { padding: 16px; }
+    .grid > * { grid-column: 1 / -1 !important; grid-row: auto !important; }
+    .jev { order: -1; }
+    .prios { grid-template-columns: 1fr; }
+    .prob { grid-template-columns: 120px 1fr 40px; }
+    .filtros select { min-width: 140px; }
+  }
+  @media (max-width: 480px) { .kpis { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="topo">
+    <div>
+      <h1>Decisão do Mês</h1>
+      <p class="sub">Rede varejista fictícia · 40 lojas em 5 regiões · referência <b id="refMes">…</b></p>
+    </div>
+    <div class="filtros">
+      <label>Mês<select id="fMes"></select></label>
+      <label>Região<select id="fRegiao"><option value="">Todas as regiões</option></select></label>
+      <label>Loja<select id="fLoja"><option value="">Todas as lojas</option></select></label>
+    </div>
+  </header>
+
+  <div class="barra-filtros">
+    <div id="chips" style="display:contents"></div>
+    <button class="btn-limpar" id="limpar" disabled>Limpar filtros</button>
+    <span class="exibindo">Exibindo: <b id="exibindo">…</b></span>
+  </div>
+
+  <div id="avisoErro" class="aviso-erro" hidden></div>
+
+  <section class="kpis" id="kpis"></section>
+
+  <main class="grid">
+    <section class="card c-reg">
+      <h2 id="t1">Atingimento da meta por região</h2>
+      <p class="dica">Clique numa região para filtrar</p>
+      <div class="chart"><canvas id="g1" aria-label="Atingimento da meta por região"></canvas></div>
+    </section>
+    <section class="card c-evo">
+      <h2 id="t2">Evolução mensal de faturamento vs meta</h2>
+      <div class="chart"><canvas id="g2" aria-label="Evolução mensal de faturamento e meta"></canvas></div>
+    </section>
+    <section class="card jev" id="jev" aria-live="polite"></section>
+    <section class="card c-acao" id="acao" hidden>
+      <div class="lbl">Transformar em ação</div>
+      <h3 class="acao-titulo" id="acaoTitulo"></h3>
+      <p class="acao-resumo" id="acaoResumo"></p>
+      <div class="acao-botoes">
+        <button class="btn-sec" data-tipo="gerente">Mensagem para o gerente</button>
+        <button class="btn-sec" data-tipo="diretoria">Resumo para a diretoria</button>
+      </div>
+      <div class="acao-livre">
+        <label class="lbl" for="pedido">Ou peça outro texto</label>
+        <div class="livre-linha">
+          <textarea id="pedido" maxlength="1000" rows="2" placeholder="Ex.: plano de 3 passos para a próxima semana (Ctrl+Enter gera)"></textarea>
+          <button class="btn-sec" id="btnLivre">Gerar</button>
+        </div>
+      </div>
+      <div id="acaoSaida"></div>
+    </section>
+    <section class="card c-lojas">
+      <h2 id="t3">Lojas com pior atingimento da meta</h2>
+      <p class="dica">Clique numa loja para filtrar</p>
+      <div class="chart" id="w3"><canvas id="g3" aria-label="Lojas com pior atingimento da meta"></canvas></div>
+    </section>
+  </main>
+
+  <footer>Dados sintéticos de uma rede fictícia, lidos do Supabase. Decisão da causa: JEV (TypeSafe) via OpenRouter. Cálculos: Python.</footer>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<script>
+const ACAO_ATIVA = true;
+const COR = { foco: "#334155", neutro: "#CBD5E1", ref: "#94A3B8", txt: "#1A1F29", txt2: "#6B7280",
+              jev: "#0EA5A4", Agir: "#16A34A", Confirmar: "#D97706", Investigar: "#DC2626" };
+const st = { mes: "", regiao: "", loja: "", filtros: null, jev: null, jevToken: 0, acaoToken: 0, seq: 0 };
+const graficos = {};
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+
+Chart.defaults.font.family = "Inter, system-ui, sans-serif";
+Chart.defaults.font.size = 12;
+Chart.defaults.color = COR.txt2;
+Chart.defaults.animation = false;
+
+async function api(url, opts) {
+  const r = await fetch(url, opts);
+  const j = await r.json().catch(() => ({ erro: `Resposta inválida do servidor (${r.status})` }));
+  if (!r.ok) throw new Error(j.erro || `Erro ${r.status}`);
+  return j;
+}
+
+const rotuloMes = m => (st.filtros.meses.find(x => x.valor === m) || {}).rotulo || m;
+const lojaInfo = id => st.filtros.lojas.find(l => l.id === id);
+
+// ---------- filtros ----------
+function preencherLojas() {
+  const lojas = st.filtros.lojas.filter(l => !st.regiao || l.regiao === st.regiao);
+  $("fLoja").innerHTML = `<option value="">Todas as lojas</option>` +
+    lojas.map(l => `<option value="${esc(l.id)}">${esc(l.id)} · ${esc(l.nome)}</option>`).join("");
+  $("fLoja").value = st.loja;
+}
+
+function setFiltro(regiao, loja) {
+  if (loja) regiao = lojaInfo(loja).regiao;
+  st.regiao = regiao || "";
+  st.loja = loja || "";
+  $("fRegiao").value = st.regiao;
+  preencherLojas();
+  carregar();
+}
+
+function renderChips() {
+  const chips = [];
+  if (st.regiao) chips.push(`<span class="chip">Região: ${esc(st.regiao)}<button aria-label="Remover filtro de região" data-tira="regiao">×</button></span>`);
+  if (st.loja) chips.push(`<span class="chip">Loja: ${esc(st.loja)}<button aria-label="Remover filtro de loja" data-tira="loja">×</button></span>`);
+  $("chips").innerHTML = chips.join("");
+  $("limpar").disabled = !chips.length;
+}
+
+$("chips").addEventListener("click", e => {
+  const b = e.target.closest("button[data-tira]");
+  if (!b) return;
+  if (b.dataset.tira === "regiao") setFiltro("", "");
+  else setFiltro(st.regiao, "");
+});
+$("limpar").addEventListener("click", () => setFiltro("", ""));
+$("fMes").addEventListener("change", e => { st.mes = e.target.value; resetJev(); carregar(); });
+$("fRegiao").addEventListener("change", e => setFiltro(e.target.value, ""));
+$("fLoja").addEventListener("change", e => setFiltro(st.regiao, e.target.value));
+
+// ---------- dados ----------
+async function carregar() {
+  renderChips();
+  const seq = ++st.seq;
+  const q = new URLSearchParams({ mes: st.mes, regiao: st.regiao, loja: st.loja });
+  try {
+    const d = await api(`/api/dados?${q}`);
+    if (seq !== st.seq) return;
+    $("avisoErro").hidden = true;
+    render(d);
+  } catch (e) {
+    if (seq !== st.seq) return;
+    $("avisoErro").textContent = `Não foi possível carregar os dados: ${e.message}`;
+    $("avisoErro").hidden = false;
+  }
+}
+
+function render(d) {
+  $("refMes").textContent = d.rotulo_mes;
+  $("exibindo").textContent = d.exibindo;
+  $("kpis").innerHTML = d.big.map(k => {
+    let v = `<div class="var neutra">sem mês anterior</div>`;
+    if (k.var) {
+      const seta = k.var.direcao === "sobe" ? "▲" : k.var.direcao === "desce" ? "▼" : "■";
+      const cls = k.var.bom === null ? "neutra" : k.var.bom ? "bom" : "ruim";
+      v = `<div class="var ${cls}">${seta} ${esc(k.var.texto)}</div>`;
+    }
+    return `<div class="card kpi"><div class="lbl">${esc(k.rotulo)}</div><div class="val">${esc(k.valor)}</div>${v}<div class="ctx">${esc(k.contexto)}</div></div>`;
+  }).join("");
+
+  $("t1").textContent = d.graf_regioes.titulo;
+  $("t2").textContent = d.graf_evolucao.titulo;
+  $("t3").textContent = d.graf_lojas.titulo;
+  desenharBarras("g1", d.graf_regioes, d.graf_regioes.rotulos, i => d.graf_regioes.rotulos[i] === d.graf_regioes.foco,
+    i => { const r = d.graf_regioes.rotulos[i]; setFiltro(st.regiao === r && !st.loja ? "" : r, ""); });
+  $("w3").style.height = `${Math.max(160, d.graf_lojas.rotulos.length * 30 + 30)}px`;
+  desenharBarras("g3", d.graf_lojas, d.graf_lojas.rotulos, i => d.graf_lojas.ids[i] === d.graf_lojas.foco,
+    i => { const id = d.graf_lojas.ids[i]; setFiltro(st.regiao, st.loja === id ? "" : id); });
+  desenharEvolucao(d.graf_evolucao);
+  marcarPrioridade();
+}
+
+// ---------- gráficos ----------
+const pluginBarras = {
+  id: "barrasBR",
+  afterDatasetsDraw(chart, _a, o) {
+    const { ctx, chartArea: ca, scales: { x } } = chart;
+    ctx.save();
+    const px = x.getPixelForValue(100);
+    ctx.strokeStyle = COR.ref; ctx.setLineDash([4, 4]); ctx.lineWidth = 1;
+    ctx.beginPath(); ctx.moveTo(px, ca.top); ctx.lineTo(px, ca.bottom); ctx.stroke();
+    ctx.setLineDash([]);
+    ctx.fillStyle = COR.txt2; ctx.font = "11px Inter, system-ui"; ctx.textAlign = "center";
+    ctx.fillText("Meta 100%", px, ca.top - 6);
+    ctx.textBaseline = "middle"; ctx.font = "600 12px Inter, system-ui";
+    chart.getDatasetMeta(0).data.forEach((bar, i) => {
+      const txt = o.textos[i], w = ctx.measureText(txt).width, cabe = bar.x - bar.base > w + 16;
+      ctx.textAlign = cabe ? "right" : "left";
+      ctx.fillStyle = cabe && o.foco[i] ? "#FFFFFF" : COR.txt;
+      ctx.fillText(txt, cabe ? bar.x - 8 : bar.x + 6, bar.y);
+    });
+    ctx.restore();
+  },
+};
+
+function desenharBarras(id, g, rotulos, ehFoco, aoClicar) {
+  graficos[id]?.destroy();
+  const max = Math.max(110, ...g.valores) * 1.04;
+  const foco = rotulos.map((_, i) => ehFoco(i));
+  graficos[id] = new Chart($(id), {
+    type: "bar",
+    data: { labels: rotulos, datasets: [{ data: g.valores, backgroundColor: foco.map(f => f ? COR.foco : COR.neutro),
+      borderRadius: 4, barPercentage: .75, categoryPercentage: .9 }] },
+    options: {
+      indexAxis: "y", maintainAspectRatio: false, layout: { padding: { top: 16 } },
+      scales: {
+        x: { min: 0, max, grid: { display: false }, border: { display: false }, ticks: { display: false } },
+        y: { grid: { display: false }, border: { display: false }, ticks: { color: COR.txt, autoSkip: false } },
+      },
+      plugins: { legend: { display: false }, barrasBR: { textos: g.textos, foco },
+        tooltip: { callbacks: { label: c => `Atingimento da meta: ${g.textos[c.dataIndex]}` } } },
+      onClick: (_e, els) => { if (els.length) aoClicar(els[0].index); },
+      onHover: (e, els) => { e.native.target.style.cursor = els.length ? "pointer" : "default"; },
+    },
+    plugins: [pluginBarras],
+  });
+}
+
+function desenharEvolucao(g) {
+  graficos.g2?.destroy();
+  const raio = g.rotulos.map((_, i) => i === g.indice ? 6 : 2);
+  graficos.g2 = new Chart($("g2"), {
+    type: "line",
+    data: { labels: g.rotulos, datasets: [
+      { label: "Faturamento", data: g.faturamento, borderColor: COR.foco, backgroundColor: COR.foco, borderWidth: 2,
+        pointRadius: raio, pointHoverRadius: 6, tension: .25 },
+      { label: "Meta", data: g.meta, borderColor: COR.ref, backgroundColor: COR.ref, borderDash: [5, 4], borderWidth: 1.5,
+        pointRadius: 0, pointHoverRadius: 4, tension: .25 },
+    ] },
+    options: {
+      maintainAspectRatio: false, interaction: { mode: "index", intersect: false },
+      scales: {
+        x: { grid: { display: false }, border: { display: false } },
+        y: { grid: { color: "#F1F3F6" }, border: { display: false }, ticks: { maxTicksLimit: 4,
+          callback: v => `R$ ${(v / 1e6).toLocaleString("pt-BR", { maximumFractionDigits: 1 })} mi` } },
+      },
+      plugins: {
+        legend: { position: "top", align: "end", labels: { boxWidth: 14, boxHeight: 2, color: COR.txt } },
+        tooltip: { callbacks: { label: c => `${c.dataset.label}: ${(c.datasetIndex ? g.textos_meta : g.textos_faturamento)[c.dataIndex]}` } },
+      },
+    },
+  });
+}
+
+// ---------- JEV ----------
+function resetJev() {
+  st.jevToken++;
+  st.acaoToken++;
+  st.jev = null;
+  $("acao").hidden = true;
+  $("acaoSaida").innerHTML = "";
+  const m = rotuloMes(st.mes);
+  const nome = m.split("/")[0];
+  $("jev").innerHTML = `
+    <div class="antes">
+      <div class="lbl jev-tag">JEV · decisão da rede inteira</div>
+      <h3>O que explica ${esc(m)}?</h3>
+      <p>Pergunte ao JEV o que explica o resultado da rede em <em>${esc(nome)}</em>. Ele lê os números e os textos das 40 lojas;
+         os filtros de região e loja servem para você investigar e comparar com o que ele apontar.</p>
+      <button class="btn-jev" id="btnJev">JEV Analysis</button>
+    </div>`;
+  $("btnJev").addEventListener("click", rodarJev);
+}
+
+async function rodarJev() {
+  const token = ++st.jevToken;
+  const mes = st.mes;
+  const btn = $("btnJev");
+  btn.disabled = true;
+  btn.textContent = "Analisando…";
+  btn.insertAdjacentHTML("afterend", `<ul class="etapas" id="etapas">
+      <li class="ativa">Montando dossiê…</li><li>Consultando o JEV…</li><li>Pronto</li></ul>`);
+  const passo = n => { if (token !== st.jevToken) return;
+    [...$("etapas").children].forEach((li, i) => li.className = i < n ? "feita" : i === n ? "ativa" : ""); };
+  const t = setTimeout(() => passo(1), 1200);
+  try {
+    const r = await api("/api/jev", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ mes }) });
+    clearTimeout(t);
+    if (token !== st.jevToken) return;
+    passo(2);
+    st.jev = r;
+    setTimeout(() => { if (token === st.jevToken) renderJev(r); }, 350);
+  } catch (e) {
+    clearTimeout(t);
+    if (token !== st.jevToken) return;
+    $("jev").innerHTML = `
+      <div class="antes">
+        <div class="lbl jev-tag">JEV · decisão da rede inteira</div>
+        <h3>Não foi possível consultar o JEV</h3>
+        <p class="erro">${esc(e.message)}</p>
+        <p>Nenhum resultado foi gerado para ${esc(rotuloMes(mes))}.</p>
+        <button class="btn-jev" id="btnJev">Tentar de novo</button>
+      </div>`;
+    $("btnJev").addEventListener("click", rodarJev);
+  }
+}
+
+function gauge(score, cor) {
+  const r = 70, comp = Math.PI * r, v = Math.max(0, Math.min(100, score));
+  return `<svg viewBox="0 0 180 104" role="img" aria-label="Score de certeza ${v} de 100">
+    <path d="M20 90 A70 70 0 0 1 160 90" fill="none" stroke="#EEF0F3" stroke-width="14" stroke-linecap="round"/>
+    <path d="M20 90 A70 70 0 0 1 160 90" fill="none" stroke="${cor}" stroke-width="14" stroke-linecap="round"
+          stroke-dasharray="${(comp * v / 100).toFixed(1)} ${comp.toFixed(1)}"/>
+    <text x="90" y="80" text-anchor="middle" class="score-num" font-size="34" font-weight="700" fill="${COR.txt}">${v}</text>
+    <text x="20" y="103" text-anchor="middle" font-size="10" fill="${COR.txt2}">0</text>
+    <text x="160" y="103" text-anchor="middle" font-size="10" fill="${COR.txt2}">100</text>
+  </svg>`;
+}
+
+function renderJev(r) {
+  const cor = COR[r.etiqueta];
+  const rev = r.revisao_humana;
+  $("jev").innerHTML = `
+    <div class="res-topo">
+      <div>
+        <div class="lbl jev-tag">Causa provável · ${esc(r.rotulo_mes)}</div>
+        <div class="causa">${esc(r.causa)}</div>
+      </div>
+      <div class="gauge">
+        <div class="lbl">Score de certeza</div>
+        ${gauge(r.score, cor)}
+        <span class="badge" style="background:${cor}">${esc(r.etiqueta)}</span>
+      </div>
+    </div>
+    <div class="probs" aria-label="Probabilidade de cada causa">
+      ${r.probabilidades.map((p, i) => `<div class="prob ${i === 0 ? "principal" : ""}">
+        <span>${esc(p.causa)}</span><div class="trilho"><div class="barra" style="width:${(p.p * 100).toFixed(1)}%"></div></div>
+        <span class="p num">${esc(p.texto)}</span></div>`).join("")}
+    </div>
+    <div class="lbl">Por onde começar · 3 lojas prioritárias</div>
+    <div class="prios">
+      ${r.prioridades.map((p, i) => `<button class="prio" data-loja="${esc(p.id_loja)}">
+        <b>${i + 1}. ${esc(p.id_loja)} · ${esc(p.loja)}</b>
+        <span>${esc(p.regiao)} · ${esc(p.gerente)}</span>
+        <span class="at num">${esc(p.destaque)}</span>
+        <span class="num">${esc(p.detalhe)}</span></button>`).join("")}
+    </div>
+    <div class="discreta">Risco da rede: <b>${esc(r.risco.rotulo)}</b> (${esc(r.risco.texto)} de 4) ·
+      Revisão humana: <b>${rev.recomendada ? "recomendada" : "não necessária"}</b> (${esc(rev.texto)} de chance de sinais ambíguos)</div>
+    <div class="rodape-jev">Decisão: JEV (TypeSafe) via OpenRouter · ${esc(r.modelo)} · gravado em ${esc(r.arquivo)}</div>`;
+  $("jev").querySelectorAll(".prio").forEach(b => b.addEventListener("click", () => {
+    const id = b.dataset.loja;
+    setFiltro("", st.loja === id ? "" : id);
+  }));
+  marcarPrioridade();
+  mostrarAcao(r);
+}
+
+// ---------- Transformar em ação (Haiku) ----------
+function mostrarAcao(r) {
+  if (!ACAO_ATIVA) return;
+  $("acaoTitulo").textContent = `Com base na decisão do JEV de ${r.rotulo_mes}`;
+  $("acaoResumo").innerHTML = `Causa: <b>${esc(r.causa)}</b> · Score de certeza: <b>${esc(r.score)}</b> ·
+    Etiqueta: <b>${esc(r.etiqueta)}</b> · Risco da rede: <b>${esc(r.risco.rotulo)}</b> (${esc(r.risco.texto)} de 4)`;
+  $("acaoSaida").innerHTML = "";
+  $("acao").hidden = false;
+}
+
+function botoesAcao(ativos) {
+  $("acao").querySelectorAll("button").forEach(b => b.disabled = !ativos);
+}
+
+async function gerarAcao(tipo) {
+  const r = st.jev;
+  if (!r) return;
+  const pedido = tipo === "livre" ? $("pedido").value.trim() : "";
+  if (tipo === "livre" && !pedido) { $("pedido").focus(); return; }
+  const token = ++st.acaoToken;
+  botoesAcao(false);
+  $("acaoSaida").innerHTML = `<p class="carregando">Redigindo com Claude Haiku…</p>`;
+  try {
+    const res = await api("/api/acao", { method: "POST", headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ mes: r.mes, tipo, pedido, arquivo: r.arquivo, decisao_jev: r.decisao_jev }) });
+    if (token !== st.acaoToken) return;
+    $("acaoSaida").innerHTML = `<div class="saida">
+        <div class="saida-topo"><span class="lbl">${tipo === "gerente" ? "Mensagem para o gerente" : tipo === "diretoria" ? "Resumo para a diretoria" : "Texto solicitado"}</span>
+          <button class="btn-sec" id="btnCopiar">Copiar</button></div>
+        <pre id="textoAcao"></pre>
+        <div class="saida-rodape">Texto redigido por Claude Haiku. A decisão é do JEV. · gravado em ${esc(res.arquivo)}</div></div>`;
+    $("textoAcao").textContent = res.texto;
+    $("btnCopiar").addEventListener("click", async e => {
+      try { await navigator.clipboard.writeText(res.texto); e.target.textContent = "Copiado"; }
+      catch { e.target.textContent = "Selecione e copie"; }
+      setTimeout(() => { e.target.textContent = "Copiar"; }, 1800);
+    });
+  } catch (e) {
+    if (token !== st.acaoToken) return;
+    $("acaoSaida").innerHTML = `<p class="erro" style="margin-top:16px">Não foi possível gerar o texto: ${esc(e.message)}</p>`;
+  } finally {
+    if (token === st.acaoToken) botoesAcao(true);
+  }
+}
+
+$("acao").querySelectorAll("button[data-tipo]").forEach(b => b.addEventListener("click", () => gerarAcao(b.dataset.tipo)));
+$("btnLivre").addEventListener("click", () => gerarAcao("livre"));
+$("pedido").addEventListener("keydown", e => { if (e.key === "Enter" && e.ctrlKey) { e.preventDefault(); gerarAcao("livre"); } });
+
+function marcarPrioridade() {
+  document.querySelectorAll(".prio").forEach(b => b.classList.toggle("ativa", b.dataset.loja === st.loja));
+}
+
+// ---------- início ----------
+(async function init() {
+  try {
+    st.filtros = await api("/api/filtros");
+  } catch (e) {
+    $("avisoErro").textContent = `Não foi possível carregar os filtros: ${e.message}`;
+    $("avisoErro").hidden = false;
+    return;
+  }
+  const meses = st.filtros.meses;
+  $("fMes").innerHTML = meses.map(m => `<option value="${esc(m.valor)}">${esc(m.rotulo)}</option>`).join("");
+  st.mes = meses[meses.length - 1].valor;
+  $("fMes").value = st.mes;
+  $("fRegiao").innerHTML += st.filtros.regioes.map(r => `<option value="${esc(r)}">${esc(r)}</option>`).join("");
+  preencherLojas();
+  resetJev();
+  carregar();
+})();
+</script>
+</body>
+</html>
