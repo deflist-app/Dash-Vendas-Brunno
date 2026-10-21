@@ -1,0 +1,66 @@
+{
+  "mes": "2026-10",
+  "tipo": "diretoria",
+  "decisao_jev": "runs/jev_2026-10_20261020_205513.json",
+  "enviado": {
+    "model": "anthropic/claude-haiku-4.5",
+    "max_tokens": 800,
+    "temperature": 0.3,
+    "messages": [
+      {
+        "role": "system",
+        "content": "Você é um redator de comunicação executiva de uma rede varejista. Escreva em português do Brasil, com tom profissional e direto. A decisão abaixo foi tomada pelo JEV e é um FATO: não altere a causa nem o score, não invente números. Não reinterprete, não questione e não contradiga a decisão. Use somente os números fornecidos. Sem emojis. Escreva em texto simples, sem Markdown: nada de **, #, tabelas ou ---. O texto deve ficar pronto para colar em e-mail ou WhatsApp."
+      },
+      {
+        "role": "user",
+        "content": "FATOS (decisão do JEV e números calculados):\nMês analisado: Outubro/2026 (rede inteira, 40 lojas)\nCausa provável (JEV): Atendimento\nScore de certeza: 78 de 100\nEtiqueta: Agir\nRisco da rede: Moderado (2,49 numa escala de 0 a 4)\nRevisão humana: NÃO necessária\nLojas prioritárias:\n  1. LOJ032 Aracaju Jardins (Nordeste), gerente Lucas Lima, atingimento da meta 82,8%\n  2. LOJ031 Maceió Ponta Verde (Nordeste), gerente Tatiane Ferreira, atingimento da meta 86,7%\n  3. LOJ033 São Luís Renascença (Nordeste), gerente Beatriz Silva, atingimento da meta 88,1%\nNúmeros da rede no mês:\n  Faturamento: R$ 8,30 mi (meta R$ 8,75 mi)\n  Atingimento da meta: 94,9%\n  NPS médio: 70,5\n  Ocorrências de pós-venda: 105\n\nTAREFA:\nEscreva um resumo para a diretoria: um título de 1 linha e até 5 tópicos (resultado da rede, causa com Score e etiqueta, risco, lojas prioritárias, próximo passo coerente com a etiqueta). Até 160 palavras.\n\nLembrete: não altere a causa nem o score, não invente números."
+      }
+    ]
+  },
+  "recebido": {
+    "id": "gen-1792540545-HYe9GYDbGovEY1JAJmTs",
+    "object": "chat.completion",
+    "created": 1792540545,
+    "model": "anthropic/claude-haiku-4.5",
+    "provider": "Amazon Bedrock",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "ANÁLISE DE DESEMPENHO - OUTUBRO/2026\n\nResultado da rede: Faturamento de R$ 8,30 mi com atingimento de 94,9% da meta (R$ 8,75 mi). NPS médio de 70,5 com 105 ocorrências de pós-venda registradas.\n\nCausa identificada: Atendimento com score de certeza de 78 de 100, classificado como etiqueta Agir.\n\nRisco moderado: Nível 2,49 em escala de 0 a 4, indicando necessidade de ação preventiva.\n\nLojas prioritárias para intervenção imediata: LOJ032 Aracaju Jardins (gerente Lucas Lima, 82,8% de meta), LOJ031 Maceió Ponta Verde (gerente Tatiane Ferreira, 86,7% de meta) e LOJ033 São Luís Renascença (gerente Beatriz Silva, 88,1% de meta), todas na região Nordeste.\n\nPróximo passo: Implementar plano de ação focado em qualidade de atendimento nas unidades prioritárias, com acompanhamento direto dos gerentes responsáveis.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 566,
+      "completion_tokens": 306,
+      "total_tokens": 872,
+      "cost": 0.002096,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.002096,
+        "upstream_inference_prompt_cost": 0.000566,
+        "upstream_inference_completions_cost": 0.00153
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "mes": "2026-08",
+  "enviado": {
+    "model": "typesafe/jev-1.13",
+    "state": "DOSSIÊ DA REDE — Agosto/2026 (40 lojas, 5 regiões)\n\n1. INDICADORES DA REDE vs Julho/2026\n- Faturamento: R$ 7,75 mi (-3,7%)\n- Atingimento da meta: 92,2% (-0,8 p.p.)\n- NPS médio: 70,2 (antes 72,2)\n\n2. POR REGIÃO (do pior para o melhor atingimento)\n- Sudeste: atingimento 81,1%, NPS 58,9, variação do atingimento -17,4 p.p.\n- Centro-Oeste: atingimento 94,7%, NPS 75,8, variação do atingimento +0,2 p.p.\n- Sul: atingimento 95,9%, NPS 74,4, variação do atingimento +18,9 p.p.\n- Norte: atingimento 97,5%, NPS 73,2, variação do atingimento -1,4 p.p.\n- Nordeste: atingimento 97,5%, NPS 74,9, variação do atingimento -1,2 p.p.\n\n3. AS 5 LOJAS COM PIOR ATINGIMENTO DA META\n- LOJ013 Campinas Centro (Sudeste): atingimento 72,6%, conversão 3,98% (-0,8 p.p.), visitas 18.008 (-7,5%), NPS 56\n- LOJ016 Rio de Janeiro Centro (Sudeste): atingimento 76,2%, conversão 4,22% (-0,9 p.p.), visitas 24.208 (-2,8%), NPS 66\n- LOJ015 Santos Gonzaga (Sudeste): atingimento 77,8%, conversão 4,23% (-0,7 p.p.), visitas 21.972 (-8,8%), NPS 59\n- LOJ017 Rio de Janeiro Barra (Sudeste): atingimento 78,4%, conversão 4,15% (-0,7 p.p.), visitas 29.552 (-3,0%), NPS 54\n- LOJ018 Niterói Centro (Sudeste): atingimento 79,2%, conversão 3,96% (-1,0 p.p.), visitas 28.436 (+0,8%), NPS 55\n\n4. PÓS-VENDA DA REDE vs Julho/2026\n- Total: 113 (antes 108)\n- Produto: 22 (antes 29)\n- Entrega: 22 (antes 28)\n- Troca: 25 (antes 26)\n- Atendimento: 44 (antes 0)\n- Disponibilidade: 0 (antes 25)\n\n5. COMENTÁRIOS DOS GERENTES DESSAS 5 LOJAS\n- LOJ013: Apenas metade do quadro de vendedores ativo; caixa operando com uma pessoa.\n- LOJ016: Tivemos dois desligamentos e um afastamento; a escala ficou muito reduzida.\n- LOJ015: Apenas metade do quadro de vendedores ativo; caixa operando com uma pessoa.\n- LOJ017: Equipe incompleta o mês todo, sem reposição de vagas; fins de semana críticos.\n- LOJ018: Equipe incompleta o mês todo, sem reposição de vagas; fins de semana críticos.\n\n6. AS 10 AVALIAÇÕES DE MENOR NOTA DESSAS 5 LOJAS\n- LOJ018 (nota 5, Google): Boa variedade de produtos e atendimento cordial.\n\n7. OCORRÊNCIAS DE PÓS-VENDA DESSAS 5 LOJAS (até 8)\n- LOJ015 [Atendimento]: Reclamação de fila no caixa com apenas um operador.\n- LOJ018 [Atendimento]: Cliente desistiu da compra após esperar atendimento no setor.\n- LOJ013 [Atendimento]: Cliente desistiu da compra após esperar atendimento no setor.\n- LOJ016 [Atendimento]: Cliente relatou longa espera por falta de vendedores disponíveis.\n- LOJ018 [Atendimento]: Cliente relatou longa espera por falta de vendedores disponíveis.\n- LOJ016 [Atendimento]: Cliente desistiu da compra após esperar atendimento no setor.\n- LOJ013 [Atendimento]: Reclamação de fila no caixa com apenas um operador.\n- LOJ018 [Atendimento]: Reclamação de fila no caixa com apenas um operador.",
+    "questions": {
+      "causa_principal": {
+        "type": "choice",
+        "instructions": "Com base no dossiê da rede inteira neste mês, qual é a causa mais provável do resultado? Pequenas oscilações em 1 ou 2 lojas são normais e não definem a causa da rede. Só aponte uma causa quando houver sinais consistentes nos números E nos textos (comentários dos gerentes, reviews e pós-venda).",
+        "criteria": {
+          "Estoque": "Ruptura, falta de produto, atraso de reposição limitando vendas",
+          "Equipe": "Falta de pessoal, rotatividade, desfalque ou treinamento insuficiente",
+          "Atendimento": "Mau atendimento, demora, reclamações de tratamento ao cliente",
+          "Demanda": "Menos clientes/visitas por fatores de mercado, sazonalidade ou concorrência",
+          "Preço": "Preço acima do mercado, promoções da concorrência, sensibilidade a preço",
+          "Sem problema relevante": "Rede perto da meta, sem região com queda forte, comentários sem queixas"
+        }
+      },
+      "risco_rede": {
+        "type": "score",
+        "instructions": "Qual o nível de risco para o resultado da rede, considerando o dossiê deste mês?",
+        "criteria": [
+          "Muito baixo",
+          "Baixo",
+          "Moderado",
+          "Alto",
+          "Muito alto"
+        ]
+      },
+      "revisao_humana": {
+        "type": "noul",
+        "instructions": "Os sinais deste mês são ambíguos ou contraditórios a ponto de exigir que um analista confirme a causa antes de agir? Avalie apenas a incerteza sobre a causa, não a gravidade do resultado.",
+        "criteria": {
+          "true": "Números e textos apontam para causas diferentes ou não sustentam uma causa clara",
+          "false": "Números e textos convergem para a mesma causa, mesmo que o resultado seja grave"
+        }
+      }
+    }
+  },
+  "recebido": {
+    "model": "typesafe/jev-1.13-20260917",
+    "answers": {
+      "causa_principal": {
+        "type": "choice",
+        "choice": "Equipe",
+        "probabilities": {
+          "Estoque": 0,
+          "Equipe": 0.99,
+          "Atendimento": 0.01,
+          "Demanda": 0,
+          "Preço": 0,
+          "Sem problema relevante": 0
+        },
+        "confidence": 0.99
+      },
+      "risco_rede": {
+        "type": "score",
+        "score": 3,
+        "legend": {
+          "0": "Muito baixo",
+          "1": "Baixo",
+          "2": "Moderado",
+          "3": "Alto",
+          "4": "Muito alto"
+        },
+        "probabilities": {
+          "0": 0,
+          "1": 0,
+          "2": 0.07,
+          "3": 0.87,
+          "4": 0.06
+        },
+        "confidence": 0.89
+      },
+      "revisao_humana": {
+        "type": "noul",
+        "noul": 0.22
+      }
+    },
+    "usage": {
+      "input_tokens": 1841,
+      "output_tokens": 109,
+      "cost": 7.7322e-05
+    },
+    "id": "gen-dec-1792539679-XwenicjaAhhmJXfHqzwD",
+    "provider": "TypeSafe"
+  },
+  "prioridades": [
+    {
+      "id_loja": "LOJ013",
+      "loja": "Campinas Centro",
+      "regiao": "Sudeste",
+      "gerente": "Aline Barbosa",
+      "atingimento": 0.7258
+    },
+    {
+      "id_loja": "LOJ016",
+      "loja": "Rio de Janeiro Centro",
+      "regiao": "Sudeste",
+      "gerente": "Eduardo Lima",
+      "atingimento": 0.7618
+    },
+    {
+      "id_loja": "LOJ015",
+      "loja": "Santos Gonzaga",
+      "regiao": "Sudeste",
+      "gerente": "Larissa Pereira",
+      "atingimento": 0.7777
+    }
+  ]
+}

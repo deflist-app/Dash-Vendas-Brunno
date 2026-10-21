@@ -1,0 +1,111 @@
+{
+  "mes": "2026-07",
+  "enviado": {
+    "model": "typesafe/jev-1.13",
+    "state": "DOSSIÊ DA REDE — Julho/2026 (40 lojas, 5 regiões)\n\n1. INDICADORES DA REDE vs Junho/2026\n- Faturamento: R$ 8,05 mi (-3,0%)\n- Atingimento da meta: 92,9% (-4,7 p.p.)\n- NPS médio: 72,2 (antes 74,5)\n\n2. POR REGIÃO (do pior para o melhor atingimento)\n- Sul: atingimento 77,0%, NPS 67,8, variação do atingimento -21,3 p.p.\n- Centro-Oeste: atingimento 94,5%, NPS 75,2, variação do atingimento -0,9 p.p.\n- Sudeste: atingimento 98,5%, NPS 71,7, variação do atingimento +0,5 p.p.\n- Nordeste: atingimento 98,8%, NPS 75,8, variação do atingimento +0,8 p.p.\n- Norte: atingimento 98,9%, NPS 73,0, variação do atingimento +1,8 p.p.\n\n3. AS 5 LOJAS COM PIOR ATINGIMENTO DA META\n- LOJ003 Santa Cruz do Sul (Sul): atingimento 69,4%, conversão 4,43% (-1,5 p.p.), visitas 24.252 (-0,7%), NPS 71\n- LOJ007 Blumenau Centro (Sul): atingimento 72,2%, conversão 4,53% (-1,3 p.p.), visitas 18.264 (-2,7%), NPS 73\n- LOJ004 Pelotas Centro (Sul): atingimento 72,6%, conversão 4,52% (-1,3 p.p.), visitas 23.915 (-1,3%), NPS 62\n- LOJ010 Maringá Centro (Sul): atingimento 73,8%, conversão 4,06% (-1,5 p.p.), visitas 19.650 (+1,7%), NPS 61\n- LOJ006 Joinville Centro (Sul): atingimento 76,3%, conversão 4,35% (-1,5 p.p.), visitas 16.937 (+0,5%), NPS 61\n\n4. PÓS-VENDA DA REDE vs Junho/2026\n- Total: 108 (antes 80)\n- Produto: 29 (antes 20)\n- Entrega: 28 (antes 36)\n- Troca: 26 (antes 24)\n- Atendimento: 0 (antes 0)\n- Disponibilidade: 25 (antes 0)\n\n5. COMENTÁRIOS DOS GERENTES DESSAS 5 LOJAS\n- LOJ003: Reposição do CD Sul atrasou várias semanas; muitos itens de giro ficaram em falta.\n- LOJ007: Reposição do CD Sul atrasou várias semanas; muitos itens de giro ficaram em falta.\n- LOJ004: Ruptura nas categorias principais por atraso logístico do centro de distribuição.\n- LOJ010: Ruptura nas categorias principais por atraso logístico do centro de distribuição.\n- LOJ006: Reposição do CD Sul atrasou várias semanas; muitos itens de giro ficaram em falta.\n\n6. AS 10 AVALIAÇÕES DE MENOR NOTA DESSAS 5 LOJAS\n- LOJ007 (nota 1, App): A loja estava organizada, mas faltavam produtos básicos.\n- LOJ004 (nota 2, E-mail): A solução do meu problema demorou e faltou orientação.\n- LOJ003 (nota 4, Pesquisa NPS): Encontrei tudo o que precisava e fui atendido rapidamente.\n\n7. OCORRÊNCIAS DE PÓS-VENDA DESSAS 5 LOJAS (até 8)\n- LOJ004 [Disponibilidade]: Cliente reclamou de produto anunciado sem estoque na loja.\n- LOJ004 [Disponibilidade]: Cliente reclamou de produto anunciado sem estoque na loja.\n- LOJ010 [Entrega]: Pedido de retirada atrasou por falta de reposição do CD.\n- LOJ006 [Troca]: Cliente solicitou troca de tamanho, resolvida no balcão.\n- LOJ007 [Disponibilidade]: Cliente reclamou de produto anunciado sem estoque na loja.\n- LOJ010 [Disponibilidade]: Pedido não pôde ser atendido por falta do item no estoque.\n- LOJ003 [Entrega]: Pedido de retirada atrasou por falta de reposição do CD.\n- LOJ003 [Disponibilidade]: Cliente reclamou de produto anunciado sem estoque na loja.",
+    "questions": {
+      "causa_principal": {
+        "type": "choice",
+        "instructions": "Com base no dossiê da rede inteira neste mês, qual é a causa mais provável do resultado? Pequenas oscilações em 1 ou 2 lojas são normais e não definem a causa da rede. Só aponte uma causa quando houver sinais consistentes nos números E nos textos (comentários dos gerentes, reviews e pós-venda).",
+        "criteria": {
+          "Estoque": "Ruptura, falta de produto, atraso de reposição limitando vendas",
+          "Equipe": "Falta de pessoal, rotatividade, desfalque ou treinamento insuficiente",
+          "Atendimento": "Mau atendimento, demora, reclamações de tratamento ao cliente",
+          "Demanda": "Menos clientes/visitas por fatores de mercado, sazonalidade ou concorrência",
+          "Preço": "Preço acima do mercado, promoções da concorrência, sensibilidade a preço",
+          "Sem problema relevante": "Rede perto da meta, sem região com queda forte, comentários sem queixas"
+        }
+      },
+      "risco_rede": {
+        "type": "score",
+        "instructions": "Qual o nível de risco para o resultado da rede, considerando o dossiê deste mês?",
+        "criteria": [
+          "Muito baixo",
+          "Baixo",
+          "Moderado",
+          "Alto",
+          "Muito alto"
+        ]
+      },
+      "revisao_humana": {
+        "type": "noul",
+        "instructions": "Os sinais deste mês são ambíguos ou contraditórios a ponto de exigir que um analista confirme a causa antes de agir? Avalie apenas a incerteza sobre a causa, não a gravidade do resultado.",
+        "criteria": {
+          "true": "Números e textos apontam para causas diferentes ou não sustentam uma causa clara",
+          "false": "Números e textos convergem para a mesma causa, mesmo que o resultado seja grave"
+        }
+      }
+    }
+  },
+  "recebido": {
+    "model": "typesafe/jev-1.13-20260917",
+    "answers": {
+      "causa_principal": {
+        "type": "choice",
+        "choice": "Estoque",
+        "probabilities": {
+          "Estoque": 1,
+          "Equipe": 0,
+          "Atendimento": 0,
+          "Demanda": 0,
+          "Preço": 0,
+          "Sem problema relevante": 0
+        },
+        "confidence": 1
+      },
+      "risco_rede": {
+        "type": "score",
+        "score": 2.97,
+        "legend": {
+          "0": "Muito baixo",
+          "1": "Baixo",
+          "2": "Moderado",
+          "3": "Alto",
+          "4": "Muito alto"
+        },
+        "probabilities": {
+          "0": 0,
+          "1": 0,
+          "2": 0.07,
+          "3": 0.88,
+          "4": 0.05
+        },
+        "confidence": 0.9
+      },
+      "revisao_humana": {
+        "type": "noul",
+        "noul": 0.19
+      }
+    },
+    "usage": {
+      "input_tokens": 1897,
+      "output_tokens": 109,
+      "cost": 7.9674e-05
+    },
+    "id": "gen-dec-1792539217-eqHbA9pFUNIr8WGHWxtj",
+    "provider": "TypeSafe"
+  },
+  "prioridades": [
+    {
+      "id_loja": "LOJ003",
+      "loja": "Santa Cruz do Sul",
+      "regiao": "Sul",
+      "gerente": "Camila Ferreira",
+      "atingimento": 0.6941
+    },
+    {
+      "id_loja": "LOJ007",
+      "loja": "Blumenau Centro",
+      "regiao": "Sul",
+      "gerente": "Renata Rocha",
+      "atingimento": 0.7219
+    },
+    {
+      "id_loja": "LOJ004",
+      "loja": "Pelotas Centro",
+      "regiao": "Sul",
+      "gerente": "Bruno Martins",
+      "atingimento": 0.7256
+    }
+  ]
+}

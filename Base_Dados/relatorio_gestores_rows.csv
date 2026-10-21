@@ -1,0 +1,521 @@
+id_relatorio,id_loja,mes,comentario_gerente
+RLT00001,LOJ001,2025-10,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00002,LOJ001,2025-11,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00003,LOJ001,2025-12,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00004,LOJ001,2026-01,"Operação estável, sem ocorrências relevantes."
+RLT00005,LOJ001,2026-02,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00006,LOJ001,2026-03,"Operação estável, sem ocorrências relevantes."
+RLT00007,LOJ001,2026-04,"Operação estável, sem ocorrências relevantes."
+RLT00008,LOJ001,2026-05,"Operação estável, sem ocorrências relevantes."
+RLT00009,LOJ001,2026-06,"Operação estável, sem ocorrências relevantes."
+RLT00010,LOJ001,2026-07,Reposição do CD Sul atrasou várias semanas; muitos itens de giro ficaram em falta.
+RLT00011,LOJ001,2026-08,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00012,LOJ001,2026-09,Resultado oscilou; ainda avaliando o que explica a variação.
+RLT00013,LOJ002,2025-10,"Operação estável, sem ocorrências relevantes."
+RLT00014,LOJ002,2025-11,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00015,LOJ002,2025-12,"Operação estável, sem ocorrências relevantes."
+RLT00016,LOJ002,2026-01,"Operação estável, sem ocorrências relevantes."
+RLT00017,LOJ002,2026-02,"Operação estável, sem ocorrências relevantes."
+RLT00018,LOJ002,2026-03,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00019,LOJ002,2026-04,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00020,LOJ002,2026-05,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00021,LOJ002,2026-06,"Operação estável, sem ocorrências relevantes."
+RLT00022,LOJ002,2026-07,Ruptura nas categorias principais por atraso logístico do centro de distribuição.
+RLT00023,LOJ002,2026-08,"Operação estável, sem ocorrências relevantes."
+RLT00024,LOJ002,2026-09,"Mês irregular; algumas semanas boas, outras fracas."
+RLT00025,LOJ003,2025-10,"Operação estável, sem ocorrências relevantes."
+RLT00026,LOJ003,2025-11,"Operação estável, sem ocorrências relevantes."
+RLT00027,LOJ003,2025-12,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00028,LOJ003,2026-01,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00029,LOJ003,2026-02,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00030,LOJ003,2026-03,"Operação estável, sem ocorrências relevantes."
+RLT00031,LOJ003,2026-04,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00032,LOJ003,2026-05,"Operação estável, sem ocorrências relevantes."
+RLT00033,LOJ003,2026-06,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00034,LOJ003,2026-07,Reposição do CD Sul atrasou várias semanas; muitos itens de giro ficaram em falta.
+RLT00035,LOJ003,2026-08,"Operação estável, sem ocorrências relevantes."
+RLT00036,LOJ003,2026-09,Resultado oscilou; ainda avaliando o que explica a variação.
+RLT00037,LOJ004,2025-10,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00038,LOJ004,2025-11,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00039,LOJ004,2025-12,"Operação estável, sem ocorrências relevantes."
+RLT00040,LOJ004,2026-01,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00041,LOJ004,2026-02,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00042,LOJ004,2026-03,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00043,LOJ004,2026-04,"Operação estável, sem ocorrências relevantes."
+RLT00044,LOJ004,2026-05,"Operação estável, sem ocorrências relevantes."
+RLT00045,LOJ004,2026-06,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00046,LOJ004,2026-07,Ruptura nas categorias principais por atraso logístico do centro de distribuição.
+RLT00047,LOJ004,2026-08,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00048,LOJ004,2026-09,Resultado oscilou; ainda avaliando o que explica a variação.
+RLT00049,LOJ005,2025-10,"Operação estável, sem ocorrências relevantes."
+RLT00050,LOJ005,2025-11,"Operação estável, sem ocorrências relevantes."
+RLT00051,LOJ005,2025-12,"Operação estável, sem ocorrências relevantes."
+RLT00052,LOJ005,2026-01,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00053,LOJ005,2026-02,"Operação estável, sem ocorrências relevantes."
+RLT00054,LOJ005,2026-03,"Operação estável, sem ocorrências relevantes."
+RLT00055,LOJ005,2026-04,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00056,LOJ005,2026-05,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00057,LOJ005,2026-06,"Operação estável, sem ocorrências relevantes."
+RLT00058,LOJ005,2026-07,Ruptura nas categorias principais por atraso logístico do centro de distribuição.
+RLT00059,LOJ005,2026-08,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00060,LOJ005,2026-09,"Mês irregular; algumas semanas boas, outras fracas."
+RLT00061,LOJ006,2025-10,"Operação estável, sem ocorrências relevantes."
+RLT00062,LOJ006,2025-11,"Operação estável, sem ocorrências relevantes."
+RLT00063,LOJ006,2025-12,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00064,LOJ006,2026-01,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00065,LOJ006,2026-02,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00066,LOJ006,2026-03,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00067,LOJ006,2026-04,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00068,LOJ006,2026-05,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00069,LOJ006,2026-06,"Operação estável, sem ocorrências relevantes."
+RLT00070,LOJ006,2026-07,Reposição do CD Sul atrasou várias semanas; muitos itens de giro ficaram em falta.
+RLT00071,LOJ006,2026-08,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00072,LOJ006,2026-09,Resultado oscilou; ainda avaliando o que explica a variação.
+RLT00073,LOJ007,2025-10,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00074,LOJ007,2025-11,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00075,LOJ007,2025-12,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00076,LOJ007,2026-01,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00077,LOJ007,2026-02,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00078,LOJ007,2026-03,"Operação estável, sem ocorrências relevantes."
+RLT00079,LOJ007,2026-04,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00080,LOJ007,2026-05,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00081,LOJ007,2026-06,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00082,LOJ007,2026-07,Reposição do CD Sul atrasou várias semanas; muitos itens de giro ficaram em falta.
+RLT00083,LOJ007,2026-08,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00084,LOJ007,2026-09,"Mês irregular; algumas semanas boas, outras fracas."
+RLT00085,LOJ008,2025-10,"Operação estável, sem ocorrências relevantes."
+RLT00086,LOJ008,2025-11,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00087,LOJ008,2025-12,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00088,LOJ008,2026-01,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00089,LOJ008,2026-02,"Operação estável, sem ocorrências relevantes."
+RLT00090,LOJ008,2026-03,"Operação estável, sem ocorrências relevantes."
+RLT00091,LOJ008,2026-04,"Operação estável, sem ocorrências relevantes."
+RLT00092,LOJ008,2026-05,"Operação estável, sem ocorrências relevantes."
+RLT00093,LOJ008,2026-06,"Operação estável, sem ocorrências relevantes."
+RLT00094,LOJ008,2026-07,Recebemos menos da metade do pedido de reposição; clientes saindo sem comprar.
+RLT00095,LOJ008,2026-08,"Operação estável, sem ocorrências relevantes."
+RLT00096,LOJ008,2026-09,Resultado oscilou; ainda avaliando o que explica a variação.
+RLT00097,LOJ009,2025-10,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00098,LOJ009,2025-11,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00099,LOJ009,2025-12,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00100,LOJ009,2026-01,"Operação estável, sem ocorrências relevantes."
+RLT00101,LOJ009,2026-02,"Operação estável, sem ocorrências relevantes."
+RLT00102,LOJ009,2026-03,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00103,LOJ009,2026-04,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00104,LOJ009,2026-05,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00105,LOJ009,2026-06,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00106,LOJ009,2026-07,Ruptura nas categorias principais por atraso logístico do centro de distribuição.
+RLT00107,LOJ009,2026-08,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00108,LOJ009,2026-09,"Mês irregular; algumas semanas boas, outras fracas."
+RLT00109,LOJ010,2025-10,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00110,LOJ010,2025-11,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00111,LOJ010,2025-12,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00112,LOJ010,2026-01,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00113,LOJ010,2026-02,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00114,LOJ010,2026-03,"Operação estável, sem ocorrências relevantes."
+RLT00115,LOJ010,2026-04,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00116,LOJ010,2026-05,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00117,LOJ010,2026-06,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00118,LOJ010,2026-07,Ruptura nas categorias principais por atraso logístico do centro de distribuição.
+RLT00119,LOJ010,2026-08,"Operação estável, sem ocorrências relevantes."
+RLT00120,LOJ010,2026-09,"Mês irregular; algumas semanas boas, outras fracas."
+RLT00121,LOJ011,2025-10,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00122,LOJ011,2025-11,"Operação estável, sem ocorrências relevantes."
+RLT00123,LOJ011,2025-12,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00124,LOJ011,2026-01,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00125,LOJ011,2026-02,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00126,LOJ011,2026-03,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00127,LOJ011,2026-04,"Operação estável, sem ocorrências relevantes."
+RLT00128,LOJ011,2026-05,"Operação estável, sem ocorrências relevantes."
+RLT00129,LOJ011,2026-06,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00130,LOJ011,2026-07,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00131,LOJ011,2026-08,"Equipe incompleta o mês todo, sem reposição de vagas; fins de semana críticos."
+RLT00132,LOJ011,2026-09,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00133,LOJ012,2025-10,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00134,LOJ012,2025-11,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00135,LOJ012,2025-12,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00136,LOJ012,2026-01,"Operação estável, sem ocorrências relevantes."
+RLT00137,LOJ012,2026-02,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00138,LOJ012,2026-03,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00139,LOJ012,2026-04,"Operação estável, sem ocorrências relevantes."
+RLT00140,LOJ012,2026-05,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00141,LOJ012,2026-06,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00142,LOJ012,2026-07,"Operação estável, sem ocorrências relevantes."
+RLT00143,LOJ012,2026-08,"Equipe incompleta o mês todo, sem reposição de vagas; fins de semana críticos."
+RLT00144,LOJ012,2026-09,"Mês irregular; algumas semanas boas, outras fracas."
+RLT00145,LOJ013,2025-10,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00146,LOJ013,2025-11,"Operação estável, sem ocorrências relevantes."
+RLT00147,LOJ013,2025-12,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00148,LOJ013,2026-01,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00149,LOJ013,2026-02,"Operação estável, sem ocorrências relevantes."
+RLT00150,LOJ013,2026-03,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00151,LOJ013,2026-04,"Operação estável, sem ocorrências relevantes."
+RLT00152,LOJ013,2026-05,"Operação estável, sem ocorrências relevantes."
+RLT00153,LOJ013,2026-06,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00154,LOJ013,2026-07,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00155,LOJ013,2026-08,Apenas metade do quadro de vendedores ativo; caixa operando com uma pessoa.
+RLT00156,LOJ013,2026-09,Resultado oscilou; ainda avaliando o que explica a variação.
+RLT00157,LOJ014,2025-10,"Operação estável, sem ocorrências relevantes."
+RLT00158,LOJ014,2025-11,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00159,LOJ014,2025-12,"Operação estável, sem ocorrências relevantes."
+RLT00160,LOJ014,2026-01,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00161,LOJ014,2026-02,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00162,LOJ014,2026-03,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00163,LOJ014,2026-04,"Operação estável, sem ocorrências relevantes."
+RLT00164,LOJ014,2026-05,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00165,LOJ014,2026-06,"Operação estável, sem ocorrências relevantes."
+RLT00166,LOJ014,2026-07,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00167,LOJ014,2026-08,"Equipe incompleta o mês todo, sem reposição de vagas; fins de semana críticos."
+RLT00168,LOJ014,2026-09,"Operação estável, sem ocorrências relevantes."
+RLT00169,LOJ015,2025-10,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00170,LOJ015,2025-11,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00171,LOJ015,2025-12,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00172,LOJ015,2026-01,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00173,LOJ015,2026-02,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00174,LOJ015,2026-03,"Operação estável, sem ocorrências relevantes."
+RLT00175,LOJ015,2026-04,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00176,LOJ015,2026-05,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00177,LOJ015,2026-06,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00178,LOJ015,2026-07,"Operação estável, sem ocorrências relevantes."
+RLT00179,LOJ015,2026-08,Apenas metade do quadro de vendedores ativo; caixa operando com uma pessoa.
+RLT00180,LOJ015,2026-09,"Mês irregular; algumas semanas boas, outras fracas."
+RLT00181,LOJ016,2025-10,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00182,LOJ016,2025-11,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00183,LOJ016,2025-12,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00184,LOJ016,2026-01,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00185,LOJ016,2026-02,"Operação estável, sem ocorrências relevantes."
+RLT00186,LOJ016,2026-03,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00187,LOJ016,2026-04,"Operação estável, sem ocorrências relevantes."
+RLT00188,LOJ016,2026-05,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00189,LOJ016,2026-06,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00190,LOJ016,2026-07,"Operação estável, sem ocorrências relevantes."
+RLT00191,LOJ016,2026-08,Tivemos dois desligamentos e um afastamento; a escala ficou muito reduzida.
+RLT00192,LOJ016,2026-09,Resultado oscilou; ainda avaliando o que explica a variação.
+RLT00193,LOJ017,2025-10,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00194,LOJ017,2025-11,"Operação estável, sem ocorrências relevantes."
+RLT00195,LOJ017,2025-12,"Operação estável, sem ocorrências relevantes."
+RLT00196,LOJ017,2026-01,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00197,LOJ017,2026-02,"Operação estável, sem ocorrências relevantes."
+RLT00198,LOJ017,2026-03,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00199,LOJ017,2026-04,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00200,LOJ017,2026-05,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00201,LOJ017,2026-06,"Operação estável, sem ocorrências relevantes."
+RLT00202,LOJ017,2026-07,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00203,LOJ017,2026-08,"Equipe incompleta o mês todo, sem reposição de vagas; fins de semana críticos."
+RLT00204,LOJ017,2026-09,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00205,LOJ018,2025-10,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00206,LOJ018,2025-11,"Operação estável, sem ocorrências relevantes."
+RLT00207,LOJ018,2025-12,"Operação estável, sem ocorrências relevantes."
+RLT00208,LOJ018,2026-01,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00209,LOJ018,2026-02,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00210,LOJ018,2026-03,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00211,LOJ018,2026-04,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00212,LOJ018,2026-05,"Operação estável, sem ocorrências relevantes."
+RLT00213,LOJ018,2026-06,"Operação estável, sem ocorrências relevantes."
+RLT00214,LOJ018,2026-07,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00215,LOJ018,2026-08,"Equipe incompleta o mês todo, sem reposição de vagas; fins de semana críticos."
+RLT00216,LOJ018,2026-09,Resultado oscilou; ainda avaliando o que explica a variação.
+RLT00217,LOJ019,2025-10,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00218,LOJ019,2025-11,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00219,LOJ019,2025-12,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00220,LOJ019,2026-01,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00221,LOJ019,2026-02,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00222,LOJ019,2026-03,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00223,LOJ019,2026-04,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00224,LOJ019,2026-05,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00225,LOJ019,2026-06,"Operação estável, sem ocorrências relevantes."
+RLT00226,LOJ019,2026-07,"Operação estável, sem ocorrências relevantes."
+RLT00227,LOJ019,2026-08,Tivemos dois desligamentos e um afastamento; a escala ficou muito reduzida.
+RLT00228,LOJ019,2026-09,"Mês irregular; algumas semanas boas, outras fracas."
+RLT00229,LOJ020,2025-10,"Operação estável, sem ocorrências relevantes."
+RLT00230,LOJ020,2025-11,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00231,LOJ020,2025-12,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00232,LOJ020,2026-01,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00233,LOJ020,2026-02,"Operação estável, sem ocorrências relevantes."
+RLT00234,LOJ020,2026-03,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00235,LOJ020,2026-04,"Operação estável, sem ocorrências relevantes."
+RLT00236,LOJ020,2026-05,"Operação estável, sem ocorrências relevantes."
+RLT00237,LOJ020,2026-06,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00238,LOJ020,2026-07,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00239,LOJ020,2026-08,"Equipe incompleta o mês todo, sem reposição de vagas; fins de semana críticos."
+RLT00240,LOJ020,2026-09,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00241,LOJ021,2025-10,"Operação estável, sem ocorrências relevantes."
+RLT00242,LOJ021,2025-11,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00243,LOJ021,2025-12,"Operação estável, sem ocorrências relevantes."
+RLT00244,LOJ021,2026-01,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00245,LOJ021,2026-02,"Operação estável, sem ocorrências relevantes."
+RLT00246,LOJ021,2026-03,"Operação estável, sem ocorrências relevantes."
+RLT00247,LOJ021,2026-04,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00248,LOJ021,2026-05,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00249,LOJ021,2026-06,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00250,LOJ021,2026-07,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00251,LOJ021,2026-08,Tivemos dois desligamentos e um afastamento; a escala ficou muito reduzida.
+RLT00252,LOJ021,2026-09,Resultado oscilou; ainda avaliando o que explica a variação.
+RLT00253,LOJ022,2025-10,"Operação estável, sem ocorrências relevantes."
+RLT00254,LOJ022,2025-11,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00255,LOJ022,2025-12,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00256,LOJ022,2026-01,"Operação estável, sem ocorrências relevantes."
+RLT00257,LOJ022,2026-02,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00258,LOJ022,2026-03,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00259,LOJ022,2026-04,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00260,LOJ022,2026-05,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00261,LOJ022,2026-06,"Operação estável, sem ocorrências relevantes."
+RLT00262,LOJ022,2026-07,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00263,LOJ022,2026-08,"Operação estável, sem ocorrências relevantes."
+RLT00264,LOJ022,2026-09,Clientes comparando preço com sites; algumas vendas perdidas.
+RLT00265,LOJ023,2025-10,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00266,LOJ023,2025-11,"Operação estável, sem ocorrências relevantes."
+RLT00267,LOJ023,2025-12,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00268,LOJ023,2026-01,"Operação estável, sem ocorrências relevantes."
+RLT00269,LOJ023,2026-02,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00270,LOJ023,2026-03,"Operação estável, sem ocorrências relevantes."
+RLT00271,LOJ023,2026-04,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00272,LOJ023,2026-05,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00273,LOJ023,2026-06,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00274,LOJ023,2026-07,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00275,LOJ023,2026-08,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00276,LOJ023,2026-09,"Mês irregular; algumas semanas boas, outras fracas."
+RLT00277,LOJ024,2025-10,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00278,LOJ024,2025-11,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00279,LOJ024,2025-12,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00280,LOJ024,2026-01,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00281,LOJ024,2026-02,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00282,LOJ024,2026-03,"Operação estável, sem ocorrências relevantes."
+RLT00283,LOJ024,2026-04,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00284,LOJ024,2026-05,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00285,LOJ024,2026-06,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00286,LOJ024,2026-07,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00287,LOJ024,2026-08,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00288,LOJ024,2026-09,Resultado oscilou; ainda avaliando o que explica a variação.
+RLT00289,LOJ025,2025-10,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00290,LOJ025,2025-11,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00291,LOJ025,2025-12,"Operação estável, sem ocorrências relevantes."
+RLT00292,LOJ025,2026-01,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00293,LOJ025,2026-02,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00294,LOJ025,2026-03,"Operação estável, sem ocorrências relevantes."
+RLT00295,LOJ025,2026-04,"Operação estável, sem ocorrências relevantes."
+RLT00296,LOJ025,2026-05,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00297,LOJ025,2026-06,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00298,LOJ025,2026-07,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00299,LOJ025,2026-08,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00300,LOJ025,2026-09,"Mês irregular; algumas semanas boas, outras fracas."
+RLT00301,LOJ026,2025-10,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00302,LOJ026,2025-11,"Operação estável, sem ocorrências relevantes."
+RLT00303,LOJ026,2025-12,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00304,LOJ026,2026-01,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00305,LOJ026,2026-02,"Operação estável, sem ocorrências relevantes."
+RLT00306,LOJ026,2026-03,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00307,LOJ026,2026-04,"Operação estável, sem ocorrências relevantes."
+RLT00308,LOJ026,2026-05,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00309,LOJ026,2026-06,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00310,LOJ026,2026-07,"Operação estável, sem ocorrências relevantes."
+RLT00311,LOJ026,2026-08,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00312,LOJ026,2026-09,Clientes comparando preço com sites; algumas vendas perdidas.
+RLT00313,LOJ027,2025-10,"Operação estável, sem ocorrências relevantes."
+RLT00314,LOJ027,2025-11,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00315,LOJ027,2025-12,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00316,LOJ027,2026-01,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00317,LOJ027,2026-02,"Operação estável, sem ocorrências relevantes."
+RLT00318,LOJ027,2026-03,"Operação estável, sem ocorrências relevantes."
+RLT00319,LOJ027,2026-04,"Operação estável, sem ocorrências relevantes."
+RLT00320,LOJ027,2026-05,"Operação estável, sem ocorrências relevantes."
+RLT00321,LOJ027,2026-06,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00322,LOJ027,2026-07,"Operação estável, sem ocorrências relevantes."
+RLT00323,LOJ027,2026-08,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00324,LOJ027,2026-09,Resultado oscilou; ainda avaliando o que explica a variação.
+RLT00325,LOJ028,2025-10,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00326,LOJ028,2025-11,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00327,LOJ028,2025-12,"Operação estável, sem ocorrências relevantes."
+RLT00328,LOJ028,2026-01,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00329,LOJ028,2026-02,"Operação estável, sem ocorrências relevantes."
+RLT00330,LOJ028,2026-03,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00331,LOJ028,2026-04,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00332,LOJ028,2026-05,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00333,LOJ028,2026-06,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00334,LOJ028,2026-07,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00335,LOJ028,2026-08,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00336,LOJ028,2026-09,"Movimento do shopping caiu, menos clientes circulando."
+RLT00337,LOJ029,2025-10,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00338,LOJ029,2025-11,"Operação estável, sem ocorrências relevantes."
+RLT00339,LOJ029,2025-12,"Operação estável, sem ocorrências relevantes."
+RLT00340,LOJ029,2026-01,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00341,LOJ029,2026-02,"Operação estável, sem ocorrências relevantes."
+RLT00342,LOJ029,2026-03,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00343,LOJ029,2026-04,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00344,LOJ029,2026-05,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00345,LOJ029,2026-06,"Operação estável, sem ocorrências relevantes."
+RLT00346,LOJ029,2026-07,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00347,LOJ029,2026-08,"Operação estável, sem ocorrências relevantes."
+RLT00348,LOJ029,2026-09,"Mês irregular; algumas semanas boas, outras fracas."
+RLT00349,LOJ030,2025-10,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00350,LOJ030,2025-11,"Operação estável, sem ocorrências relevantes."
+RLT00351,LOJ030,2025-12,"Operação estável, sem ocorrências relevantes."
+RLT00352,LOJ030,2026-01,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00353,LOJ030,2026-02,"Operação estável, sem ocorrências relevantes."
+RLT00354,LOJ030,2026-03,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00355,LOJ030,2026-04,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00356,LOJ030,2026-05,"Operação estável, sem ocorrências relevantes."
+RLT00357,LOJ030,2026-06,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00358,LOJ030,2026-07,"Operação estável, sem ocorrências relevantes."
+RLT00359,LOJ030,2026-08,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00360,LOJ030,2026-09,Clientes comparando preço com sites; algumas vendas perdidas.
+RLT00361,LOJ031,2025-10,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00362,LOJ031,2025-11,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00363,LOJ031,2025-12,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00364,LOJ031,2026-01,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00365,LOJ031,2026-02,"Operação estável, sem ocorrências relevantes."
+RLT00366,LOJ031,2026-03,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00367,LOJ031,2026-04,"Operação estável, sem ocorrências relevantes."
+RLT00368,LOJ031,2026-05,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00369,LOJ031,2026-06,"Operação estável, sem ocorrências relevantes."
+RLT00370,LOJ031,2026-07,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00371,LOJ031,2026-08,"Operação estável, sem ocorrências relevantes."
+RLT00372,LOJ031,2026-09,"Movimento do shopping caiu, menos clientes circulando."
+RLT00373,LOJ032,2025-10,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00374,LOJ032,2025-11,"Operação estável, sem ocorrências relevantes."
+RLT00375,LOJ032,2025-12,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00376,LOJ032,2026-01,"Operação estável, sem ocorrências relevantes."
+RLT00377,LOJ032,2026-02,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00378,LOJ032,2026-03,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00379,LOJ032,2026-04,"Operação estável, sem ocorrências relevantes."
+RLT00380,LOJ032,2026-05,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00381,LOJ032,2026-06,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00382,LOJ032,2026-07,"Operação estável, sem ocorrências relevantes."
+RLT00383,LOJ032,2026-08,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00384,LOJ032,2026-09,"Mês irregular; algumas semanas boas, outras fracas."
+RLT00385,LOJ033,2025-10,"Operação estável, sem ocorrências relevantes."
+RLT00386,LOJ033,2025-11,"Operação estável, sem ocorrências relevantes."
+RLT00387,LOJ033,2025-12,"Operação estável, sem ocorrências relevantes."
+RLT00388,LOJ033,2026-01,"Operação estável, sem ocorrências relevantes."
+RLT00389,LOJ033,2026-02,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00390,LOJ033,2026-03,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00391,LOJ033,2026-04,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00392,LOJ033,2026-05,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00393,LOJ033,2026-06,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00394,LOJ033,2026-07,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00395,LOJ033,2026-08,"Operação estável, sem ocorrências relevantes."
+RLT00396,LOJ033,2026-09,"Mês irregular; algumas semanas boas, outras fracas."
+RLT00397,LOJ034,2025-10,"Operação estável, sem ocorrências relevantes."
+RLT00398,LOJ034,2025-11,"Operação estável, sem ocorrências relevantes."
+RLT00399,LOJ034,2025-12,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00400,LOJ034,2026-01,"Operação estável, sem ocorrências relevantes."
+RLT00401,LOJ034,2026-02,"Operação estável, sem ocorrências relevantes."
+RLT00402,LOJ034,2026-03,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00403,LOJ034,2026-04,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00404,LOJ034,2026-05,"Operação estável, sem ocorrências relevantes."
+RLT00405,LOJ034,2026-06,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00406,LOJ034,2026-07,"Operação estável, sem ocorrências relevantes."
+RLT00407,LOJ034,2026-08,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00408,LOJ034,2026-09,"Movimento do shopping caiu, menos clientes circulando."
+RLT00409,LOJ035,2025-10,"Operação estável, sem ocorrências relevantes."
+RLT00410,LOJ035,2025-11,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00411,LOJ035,2025-12,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00412,LOJ035,2026-01,"Operação estável, sem ocorrências relevantes."
+RLT00413,LOJ035,2026-02,"Operação estável, sem ocorrências relevantes."
+RLT00414,LOJ035,2026-03,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00415,LOJ035,2026-04,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00416,LOJ035,2026-05,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00417,LOJ035,2026-06,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00418,LOJ035,2026-07,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00419,LOJ035,2026-08,"Operação estável, sem ocorrências relevantes."
+RLT00420,LOJ035,2026-09,"Mês irregular; algumas semanas boas, outras fracas."
+RLT00421,LOJ036,2025-10,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00422,LOJ036,2025-11,"Operação estável, sem ocorrências relevantes."
+RLT00423,LOJ036,2025-12,"Operação estável, sem ocorrências relevantes."
+RLT00424,LOJ036,2026-01,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00425,LOJ036,2026-02,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00426,LOJ036,2026-03,"Operação estável, sem ocorrências relevantes."
+RLT00427,LOJ036,2026-04,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00428,LOJ036,2026-05,"Operação estável, sem ocorrências relevantes."
+RLT00429,LOJ036,2026-06,"Operação estável, sem ocorrências relevantes."
+RLT00430,LOJ036,2026-07,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00431,LOJ036,2026-08,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00432,LOJ036,2026-09,"Mês irregular; algumas semanas boas, outras fracas."
+RLT00433,LOJ037,2025-10,"Operação estável, sem ocorrências relevantes."
+RLT00434,LOJ037,2025-11,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00435,LOJ037,2025-12,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00436,LOJ037,2026-01,"Operação estável, sem ocorrências relevantes."
+RLT00437,LOJ037,2026-02,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00438,LOJ037,2026-03,"Operação estável, sem ocorrências relevantes."
+RLT00439,LOJ037,2026-04,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00440,LOJ037,2026-05,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00441,LOJ037,2026-06,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00442,LOJ037,2026-07,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00443,LOJ037,2026-08,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00444,LOJ037,2026-09,"Movimento do shopping caiu, menos clientes circulando."
+RLT00445,LOJ038,2025-10,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00446,LOJ038,2025-11,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00447,LOJ038,2025-12,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00448,LOJ038,2026-01,"Operação estável, sem ocorrências relevantes."
+RLT00449,LOJ038,2026-02,"Operação estável, sem ocorrências relevantes."
+RLT00450,LOJ038,2026-03,"Operação estável, sem ocorrências relevantes."
+RLT00451,LOJ038,2026-04,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00452,LOJ038,2026-05,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00453,LOJ038,2026-06,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00454,LOJ038,2026-07,"Operação estável, sem ocorrências relevantes."
+RLT00455,LOJ038,2026-08,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00456,LOJ038,2026-09,"Mês irregular; algumas semanas boas, outras fracas."
+RLT00457,LOJ039,2025-10,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00458,LOJ039,2025-11,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00459,LOJ039,2025-12,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00460,LOJ039,2026-01,"Operação estável, sem ocorrências relevantes."
+RLT00461,LOJ039,2026-02,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00462,LOJ039,2026-03,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00463,LOJ039,2026-04,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00464,LOJ039,2026-05,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00465,LOJ039,2026-06,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00466,LOJ039,2026-07,"Operação estável, sem ocorrências relevantes."
+RLT00467,LOJ039,2026-08,"Operação estável, sem ocorrências relevantes."
+RLT00468,LOJ039,2026-09,Resultado oscilou; ainda avaliando o que explica a variação.
+RLT00469,LOJ040,2025-10,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00470,LOJ040,2025-11,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00471,LOJ040,2025-12,"Operação estável, sem ocorrências relevantes."
+RLT00472,LOJ040,2026-01,"Operação estável, sem ocorrências relevantes."
+RLT00473,LOJ040,2026-02,"Operação estável, sem ocorrências relevantes."
+RLT00474,LOJ040,2026-03,"Operação estável, sem ocorrências relevantes."
+RLT00475,LOJ040,2026-04,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00476,LOJ040,2026-05,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00477,LOJ040,2026-06,"Operação estável, sem ocorrências relevantes."
+RLT00478,LOJ040,2026-07,"Operação estável, sem ocorrências relevantes."
+RLT00479,LOJ040,2026-08,"Operação estável, sem ocorrências relevantes."
+RLT00480,LOJ040,2026-09,"Movimento do shopping caiu, menos clientes circulando."
+RLT00481,LOJ001,2026-10,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00482,LOJ002,2026-10,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00483,LOJ003,2026-10,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00484,LOJ004,2026-10,"Operação estável, sem ocorrências relevantes."
+RLT00485,LOJ005,2026-10,"Operação estável, sem ocorrências relevantes."
+RLT00486,LOJ006,2026-10,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00487,LOJ007,2026-10,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00488,LOJ008,2026-10,"Operação estável, sem ocorrências relevantes."
+RLT00489,LOJ009,2026-10,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00490,LOJ010,2026-10,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00491,LOJ011,2026-10,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00492,LOJ012,2026-10,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00493,LOJ013,2026-10,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00494,LOJ014,2026-10,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00495,LOJ015,2026-10,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00496,LOJ016,2026-10,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00497,LOJ017,2026-10,"Operação estável, sem ocorrências relevantes."
+RLT00498,LOJ018,2026-10,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00499,LOJ019,2026-10,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00500,LOJ020,2026-10,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00501,LOJ021,2026-10,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00502,LOJ022,2026-10,"Operação estável, sem ocorrências relevantes."
+RLT00503,LOJ023,2026-10,"Operação estável, sem ocorrências relevantes."
+RLT00504,LOJ024,2026-10,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00505,LOJ025,2026-10,"Operação estável, sem ocorrências relevantes."
+RLT00506,LOJ026,2026-10,Treinamento do sistema novo foi insuficiente; clientes voltando para corrigir trocas.
+RLT00507,LOJ027,2026-10,"Equipe completa, mas o novo sistema de trocas gerou muitos erros e retrabalho."
+RLT00508,LOJ028,2026-10,"Equipe completa, mas o novo sistema de trocas gerou muitos erros e retrabalho."
+RLT00509,LOJ029,2026-10,Quadro de pessoal ok; o problema é o processo novo de atendimento e trocas.
+RLT00510,LOJ030,2026-10,Treinamento do sistema novo foi insuficiente; clientes voltando para corrigir trocas.
+RLT00511,LOJ031,2026-10,Quadro de pessoal ok; o problema é o processo novo de atendimento e trocas.
+RLT00512,LOJ032,2026-10,Quadro de pessoal ok; o problema é o processo novo de atendimento e trocas.
+RLT00513,LOJ033,2026-10,Treinamento do sistema novo foi insuficiente; clientes voltando para corrigir trocas.
+RLT00514,LOJ034,2026-10,Treinamento do sistema novo foi insuficiente; clientes voltando para corrigir trocas.
+RLT00515,LOJ035,2026-10,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00516,LOJ036,2026-10,"Mês dentro do esperado, equipe completa e reposição em dia."
+RLT00517,LOJ037,2026-10,Bom fluxo de clientes e metas acompanhadas semanalmente.
+RLT00518,LOJ038,2026-10,"Operação estável, sem ocorrências relevantes."
+RLT00519,LOJ039,2026-10,"Operação estável, sem ocorrências relevantes."
+RLT00520,LOJ040,2026-10,"Operação estável, sem ocorrências relevantes."

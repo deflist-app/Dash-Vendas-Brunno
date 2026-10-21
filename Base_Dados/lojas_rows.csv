@@ -1,0 +1,41 @@
+id_loja,loja,cidade,uf,regiao,gerente,data_abertura
+LOJ001,Porto Alegre Centro,Porto Alegre,RS,Sul,Marina Souza,2023-03-18
+LOJ002,Caxias do Sul Centro,Caxias do Sul,RS,Sul,Rafael Carvalho,2024-07-04
+LOJ003,Santa Cruz do Sul,Santa Cruz do Sul,RS,Sul,Camila Ferreira,2017-08-26
+LOJ004,Pelotas Centro,Pelotas,RS,Sul,Bruno Martins,2023-04-28
+LOJ005,Florianópolis Centro,Florianópolis,SC,Sul,Juliana Santos,2015-08-08
+LOJ006,Joinville Centro,Joinville,SC,Sul,Felipe Lima,2021-02-05
+LOJ007,Blumenau Centro,Blumenau,SC,Sul,Renata Rocha,2017-01-01
+LOJ008,Curitiba Batel,Curitiba,PR,Sul,Diego Lima,2021-04-13
+LOJ009,Londrina Centro,Londrina,PR,Sul,Patrícia Ribeiro,2024-08-07
+LOJ010,Maringá Centro,Maringá,PR,Sul,Marcelo Barbosa,2018-06-02
+LOJ011,São Paulo Paulista,São Paulo,SP,Sudeste,Fernanda Lima,2021-10-01
+LOJ012,São Paulo Moema,São Paulo,SP,Sudeste,Thiago Santos,2024-12-08
+LOJ013,Campinas Centro,Campinas,SP,Sudeste,Aline Barbosa,2020-12-24
+LOJ014,Ribeirão Preto,Ribeirão Preto,SP,Sudeste,Gustavo Carvalho,2020-09-01
+LOJ015,Santos Gonzaga,Santos,SP,Sudeste,Larissa Pereira,2019-01-04
+LOJ016,Rio de Janeiro Centro,Rio de Janeiro,RJ,Sudeste,Eduardo Lima,2024-04-21
+LOJ017,Rio de Janeiro Barra,Rio de Janeiro,RJ,Sudeste,Bianca Santos,2023-12-05
+LOJ018,Niterói Centro,Niterói,RJ,Sudeste,André Souza,2024-09-21
+LOJ019,Belo Horizonte Savassi,Belo Horizonte,MG,Sudeste,Carolina Silva,2019-11-12
+LOJ020,Uberlândia Centro,Uberlândia,MG,Sudeste,Rodrigo Oliveira,2015-09-03
+LOJ021,Vitória Praia do Canto,Vitória,ES,Sudeste,Natália Almeida,2024-11-09
+LOJ022,Goiânia Setor Oeste,Goiânia,GO,Centro-Oeste,Vinícius Almeida,2016-02-25
+LOJ023,Brasília Asa Sul,Brasília,DF,Centro-Oeste,Isabela Souza,2023-05-01
+LOJ024,Campo Grande Centro,Campo Grande,MS,Centro-Oeste,Henrique Ribeiro,2022-07-04
+LOJ025,Cuiabá Centro,Cuiabá,MT,Centro-Oeste,Priscila Rocha,2021-07-13
+LOJ026,Salvador Barra,Salvador,BA,Nordeste,Leandro Ribeiro,2022-03-24
+LOJ027,Recife Boa Viagem,Recife,PE,Nordeste,Débora Rocha,2015-07-11
+LOJ028,Fortaleza Aldeota,Fortaleza,CE,Nordeste,Caio Rodrigues,2019-06-04
+LOJ029,Natal Tirol,Natal,RN,Nordeste,Luana Rocha,2017-02-06
+LOJ030,João Pessoa Manaíra,João Pessoa,PB,Nordeste,Murilo Barbosa,2024-10-03
+LOJ031,Maceió Ponta Verde,Maceió,AL,Nordeste,Tatiane Ferreira,2021-10-10
+LOJ032,Aracaju Jardins,Aracaju,SE,Nordeste,Lucas Lima,2021-06-06
+LOJ033,São Luís Renascença,São Luís,MA,Nordeste,Beatriz Silva,2015-10-28
+LOJ034,Teresina Jóquei,Teresina,PI,Nordeste,Fábio Silva,2017-11-20
+LOJ035,Belém Nazaré,Belém,PA,Norte,Vanessa Almeida,2016-10-11
+LOJ036,Manaus Adrianópolis,Manaus,AM,Norte,Daniel Carvalho,2021-12-09
+LOJ037,Palmas Plano Diretor,Palmas,TO,Norte,Amanda Martins,2015-03-07
+LOJ038,Porto Velho Centro,Porto Velho,RO,Norte,João Rodrigues,2020-04-16
+LOJ039,Rio Branco Bosque,Rio Branco,AC,Norte,Sabrina Martins,2023-10-08
+LOJ040,Macapá Centro,Macapá,AP,Norte,Paulo Oliveira,2021-04-03

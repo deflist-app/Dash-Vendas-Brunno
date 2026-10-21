@@ -1,0 +1,1167 @@
+id_ocorrencia,id_loja,data,tipo_ocorrencia,descricao,resolvido,canal
+OCO00001,LOJ001,2025-10-01,Produto,Cliente pediu orientação de uso do produto.,Não,E-mail
+OCO00002,LOJ001,2025-10-11,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,E-mail
+OCO00003,LOJ001,2025-11-12,Produto,Cliente pediu orientação de uso do produto.,Sim,E-mail
+OCO00004,LOJ001,2025-11-13,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,E-mail
+OCO00005,LOJ001,2025-12-23,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,Loja
+OCO00006,LOJ001,2025-12-20,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,E-mail
+OCO00007,LOJ001,2026-01-10,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Loja
+OCO00008,LOJ001,2026-01-05,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,E-mail
+OCO00009,LOJ001,2026-02-09,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,WhatsApp
+OCO00010,LOJ001,2026-02-27,Produto,Cliente pediu orientação de uso do produto.,Não,E-mail
+OCO00011,LOJ001,2026-03-26,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,WhatsApp
+OCO00012,LOJ001,2026-03-20,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Telefone
+OCO00013,LOJ001,2026-04-26,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,Telefone
+OCO00014,LOJ001,2026-04-14,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,WhatsApp
+OCO00015,LOJ001,2026-05-26,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,WhatsApp
+OCO00016,LOJ001,2026-05-17,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,E-mail
+OCO00017,LOJ001,2026-06-07,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Loja
+OCO00018,LOJ001,2026-06-21,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,WhatsApp
+OCO00019,LOJ001,2026-07-17,Disponibilidade,Cliente reclamou de produto anunciado sem estoque na loja.,Não,Telefone
+OCO00020,LOJ001,2026-07-08,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Loja
+OCO00021,LOJ001,2026-07-11,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,WhatsApp
+OCO00022,LOJ001,2026-07-28,Produto,Cliente pediu orientação de uso do produto.,Sim,Telefone
+OCO00023,LOJ001,2026-07-26,Entrega,Pedido de retirada atrasou por falta de reposição do CD.,Não,WhatsApp
+OCO00024,LOJ001,2026-08-24,Produto,Cliente pediu orientação de uso do produto.,Sim,Loja
+OCO00025,LOJ001,2026-08-11,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Loja
+OCO00026,LOJ001,2026-09-25,Produto,Cliente pediu orientação de uso do produto.,Sim,Loja
+OCO00027,LOJ001,2026-09-11,Produto,Cliente pediu orientação de uso do produto.,Não,WhatsApp
+OCO00028,LOJ002,2025-10-10,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Telefone
+OCO00029,LOJ002,2025-10-01,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,Telefone
+OCO00030,LOJ002,2025-11-08,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,WhatsApp
+OCO00031,LOJ002,2025-11-01,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,E-mail
+OCO00032,LOJ002,2025-12-11,Produto,Cliente pediu orientação de uso do produto.,Não,Telefone
+OCO00033,LOJ002,2025-12-22,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,WhatsApp
+OCO00034,LOJ002,2026-01-26,Produto,Cliente pediu orientação de uso do produto.,Não,Telefone
+OCO00035,LOJ002,2026-01-06,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,E-mail
+OCO00036,LOJ002,2026-02-24,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Loja
+OCO00037,LOJ002,2026-02-07,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,Telefone
+OCO00038,LOJ002,2026-03-02,Produto,Cliente pediu orientação de uso do produto.,Não,WhatsApp
+OCO00039,LOJ002,2026-03-10,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Telefone
+OCO00040,LOJ002,2026-04-04,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,Loja
+OCO00041,LOJ002,2026-04-03,Produto,Cliente pediu orientação de uso do produto.,Sim,Telefone
+OCO00042,LOJ002,2026-05-18,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,WhatsApp
+OCO00043,LOJ002,2026-05-22,Produto,Cliente pediu orientação de uso do produto.,Sim,Telefone
+OCO00044,LOJ002,2026-06-26,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,WhatsApp
+OCO00045,LOJ002,2026-06-12,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,E-mail
+OCO00046,LOJ002,2026-07-18,Disponibilidade,Cliente reclamou de produto anunciado sem estoque na loja.,Não,Telefone
+OCO00047,LOJ002,2026-07-04,Disponibilidade,Pedido não pôde ser atendido por falta do item no estoque.,Não,E-mail
+OCO00048,LOJ002,2026-07-27,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,WhatsApp
+OCO00049,LOJ002,2026-07-11,Entrega,Pedido de retirada atrasou por falta de reposição do CD.,Sim,E-mail
+OCO00050,LOJ002,2026-07-09,Disponibilidade,Cliente reclamou de produto anunciado sem estoque na loja.,Não,Telefone
+OCO00051,LOJ002,2026-08-17,Produto,Cliente pediu orientação de uso do produto.,Sim,Telefone
+OCO00052,LOJ002,2026-08-18,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,WhatsApp
+OCO00053,LOJ002,2026-09-14,Produto,Cliente pediu orientação de uso do produto.,Sim,WhatsApp
+OCO00054,LOJ002,2026-09-24,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,WhatsApp
+OCO00055,LOJ003,2025-10-12,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,E-mail
+OCO00056,LOJ003,2025-10-07,Produto,Cliente pediu orientação de uso do produto.,Não,Loja
+OCO00057,LOJ003,2025-11-18,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Telefone
+OCO00058,LOJ003,2025-11-17,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Loja
+OCO00059,LOJ003,2025-12-27,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Telefone
+OCO00060,LOJ003,2025-12-13,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,WhatsApp
+OCO00061,LOJ003,2026-01-06,Produto,Cliente pediu orientação de uso do produto.,Sim,Loja
+OCO00062,LOJ003,2026-01-22,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,E-mail
+OCO00063,LOJ003,2026-02-16,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Loja
+OCO00064,LOJ003,2026-02-12,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,Telefone
+OCO00065,LOJ003,2026-03-18,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,E-mail
+OCO00066,LOJ003,2026-03-28,Produto,Cliente pediu orientação de uso do produto.,Sim,WhatsApp
+OCO00067,LOJ003,2026-04-01,Produto,Cliente pediu orientação de uso do produto.,Não,WhatsApp
+OCO00068,LOJ003,2026-04-21,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Telefone
+OCO00069,LOJ003,2026-05-19,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Telefone
+OCO00070,LOJ003,2026-05-22,Produto,Cliente pediu orientação de uso do produto.,Sim,E-mail
+OCO00071,LOJ003,2026-06-15,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,E-mail
+OCO00072,LOJ003,2026-06-01,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Telefone
+OCO00073,LOJ003,2026-07-23,Disponibilidade,Pedido não pôde ser atendido por falta do item no estoque.,Sim,E-mail
+OCO00074,LOJ003,2026-07-14,Disponibilidade,Pedido não pôde ser atendido por falta do item no estoque.,Sim,E-mail
+OCO00075,LOJ003,2026-07-15,Disponibilidade,Cliente reclamou de produto anunciado sem estoque na loja.,Sim,Loja
+OCO00076,LOJ003,2026-07-13,Entrega,Pedido de retirada atrasou por falta de reposição do CD.,Sim,Loja
+OCO00077,LOJ003,2026-07-13,Disponibilidade,Cliente reclamou de produto anunciado sem estoque na loja.,Não,Loja
+OCO00078,LOJ003,2026-08-15,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Loja
+OCO00079,LOJ003,2026-08-26,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,E-mail
+OCO00080,LOJ003,2026-09-15,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,Loja
+OCO00081,LOJ003,2026-09-23,Produto,Cliente pediu orientação de uso do produto.,Sim,Loja
+OCO00082,LOJ004,2025-10-06,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,WhatsApp
+OCO00083,LOJ004,2025-10-27,Produto,Cliente pediu orientação de uso do produto.,Sim,Telefone
+OCO00084,LOJ004,2025-11-21,Produto,Cliente pediu orientação de uso do produto.,Não,WhatsApp
+OCO00085,LOJ004,2025-11-03,Produto,Cliente pediu orientação de uso do produto.,Sim,Telefone
+OCO00086,LOJ004,2025-12-22,Produto,Cliente pediu orientação de uso do produto.,Não,Telefone
+OCO00087,LOJ004,2025-12-12,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Loja
+OCO00088,LOJ004,2026-01-16,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,E-mail
+OCO00089,LOJ004,2026-01-03,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Loja
+OCO00090,LOJ004,2026-02-09,Produto,Cliente pediu orientação de uso do produto.,Sim,E-mail
+OCO00091,LOJ004,2026-02-27,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Telefone
+OCO00092,LOJ004,2026-03-13,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Telefone
+OCO00093,LOJ004,2026-03-18,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,WhatsApp
+OCO00094,LOJ004,2026-04-28,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,WhatsApp
+OCO00095,LOJ004,2026-04-13,Produto,Cliente pediu orientação de uso do produto.,Não,E-mail
+OCO00096,LOJ004,2026-05-27,Produto,Cliente pediu orientação de uso do produto.,Sim,E-mail
+OCO00097,LOJ004,2026-05-08,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,E-mail
+OCO00098,LOJ004,2026-06-17,Produto,Cliente pediu orientação de uso do produto.,Sim,Telefone
+OCO00099,LOJ004,2026-06-18,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Loja
+OCO00100,LOJ004,2026-07-27,Disponibilidade,Cliente reclamou de produto anunciado sem estoque na loja.,Sim,E-mail
+OCO00101,LOJ004,2026-07-04,Disponibilidade,Cliente reclamou de produto anunciado sem estoque na loja.,Sim,Telefone
+OCO00102,LOJ004,2026-07-15,Disponibilidade,Pedido não pôde ser atendido por falta do item no estoque.,Sim,E-mail
+OCO00103,LOJ004,2026-07-03,Disponibilidade,Cliente reclamou de produto anunciado sem estoque na loja.,Sim,E-mail
+OCO00104,LOJ004,2026-07-15,Disponibilidade,Cliente reclamou de produto anunciado sem estoque na loja.,Sim,Loja
+OCO00105,LOJ004,2026-08-26,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Telefone
+OCO00106,LOJ004,2026-08-26,Produto,Cliente pediu orientação de uso do produto.,Sim,WhatsApp
+OCO00107,LOJ004,2026-09-09,Produto,Cliente pediu orientação de uso do produto.,Sim,Telefone
+OCO00108,LOJ004,2026-09-15,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,E-mail
+OCO00109,LOJ005,2025-10-04,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,Telefone
+OCO00110,LOJ005,2025-10-21,Produto,Cliente pediu orientação de uso do produto.,Sim,E-mail
+OCO00111,LOJ005,2025-11-02,Produto,Cliente pediu orientação de uso do produto.,Não,Loja
+OCO00112,LOJ005,2025-11-10,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,Loja
+OCO00113,LOJ005,2025-12-18,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Loja
+OCO00114,LOJ005,2025-12-20,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,Loja
+OCO00115,LOJ005,2026-01-27,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,WhatsApp
+OCO00116,LOJ005,2026-01-14,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,WhatsApp
+OCO00117,LOJ005,2026-02-09,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,E-mail
+OCO00118,LOJ005,2026-02-20,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,WhatsApp
+OCO00119,LOJ005,2026-03-18,Produto,Cliente pediu orientação de uso do produto.,Sim,WhatsApp
+OCO00120,LOJ005,2026-03-09,Produto,Cliente pediu orientação de uso do produto.,Sim,Telefone
+OCO00121,LOJ005,2026-04-16,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,WhatsApp
+OCO00122,LOJ005,2026-04-25,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Telefone
+OCO00123,LOJ005,2026-05-09,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,E-mail
+OCO00124,LOJ005,2026-05-04,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Telefone
+OCO00125,LOJ005,2026-06-11,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Loja
+OCO00126,LOJ005,2026-06-27,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Loja
+OCO00127,LOJ005,2026-07-18,Disponibilidade,Pedido não pôde ser atendido por falta do item no estoque.,Sim,Loja
+OCO00128,LOJ005,2026-07-02,Entrega,Pedido de retirada atrasou por falta de reposição do CD.,Não,Loja
+OCO00129,LOJ005,2026-07-16,Entrega,Pedido de retirada atrasou por falta de reposição do CD.,Sim,Loja
+OCO00130,LOJ005,2026-07-28,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Loja
+OCO00131,LOJ005,2026-08-27,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Telefone
+OCO00132,LOJ005,2026-08-10,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Telefone
+OCO00133,LOJ005,2026-09-03,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Telefone
+OCO00134,LOJ005,2026-09-03,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,WhatsApp
+OCO00135,LOJ006,2025-10-14,Produto,Cliente pediu orientação de uso do produto.,Sim,Loja
+OCO00136,LOJ006,2025-10-22,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Loja
+OCO00137,LOJ006,2025-11-25,Produto,Cliente pediu orientação de uso do produto.,Sim,Telefone
+OCO00138,LOJ006,2025-11-17,Produto,Cliente pediu orientação de uso do produto.,Não,Loja
+OCO00139,LOJ006,2025-12-05,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Loja
+OCO00140,LOJ006,2025-12-02,Produto,Cliente pediu orientação de uso do produto.,Sim,Loja
+OCO00141,LOJ006,2026-01-23,Produto,Cliente pediu orientação de uso do produto.,Não,Loja
+OCO00142,LOJ006,2026-01-23,Produto,Cliente pediu orientação de uso do produto.,Sim,Loja
+OCO00143,LOJ006,2026-02-14,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Loja
+OCO00144,LOJ006,2026-02-12,Produto,Cliente pediu orientação de uso do produto.,Sim,WhatsApp
+OCO00145,LOJ006,2026-03-06,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,WhatsApp
+OCO00146,LOJ006,2026-03-20,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,Loja
+OCO00147,LOJ006,2026-04-20,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Telefone
+OCO00148,LOJ006,2026-04-01,Produto,Cliente pediu orientação de uso do produto.,Não,E-mail
+OCO00149,LOJ006,2026-05-18,Produto,Cliente pediu orientação de uso do produto.,Não,Loja
+OCO00150,LOJ006,2026-05-09,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,E-mail
+OCO00151,LOJ006,2026-06-01,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,WhatsApp
+OCO00152,LOJ006,2026-06-17,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,WhatsApp
+OCO00153,LOJ006,2026-07-15,Entrega,Pedido de retirada atrasou por falta de reposição do CD.,Sim,Telefone
+OCO00154,LOJ006,2026-07-15,Disponibilidade,Cliente reclamou de produto anunciado sem estoque na loja.,Não,Loja
+OCO00155,LOJ006,2026-07-08,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,WhatsApp
+OCO00156,LOJ006,2026-07-13,Disponibilidade,Cliente reclamou de produto anunciado sem estoque na loja.,Não,Telefone
+OCO00157,LOJ006,2026-07-24,Produto,Cliente pediu orientação de uso do produto.,Sim,E-mail
+OCO00158,LOJ006,2026-08-12,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Loja
+OCO00159,LOJ006,2026-08-02,Produto,Cliente pediu orientação de uso do produto.,Sim,WhatsApp
+OCO00160,LOJ006,2026-09-03,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Telefone
+OCO00161,LOJ006,2026-09-02,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,Loja
+OCO00162,LOJ007,2025-10-18,Produto,Cliente pediu orientação de uso do produto.,Sim,Loja
+OCO00163,LOJ007,2025-10-28,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,E-mail
+OCO00164,LOJ007,2025-11-01,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Loja
+OCO00165,LOJ007,2025-11-09,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,WhatsApp
+OCO00166,LOJ007,2025-12-27,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Telefone
+OCO00167,LOJ007,2025-12-24,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,WhatsApp
+OCO00168,LOJ007,2026-01-10,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Telefone
+OCO00169,LOJ007,2026-01-22,Produto,Cliente pediu orientação de uso do produto.,Sim,Telefone
+OCO00170,LOJ007,2026-02-08,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Loja
+OCO00171,LOJ007,2026-02-12,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Loja
+OCO00172,LOJ007,2026-03-28,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,E-mail
+OCO00173,LOJ007,2026-03-01,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,E-mail
+OCO00174,LOJ007,2026-04-01,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Telefone
+OCO00175,LOJ007,2026-04-17,Produto,Cliente pediu orientação de uso do produto.,Não,E-mail
+OCO00176,LOJ007,2026-05-23,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,E-mail
+OCO00177,LOJ007,2026-05-04,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Loja
+OCO00178,LOJ007,2026-06-21,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,WhatsApp
+OCO00179,LOJ007,2026-06-17,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Telefone
+OCO00180,LOJ007,2026-07-10,Disponibilidade,Cliente reclamou de produto anunciado sem estoque na loja.,Sim,Telefone
+OCO00181,LOJ007,2026-07-28,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Telefone
+OCO00182,LOJ007,2026-07-22,Entrega,Pedido de retirada atrasou por falta de reposição do CD.,Sim,E-mail
+OCO00183,LOJ007,2026-07-28,Disponibilidade,Pedido não pôde ser atendido por falta do item no estoque.,Sim,Loja
+OCO00184,LOJ007,2026-07-19,Entrega,Pedido de retirada atrasou por falta de reposição do CD.,Sim,WhatsApp
+OCO00185,LOJ007,2026-08-09,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,E-mail
+OCO00186,LOJ007,2026-08-12,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,Loja
+OCO00187,LOJ007,2026-09-16,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,E-mail
+OCO00188,LOJ007,2026-09-13,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Telefone
+OCO00189,LOJ008,2025-10-17,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Loja
+OCO00190,LOJ008,2025-10-04,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Loja
+OCO00191,LOJ008,2025-10-03,Produto,Cliente perguntou sobre condições de pagamento antes de decidir.,Sim,E-mail
+OCO00192,LOJ008,2025-11-20,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,WhatsApp
+OCO00193,LOJ008,2025-11-22,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Telefone
+OCO00194,LOJ008,2025-11-02,Entrega,Pedido de retirada atrasou por falta de reposição do CD.,Não,WhatsApp
+OCO00195,LOJ008,2025-12-13,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,E-mail
+OCO00196,LOJ008,2025-12-11,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,E-mail
+OCO00197,LOJ008,2026-01-26,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Telefone
+OCO00198,LOJ008,2026-01-18,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Telefone
+OCO00199,LOJ008,2026-02-14,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,Telefone
+OCO00200,LOJ008,2026-02-14,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,E-mail
+OCO00201,LOJ008,2026-03-21,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Loja
+OCO00202,LOJ008,2026-03-01,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Telefone
+OCO00203,LOJ008,2026-04-27,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,Telefone
+OCO00204,LOJ008,2026-04-24,Produto,Cliente pediu orientação de uso do produto.,Sim,Loja
+OCO00205,LOJ008,2026-05-06,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,Telefone
+OCO00206,LOJ008,2026-05-11,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Telefone
+OCO00207,LOJ008,2026-06-25,Produto,Cliente pediu orientação de uso do produto.,Não,Loja
+OCO00208,LOJ008,2026-06-20,Produto,Cliente pediu orientação de uso do produto.,Sim,Telefone
+OCO00209,LOJ008,2026-07-15,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,E-mail
+OCO00210,LOJ008,2026-07-07,Entrega,Pedido de retirada atrasou por falta de reposição do CD.,Sim,Telefone
+OCO00211,LOJ008,2026-07-05,Disponibilidade,Cliente reclamou de produto anunciado sem estoque na loja.,Sim,Loja
+OCO00212,LOJ008,2026-07-06,Produto,Cliente pediu orientação de uso do produto.,Sim,Loja
+OCO00213,LOJ008,2026-08-19,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,WhatsApp
+OCO00214,LOJ008,2026-08-24,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,WhatsApp
+OCO00215,LOJ008,2026-09-15,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,E-mail
+OCO00216,LOJ008,2026-09-16,Produto,Cliente pediu orientação de uso do produto.,Não,Telefone
+OCO00217,LOJ009,2025-10-25,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Telefone
+OCO00218,LOJ009,2025-10-17,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Telefone
+OCO00219,LOJ009,2025-11-10,Produto,Cliente pediu orientação de uso do produto.,Sim,Loja
+OCO00220,LOJ009,2025-11-18,Produto,Cliente pediu orientação de uso do produto.,Sim,E-mail
+OCO00221,LOJ009,2025-12-11,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,WhatsApp
+OCO00222,LOJ009,2025-12-24,Produto,Cliente pediu orientação de uso do produto.,Não,Loja
+OCO00223,LOJ009,2026-01-28,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,Loja
+OCO00224,LOJ009,2026-01-03,Produto,Cliente pediu orientação de uso do produto.,Sim,E-mail
+OCO00225,LOJ009,2026-02-17,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,WhatsApp
+OCO00226,LOJ009,2026-02-17,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,WhatsApp
+OCO00227,LOJ009,2026-03-22,Produto,Cliente pediu orientação de uso do produto.,Sim,Loja
+OCO00228,LOJ009,2026-03-11,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,Telefone
+OCO00229,LOJ009,2026-03-24,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,WhatsApp
+OCO00230,LOJ009,2026-04-28,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Loja
+OCO00231,LOJ009,2026-04-16,Produto,Cliente pediu orientação de uso do produto.,Não,E-mail
+OCO00232,LOJ009,2026-05-01,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,Loja
+OCO00233,LOJ009,2026-05-13,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,E-mail
+OCO00234,LOJ009,2026-05-14,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Telefone
+OCO00235,LOJ009,2026-06-22,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,WhatsApp
+OCO00236,LOJ009,2026-06-04,Produto,Cliente pediu orientação de uso do produto.,Sim,WhatsApp
+OCO00237,LOJ009,2026-07-01,Entrega,Pedido de retirada atrasou por falta de reposição do CD.,Sim,E-mail
+OCO00238,LOJ009,2026-07-08,Disponibilidade,Cliente reclamou de produto anunciado sem estoque na loja.,Sim,E-mail
+OCO00239,LOJ009,2026-07-13,Disponibilidade,Cliente reclamou de produto anunciado sem estoque na loja.,Sim,Loja
+OCO00240,LOJ009,2026-07-16,Disponibilidade,Pedido não pôde ser atendido por falta do item no estoque.,Sim,Telefone
+OCO00241,LOJ009,2026-07-20,Produto,Cliente pediu orientação de uso do produto.,Sim,WhatsApp
+OCO00242,LOJ009,2026-08-02,Produto,Cliente pediu orientação de uso do produto.,Sim,E-mail
+OCO00243,LOJ009,2026-08-18,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,E-mail
+OCO00244,LOJ009,2026-09-13,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,WhatsApp
+OCO00245,LOJ009,2026-09-27,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Telefone
+OCO00246,LOJ010,2025-10-22,Produto,Cliente pediu orientação de uso do produto.,Não,E-mail
+OCO00247,LOJ010,2025-10-15,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,Telefone
+OCO00248,LOJ010,2025-11-11,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,E-mail
+OCO00249,LOJ010,2025-11-04,Produto,Cliente pediu orientação de uso do produto.,Sim,Telefone
+OCO00250,LOJ010,2025-12-14,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,E-mail
+OCO00251,LOJ010,2025-12-16,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,E-mail
+OCO00252,LOJ010,2026-01-20,Produto,Cliente pediu orientação de uso do produto.,Sim,WhatsApp
+OCO00253,LOJ010,2026-01-10,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Loja
+OCO00254,LOJ010,2026-02-28,Produto,Cliente pediu orientação de uso do produto.,Sim,Telefone
+OCO00255,LOJ010,2026-02-12,Produto,Cliente perguntou sobre condições de pagamento antes de decidir.,Sim,Loja
+OCO00256,LOJ010,2026-02-16,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,WhatsApp
+OCO00257,LOJ010,2026-03-22,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,E-mail
+OCO00258,LOJ010,2026-03-27,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,Loja
+OCO00259,LOJ010,2026-04-11,Produto,Cliente pediu orientação de uso do produto.,Não,Telefone
+OCO00260,LOJ010,2026-04-22,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Telefone
+OCO00261,LOJ010,2026-05-05,Produto,Cliente pediu orientação de uso do produto.,Sim,E-mail
+OCO00262,LOJ010,2026-05-07,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,Telefone
+OCO00263,LOJ010,2026-06-16,Produto,Cliente pediu orientação de uso do produto.,Não,E-mail
+OCO00264,LOJ010,2026-06-07,Produto,Cliente pediu orientação de uso do produto.,Sim,Loja
+OCO00265,LOJ010,2026-07-07,Entrega,Pedido de retirada atrasou por falta de reposição do CD.,Sim,E-mail
+OCO00266,LOJ010,2026-07-16,Disponibilidade,Pedido não pôde ser atendido por falta do item no estoque.,Sim,Loja
+OCO00267,LOJ010,2026-07-16,Disponibilidade,Cliente reclamou de produto anunciado sem estoque na loja.,Sim,WhatsApp
+OCO00268,LOJ010,2026-07-23,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,WhatsApp
+OCO00269,LOJ010,2026-07-12,Disponibilidade,Pedido não pôde ser atendido por falta do item no estoque.,Sim,WhatsApp
+OCO00270,LOJ010,2026-08-06,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,Loja
+OCO00271,LOJ010,2026-08-13,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,E-mail
+OCO00272,LOJ010,2026-09-14,Produto,Cliente pediu orientação de uso do produto.,Sim,WhatsApp
+OCO00273,LOJ010,2026-09-12,Produto,Cliente pediu orientação de uso do produto.,Não,WhatsApp
+OCO00274,LOJ011,2025-10-05,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Loja
+OCO00275,LOJ011,2025-10-26,Produto,Cliente pediu orientação de uso do produto.,Não,WhatsApp
+OCO00276,LOJ011,2025-11-04,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,WhatsApp
+OCO00277,LOJ011,2025-11-26,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,E-mail
+OCO00278,LOJ011,2025-12-16,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,WhatsApp
+OCO00279,LOJ011,2025-12-21,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Telefone
+OCO00280,LOJ011,2026-01-21,Produto,Cliente pediu orientação de uso do produto.,Sim,Telefone
+OCO00281,LOJ011,2026-01-25,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Telefone
+OCO00282,LOJ011,2026-01-18,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Telefone
+OCO00283,LOJ011,2026-02-28,Produto,Cliente pediu orientação de uso do produto.,Sim,Telefone
+OCO00284,LOJ011,2026-02-23,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,Loja
+OCO00285,LOJ011,2026-03-13,Produto,Cliente pediu orientação de uso do produto.,Não,Telefone
+OCO00286,LOJ011,2026-03-01,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Telefone
+OCO00287,LOJ011,2026-04-11,Produto,Cliente pediu orientação de uso do produto.,Sim,Loja
+OCO00288,LOJ011,2026-04-25,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,Loja
+OCO00289,LOJ011,2026-04-04,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,WhatsApp
+OCO00290,LOJ011,2026-05-10,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,Loja
+OCO00291,LOJ011,2026-05-12,Produto,Cliente pediu orientação de uso do produto.,Sim,WhatsApp
+OCO00292,LOJ011,2026-06-07,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Loja
+OCO00293,LOJ011,2026-06-28,Produto,Cliente pediu orientação de uso do produto.,Sim,Loja
+OCO00294,LOJ011,2026-07-10,Produto,Cliente pediu orientação de uso do produto.,Sim,WhatsApp
+OCO00295,LOJ011,2026-07-24,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,E-mail
+OCO00296,LOJ011,2026-08-11,Produto,Cliente pediu orientação de uso do produto.,Sim,E-mail
+OCO00297,LOJ011,2026-08-19,Atendimento,Cliente relatou longa espera por falta de vendedores disponíveis.,Sim,Telefone
+OCO00298,LOJ011,2026-08-04,Atendimento,Cliente desistiu da compra após esperar atendimento no setor.,Sim,WhatsApp
+OCO00299,LOJ011,2026-08-19,Atendimento,Cliente desistiu da compra após esperar atendimento no setor.,Sim,Telefone
+OCO00300,LOJ011,2026-08-03,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,WhatsApp
+OCO00301,LOJ011,2026-09-24,Produto,Cliente pediu orientação de uso do produto.,Não,E-mail
+OCO00302,LOJ011,2026-09-02,Atendimento,Cliente relatou longa espera por falta de vendedores disponíveis.,Sim,Loja
+OCO00303,LOJ011,2026-09-25,Atendimento,Reclamação de fila no caixa com apenas um operador.,Sim,E-mail
+OCO00304,LOJ012,2025-10-14,Produto,Cliente pediu orientação de uso do produto.,Não,Telefone
+OCO00305,LOJ012,2025-10-24,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Telefone
+OCO00306,LOJ012,2025-11-05,Produto,Cliente pediu orientação de uso do produto.,Não,E-mail
+OCO00307,LOJ012,2025-11-03,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Loja
+OCO00308,LOJ012,2025-12-22,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,WhatsApp
+OCO00309,LOJ012,2025-12-11,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Telefone
+OCO00310,LOJ012,2026-01-28,Produto,Cliente pediu orientação de uso do produto.,Sim,WhatsApp
+OCO00311,LOJ012,2026-01-14,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Loja
+OCO00312,LOJ012,2026-02-14,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Loja
+OCO00313,LOJ012,2026-02-11,Produto,Cliente pediu orientação de uso do produto.,Sim,Telefone
+OCO00314,LOJ012,2026-03-19,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,Telefone
+OCO00315,LOJ012,2026-03-15,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,WhatsApp
+OCO00316,LOJ012,2026-04-10,Produto,Cliente pediu orientação de uso do produto.,Sim,E-mail
+OCO00317,LOJ012,2026-04-21,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,E-mail
+OCO00318,LOJ012,2026-05-05,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Loja
+OCO00319,LOJ012,2026-05-15,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Loja
+OCO00320,LOJ012,2026-06-13,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,E-mail
+OCO00321,LOJ012,2026-06-19,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Telefone
+OCO00322,LOJ012,2026-07-11,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Telefone
+OCO00323,LOJ012,2026-07-21,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Loja
+OCO00324,LOJ012,2026-08-16,Atendimento,Cliente desistiu da compra após esperar atendimento no setor.,Não,E-mail
+OCO00325,LOJ012,2026-08-22,Atendimento,Reclamação de fila no caixa com apenas um operador.,Sim,E-mail
+OCO00326,LOJ012,2026-08-06,Atendimento,Cliente relatou longa espera por falta de vendedores disponíveis.,Sim,E-mail
+OCO00327,LOJ012,2026-08-14,Atendimento,Reclamação de fila no caixa com apenas um operador.,Não,Telefone
+OCO00328,LOJ012,2026-08-14,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,Telefone
+OCO00329,LOJ012,2026-09-18,Produto,Cliente pediu orientação de uso do produto.,Sim,E-mail
+OCO00330,LOJ012,2026-09-19,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,E-mail
+OCO00331,LOJ013,2025-10-27,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Telefone
+OCO00332,LOJ013,2025-10-14,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,Loja
+OCO00333,LOJ013,2025-11-20,Produto,Cliente pediu orientação de uso do produto.,Não,WhatsApp
+OCO00334,LOJ013,2025-11-26,Produto,Cliente pediu orientação de uso do produto.,Sim,Loja
+OCO00335,LOJ013,2025-12-14,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Loja
+OCO00336,LOJ013,2025-12-21,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Telefone
+OCO00337,LOJ013,2026-01-27,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,WhatsApp
+OCO00338,LOJ013,2026-01-04,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,WhatsApp
+OCO00339,LOJ013,2026-02-09,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,Telefone
+OCO00340,LOJ013,2026-02-20,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Telefone
+OCO00341,LOJ013,2026-03-03,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,E-mail
+OCO00342,LOJ013,2026-03-25,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,WhatsApp
+OCO00343,LOJ013,2026-04-02,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,Loja
+OCO00344,LOJ013,2026-04-08,Produto,Cliente pediu orientação de uso do produto.,Sim,WhatsApp
+OCO00345,LOJ013,2026-05-06,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,WhatsApp
+OCO00346,LOJ013,2026-05-06,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,Telefone
+OCO00347,LOJ013,2026-06-19,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,WhatsApp
+OCO00348,LOJ013,2026-06-23,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Telefone
+OCO00349,LOJ013,2026-07-26,Produto,Cliente pediu orientação de uso do produto.,Não,Telefone
+OCO00350,LOJ013,2026-07-27,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,WhatsApp
+OCO00351,LOJ013,2026-08-25,Atendimento,Cliente relatou longa espera por falta de vendedores disponíveis.,Não,Telefone
+OCO00352,LOJ013,2026-08-15,Atendimento,Cliente desistiu da compra após esperar atendimento no setor.,Não,Loja
+OCO00353,LOJ013,2026-08-12,Atendimento,Cliente desistiu da compra após esperar atendimento no setor.,Sim,WhatsApp
+OCO00354,LOJ013,2026-08-08,Atendimento,Reclamação de fila no caixa com apenas um operador.,Não,Loja
+OCO00355,LOJ013,2026-08-04,Atendimento,Cliente desistiu da compra após esperar atendimento no setor.,Sim,Telefone
+OCO00356,LOJ013,2026-09-26,Produto,Cliente pediu orientação de uso do produto.,Sim,E-mail
+OCO00357,LOJ013,2026-09-09,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Telefone
+OCO00358,LOJ014,2025-10-04,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Telefone
+OCO00359,LOJ014,2025-10-21,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Loja
+OCO00360,LOJ014,2025-11-15,Produto,Cliente pediu orientação de uso do produto.,Sim,WhatsApp
+OCO00361,LOJ014,2025-11-26,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,E-mail
+OCO00362,LOJ014,2025-12-07,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,Loja
+OCO00363,LOJ014,2025-12-04,Produto,Cliente pediu orientação de uso do produto.,Sim,WhatsApp
+OCO00364,LOJ014,2026-01-28,Produto,Cliente pediu orientação de uso do produto.,Não,Loja
+OCO00365,LOJ014,2026-01-26,Produto,Cliente pediu orientação de uso do produto.,Sim,Loja
+OCO00366,LOJ014,2026-02-14,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,E-mail
+OCO00367,LOJ014,2026-02-13,Produto,Cliente pediu orientação de uso do produto.,Sim,Telefone
+OCO00368,LOJ014,2026-03-14,Produto,Cliente pediu orientação de uso do produto.,Sim,Telefone
+OCO00369,LOJ014,2026-03-07,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Telefone
+OCO00370,LOJ014,2026-04-01,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,WhatsApp
+OCO00371,LOJ014,2026-04-06,Produto,Cliente pediu orientação de uso do produto.,Sim,Loja
+OCO00372,LOJ014,2026-05-07,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Telefone
+OCO00373,LOJ014,2026-05-06,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Telefone
+OCO00374,LOJ014,2026-06-05,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Loja
+OCO00375,LOJ014,2026-06-05,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,Telefone
+OCO00376,LOJ014,2026-07-10,Produto,Cliente pediu orientação de uso do produto.,Não,Loja
+OCO00377,LOJ014,2026-07-14,Produto,Cliente pediu orientação de uso do produto.,Não,Telefone
+OCO00378,LOJ014,2026-08-25,Produto,Cliente pediu orientação de uso do produto.,Não,Loja
+OCO00379,LOJ014,2026-08-20,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,E-mail
+OCO00380,LOJ014,2026-08-22,Atendimento,Cliente desistiu da compra após esperar atendimento no setor.,Sim,Loja
+OCO00381,LOJ014,2026-08-20,Atendimento,Cliente relatou longa espera por falta de vendedores disponíveis.,Não,Telefone
+OCO00382,LOJ014,2026-09-27,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Telefone
+OCO00383,LOJ014,2026-09-28,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Loja
+OCO00384,LOJ014,2026-09-07,Produto,Cliente pediu orientação de uso do produto.,Sim,WhatsApp
+OCO00385,LOJ015,2025-10-20,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Loja
+OCO00386,LOJ015,2025-10-22,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,E-mail
+OCO00387,LOJ015,2025-11-19,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,WhatsApp
+OCO00388,LOJ015,2025-11-28,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Loja
+OCO00389,LOJ015,2025-12-01,Produto,Cliente pediu orientação de uso do produto.,Não,E-mail
+OCO00390,LOJ015,2025-12-17,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,WhatsApp
+OCO00391,LOJ015,2026-01-07,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Loja
+OCO00392,LOJ015,2026-01-02,Produto,Cliente pediu orientação de uso do produto.,Sim,Loja
+OCO00393,LOJ015,2026-02-15,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Telefone
+OCO00394,LOJ015,2026-02-18,Produto,Cliente pediu orientação de uso do produto.,Não,E-mail
+OCO00395,LOJ015,2026-03-15,Produto,Cliente questionou preço maior que o de concorrente.,Sim,E-mail
+OCO00396,LOJ015,2026-03-01,Produto,Cliente pediu orientação de uso do produto.,Não,Loja
+OCO00397,LOJ015,2026-03-28,Produto,Cliente questionou preço maior que o de concorrente.,Não,Telefone
+OCO00398,LOJ015,2026-04-15,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Telefone
+OCO00399,LOJ015,2026-04-22,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,Loja
+OCO00400,LOJ015,2026-05-08,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,E-mail
+OCO00401,LOJ015,2026-05-18,Produto,Cliente pediu orientação de uso do produto.,Não,WhatsApp
+OCO00402,LOJ015,2026-06-09,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Loja
+OCO00403,LOJ015,2026-06-12,Produto,Cliente pediu orientação de uso do produto.,Sim,E-mail
+OCO00404,LOJ015,2026-07-06,Produto,Cliente pediu orientação de uso do produto.,Sim,E-mail
+OCO00405,LOJ015,2026-07-12,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,WhatsApp
+OCO00406,LOJ015,2026-08-02,Atendimento,Reclamação de fila no caixa com apenas um operador.,Sim,WhatsApp
+OCO00407,LOJ015,2026-08-16,Atendimento,Cliente desistiu da compra após esperar atendimento no setor.,Não,E-mail
+OCO00408,LOJ015,2026-08-11,Atendimento,Cliente desistiu da compra após esperar atendimento no setor.,Sim,Telefone
+OCO00409,LOJ015,2026-08-15,Atendimento,Cliente desistiu da compra após esperar atendimento no setor.,Não,WhatsApp
+OCO00410,LOJ015,2026-08-14,Atendimento,Cliente desistiu da compra após esperar atendimento no setor.,Não,E-mail
+OCO00411,LOJ015,2026-09-15,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,E-mail
+OCO00412,LOJ015,2026-09-15,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Telefone
+OCO00413,LOJ016,2025-10-21,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,WhatsApp
+OCO00414,LOJ016,2025-10-25,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,WhatsApp
+OCO00415,LOJ016,2025-11-02,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Loja
+OCO00416,LOJ016,2025-11-05,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,E-mail
+OCO00417,LOJ016,2025-11-27,Produto,Cliente perguntou sobre condições de pagamento antes de decidir.,Sim,Loja
+OCO00418,LOJ016,2025-12-01,Produto,Cliente pediu orientação de uso do produto.,Sim,WhatsApp
+OCO00419,LOJ016,2025-12-01,Produto,Cliente pediu orientação de uso do produto.,Sim,Telefone
+OCO00420,LOJ016,2026-01-10,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,E-mail
+OCO00421,LOJ016,2026-01-25,Produto,Cliente pediu orientação de uso do produto.,Não,WhatsApp
+OCO00422,LOJ016,2026-02-07,Produto,Cliente pediu orientação de uso do produto.,Não,E-mail
+OCO00423,LOJ016,2026-02-13,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Telefone
+OCO00424,LOJ016,2026-03-16,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Telefone
+OCO00425,LOJ016,2026-03-13,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,E-mail
+OCO00426,LOJ016,2026-04-05,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Telefone
+OCO00427,LOJ016,2026-04-28,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,WhatsApp
+OCO00428,LOJ016,2026-05-22,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Telefone
+OCO00429,LOJ016,2026-05-28,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,E-mail
+OCO00430,LOJ016,2026-06-08,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Loja
+OCO00431,LOJ016,2026-06-19,Produto,Cliente pediu orientação de uso do produto.,Não,Telefone
+OCO00432,LOJ016,2026-07-13,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Loja
+OCO00433,LOJ016,2026-07-25,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,E-mail
+OCO00434,LOJ016,2026-08-16,Atendimento,Cliente relatou longa espera por falta de vendedores disponíveis.,Sim,E-mail
+OCO00435,LOJ016,2026-08-18,Atendimento,Cliente relatou longa espera por falta de vendedores disponíveis.,Não,Telefone
+OCO00436,LOJ016,2026-08-06,Atendimento,Cliente desistiu da compra após esperar atendimento no setor.,Sim,Telefone
+OCO00437,LOJ016,2026-08-28,Atendimento,Cliente desistiu da compra após esperar atendimento no setor.,Sim,E-mail
+OCO00438,LOJ016,2026-08-04,Atendimento,Cliente relatou longa espera por falta de vendedores disponíveis.,Não,Loja
+OCO00439,LOJ016,2026-09-08,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,E-mail
+OCO00440,LOJ016,2026-09-02,Produto,Cliente pediu orientação de uso do produto.,Sim,Telefone
+OCO00441,LOJ017,2025-10-20,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,E-mail
+OCO00442,LOJ017,2025-10-15,Produto,Cliente pediu orientação de uso do produto.,Sim,WhatsApp
+OCO00443,LOJ017,2025-11-17,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,WhatsApp
+OCO00444,LOJ017,2025-11-11,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,Telefone
+OCO00445,LOJ017,2025-12-06,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,E-mail
+OCO00446,LOJ017,2025-12-27,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,E-mail
+OCO00447,LOJ017,2026-01-05,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,WhatsApp
+OCO00448,LOJ017,2026-01-11,Produto,Cliente pediu orientação de uso do produto.,Não,Loja
+OCO00449,LOJ017,2026-02-07,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,Telefone
+OCO00450,LOJ017,2026-02-24,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,WhatsApp
+OCO00451,LOJ017,2026-03-14,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Telefone
+OCO00452,LOJ017,2026-03-05,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,WhatsApp
+OCO00453,LOJ017,2026-04-19,Produto,Cliente pediu orientação de uso do produto.,Sim,Loja
+OCO00454,LOJ017,2026-04-07,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,WhatsApp
+OCO00455,LOJ017,2026-05-07,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,Telefone
+OCO00456,LOJ017,2026-05-04,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Loja
+OCO00457,LOJ017,2026-06-28,Produto,Cliente pediu orientação de uso do produto.,Sim,E-mail
+OCO00458,LOJ017,2026-06-18,Produto,Cliente pediu orientação de uso do produto.,Sim,WhatsApp
+OCO00459,LOJ017,2026-07-22,Produto,Cliente pediu orientação de uso do produto.,Não,Loja
+OCO00460,LOJ017,2026-07-22,Produto,Cliente pediu orientação de uso do produto.,Sim,WhatsApp
+OCO00461,LOJ017,2026-08-13,Atendimento,Cliente desistiu da compra após esperar atendimento no setor.,Sim,E-mail
+OCO00462,LOJ017,2026-08-22,Atendimento,Reclamação de fila no caixa com apenas um operador.,Sim,WhatsApp
+OCO00463,LOJ017,2026-08-14,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Telefone
+OCO00464,LOJ017,2026-08-14,Atendimento,Reclamação de fila no caixa com apenas um operador.,Sim,E-mail
+OCO00465,LOJ017,2026-08-21,Atendimento,Cliente desistiu da compra após esperar atendimento no setor.,Não,E-mail
+OCO00466,LOJ017,2026-09-22,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,Loja
+OCO00467,LOJ017,2026-09-27,Produto,Cliente pediu orientação de uso do produto.,Sim,WhatsApp
+OCO00468,LOJ017,2026-09-22,Produto,Cliente pediu orientação de uso do produto.,Sim,Loja
+OCO00469,LOJ018,2025-10-10,Produto,Cliente pediu orientação de uso do produto.,Não,Loja
+OCO00470,LOJ018,2025-10-26,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Telefone
+OCO00471,LOJ018,2025-11-18,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,E-mail
+OCO00472,LOJ018,2025-11-05,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Loja
+OCO00473,LOJ018,2025-12-07,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Loja
+OCO00474,LOJ018,2025-12-14,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,Telefone
+OCO00475,LOJ018,2026-01-11,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Loja
+OCO00476,LOJ018,2026-01-09,Produto,Cliente pediu orientação de uso do produto.,Sim,E-mail
+OCO00477,LOJ018,2026-01-08,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Telefone
+OCO00478,LOJ018,2026-02-04,Produto,Cliente pediu orientação de uso do produto.,Sim,Telefone
+OCO00479,LOJ018,2026-02-05,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Loja
+OCO00480,LOJ018,2026-03-16,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Loja
+OCO00481,LOJ018,2026-03-05,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,Loja
+OCO00482,LOJ018,2026-04-21,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Telefone
+OCO00483,LOJ018,2026-04-11,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Loja
+OCO00484,LOJ018,2026-05-22,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Loja
+OCO00485,LOJ018,2026-05-26,Produto,Cliente pediu orientação de uso do produto.,Não,E-mail
+OCO00486,LOJ018,2026-06-16,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,Loja
+OCO00487,LOJ018,2026-06-02,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,WhatsApp
+OCO00488,LOJ018,2026-07-25,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,Telefone
+OCO00489,LOJ018,2026-07-06,Produto,Cliente pediu orientação de uso do produto.,Não,WhatsApp
+OCO00490,LOJ018,2026-08-02,Atendimento,Cliente desistiu da compra após esperar atendimento no setor.,Sim,Loja
+OCO00491,LOJ018,2026-08-17,Atendimento,Cliente relatou longa espera por falta de vendedores disponíveis.,Sim,E-mail
+OCO00492,LOJ018,2026-08-05,Atendimento,Cliente relatou longa espera por falta de vendedores disponíveis.,Sim,Telefone
+OCO00493,LOJ018,2026-08-09,Atendimento,Reclamação de fila no caixa com apenas um operador.,Não,Loja
+OCO00494,LOJ018,2026-08-19,Atendimento,Reclamação de fila no caixa com apenas um operador.,Não,WhatsApp
+OCO00495,LOJ018,2026-09-14,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,E-mail
+OCO00496,LOJ018,2026-09-16,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Loja
+OCO00497,LOJ019,2025-10-20,Produto,Cliente pediu orientação de uso do produto.,Não,Loja
+OCO00498,LOJ019,2025-10-08,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,WhatsApp
+OCO00499,LOJ019,2025-11-12,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,WhatsApp
+OCO00500,LOJ019,2025-11-11,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,Loja
+OCO00501,LOJ019,2025-12-07,Produto,Cliente pediu orientação de uso do produto.,Sim,E-mail
+OCO00502,LOJ019,2025-12-09,Produto,Cliente pediu orientação de uso do produto.,Não,WhatsApp
+OCO00503,LOJ019,2026-01-26,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,WhatsApp
+OCO00504,LOJ019,2026-01-23,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,E-mail
+OCO00505,LOJ019,2026-02-27,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,WhatsApp
+OCO00506,LOJ019,2026-02-18,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,WhatsApp
+OCO00507,LOJ019,2026-03-01,Produto,Cliente pediu orientação de uso do produto.,Não,Loja
+OCO00508,LOJ019,2026-03-09,Produto,Cliente pediu orientação de uso do produto.,Sim,Telefone
+OCO00509,LOJ019,2026-04-23,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Loja
+OCO00510,LOJ019,2026-04-11,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Telefone
+OCO00511,LOJ019,2026-05-25,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Loja
+OCO00512,LOJ019,2026-05-19,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,WhatsApp
+OCO00513,LOJ019,2026-06-24,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,Telefone
+OCO00514,LOJ019,2026-06-26,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,E-mail
+OCO00515,LOJ019,2026-07-28,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Telefone
+OCO00516,LOJ019,2026-07-28,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,Loja
+OCO00517,LOJ019,2026-08-07,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Loja
+OCO00518,LOJ019,2026-08-13,Atendimento,Reclamação de fila no caixa com apenas um operador.,Sim,WhatsApp
+OCO00519,LOJ019,2026-08-19,Atendimento,Reclamação de fila no caixa com apenas um operador.,Sim,WhatsApp
+OCO00520,LOJ019,2026-08-27,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Loja
+OCO00521,LOJ019,2026-08-16,Atendimento,Cliente relatou longa espera por falta de vendedores disponíveis.,Sim,E-mail
+OCO00522,LOJ019,2026-09-16,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Loja
+OCO00523,LOJ019,2026-09-28,Produto,Cliente pediu orientação de uso do produto.,Não,Loja
+OCO00524,LOJ020,2025-10-08,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,E-mail
+OCO00525,LOJ020,2025-10-04,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,E-mail
+OCO00526,LOJ020,2025-11-14,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Loja
+OCO00527,LOJ020,2025-11-10,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Loja
+OCO00528,LOJ020,2025-12-28,Produto,Cliente pediu orientação de uso do produto.,Sim,Telefone
+OCO00529,LOJ020,2025-12-08,Produto,Cliente pediu orientação de uso do produto.,Não,Telefone
+OCO00530,LOJ020,2026-01-11,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Telefone
+OCO00531,LOJ020,2026-01-10,Produto,Cliente pediu orientação de uso do produto.,Não,Loja
+OCO00532,LOJ020,2026-02-15,Produto,Cliente pediu orientação de uso do produto.,Sim,Telefone
+OCO00533,LOJ020,2026-02-01,Produto,Cliente pediu orientação de uso do produto.,Sim,Telefone
+OCO00534,LOJ020,2026-03-20,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,Loja
+OCO00535,LOJ020,2026-03-28,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Loja
+OCO00536,LOJ020,2026-04-04,Produto,Cliente pediu orientação de uso do produto.,Sim,WhatsApp
+OCO00537,LOJ020,2026-04-15,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Telefone
+OCO00538,LOJ020,2026-05-20,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,WhatsApp
+OCO00539,LOJ020,2026-05-25,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,E-mail
+OCO00540,LOJ020,2026-06-24,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,Loja
+OCO00541,LOJ020,2026-06-02,Produto,Cliente pediu orientação de uso do produto.,Sim,E-mail
+OCO00542,LOJ020,2026-07-25,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Telefone
+OCO00543,LOJ020,2026-07-12,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Telefone
+OCO00544,LOJ020,2026-08-11,Atendimento,Reclamação de fila no caixa com apenas um operador.,Sim,WhatsApp
+OCO00545,LOJ020,2026-08-05,Atendimento,Cliente desistiu da compra após esperar atendimento no setor.,Sim,E-mail
+OCO00546,LOJ020,2026-08-22,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Loja
+OCO00547,LOJ020,2026-08-20,Atendimento,Cliente relatou longa espera por falta de vendedores disponíveis.,Sim,Telefone
+OCO00548,LOJ020,2026-08-06,Atendimento,Reclamação de fila no caixa com apenas um operador.,Sim,Loja
+OCO00549,LOJ020,2026-09-25,Atendimento,Cliente relatou longa espera por falta de vendedores disponíveis.,Sim,E-mail
+OCO00550,LOJ020,2026-09-06,Produto,Cliente pediu orientação de uso do produto.,Sim,E-mail
+OCO00551,LOJ020,2026-09-26,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,Loja
+OCO00552,LOJ021,2025-10-01,Produto,Cliente pediu orientação de uso do produto.,Sim,Telefone
+OCO00553,LOJ021,2025-10-21,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,WhatsApp
+OCO00554,LOJ021,2025-11-25,Produto,Cliente pediu orientação de uso do produto.,Sim,WhatsApp
+OCO00555,LOJ021,2025-11-02,Produto,Cliente pediu orientação de uso do produto.,Sim,E-mail
+OCO00556,LOJ021,2025-12-11,Produto,Cliente pediu orientação de uso do produto.,Não,E-mail
+OCO00557,LOJ021,2025-12-20,Produto,Cliente pediu orientação de uso do produto.,Sim,WhatsApp
+OCO00558,LOJ021,2026-01-26,Produto,Cliente pediu orientação de uso do produto.,Sim,E-mail
+OCO00559,LOJ021,2026-01-17,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,Loja
+OCO00560,LOJ021,2026-02-20,Produto,Cliente pediu orientação de uso do produto.,Sim,E-mail
+OCO00561,LOJ021,2026-02-13,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Loja
+OCO00562,LOJ021,2026-03-21,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,WhatsApp
+OCO00563,LOJ021,2026-03-04,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Telefone
+OCO00564,LOJ021,2026-04-18,Produto,Cliente pediu orientação de uso do produto.,Não,E-mail
+OCO00565,LOJ021,2026-04-13,Produto,Cliente pediu orientação de uso do produto.,Sim,Telefone
+OCO00566,LOJ021,2026-05-03,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Loja
+OCO00567,LOJ021,2026-05-22,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,E-mail
+OCO00568,LOJ021,2026-06-15,Produto,Cliente pediu orientação de uso do produto.,Não,Telefone
+OCO00569,LOJ021,2026-06-16,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,WhatsApp
+OCO00570,LOJ021,2026-07-05,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,Loja
+OCO00571,LOJ021,2026-07-03,Produto,Cliente pediu orientação de uso do produto.,Sim,WhatsApp
+OCO00572,LOJ021,2026-08-10,Atendimento,Cliente relatou longa espera por falta de vendedores disponíveis.,Sim,Telefone
+OCO00573,LOJ021,2026-08-07,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Loja
+OCO00574,LOJ021,2026-08-14,Atendimento,Cliente desistiu da compra após esperar atendimento no setor.,Sim,Telefone
+OCO00575,LOJ021,2026-08-20,Atendimento,Cliente desistiu da compra após esperar atendimento no setor.,Sim,E-mail
+OCO00576,LOJ021,2026-09-25,Produto,Cliente pediu orientação de uso do produto.,Não,Loja
+OCO00577,LOJ021,2026-09-04,Produto,Cliente pediu orientação de uso do produto.,Sim,E-mail
+OCO00578,LOJ022,2025-10-09,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,Telefone
+OCO00579,LOJ022,2025-10-09,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,Telefone
+OCO00580,LOJ022,2025-11-24,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,WhatsApp
+OCO00581,LOJ022,2025-11-05,Produto,Cliente pediu orientação de uso do produto.,Sim,Telefone
+OCO00582,LOJ022,2025-12-24,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Telefone
+OCO00583,LOJ022,2025-12-08,Produto,Cliente pediu orientação de uso do produto.,Não,Telefone
+OCO00584,LOJ022,2026-01-20,Produto,Cliente pediu orientação de uso do produto.,Sim,Telefone
+OCO00585,LOJ022,2026-01-01,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Telefone
+OCO00586,LOJ022,2026-02-24,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,E-mail
+OCO00587,LOJ022,2026-02-14,Produto,Cliente pediu orientação de uso do produto.,Sim,Loja
+OCO00588,LOJ022,2026-03-19,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Telefone
+OCO00589,LOJ022,2026-03-14,Produto,Cliente pediu orientação de uso do produto.,Não,Loja
+OCO00590,LOJ022,2026-04-03,Produto,Cliente pediu orientação de uso do produto.,Sim,Loja
+OCO00591,LOJ022,2026-04-16,Produto,Cliente pediu orientação de uso do produto.,Não,WhatsApp
+OCO00592,LOJ022,2026-05-04,Produto,Cliente pediu orientação de uso do produto.,Sim,WhatsApp
+OCO00593,LOJ022,2026-05-12,Produto,Cliente pediu orientação de uso do produto.,Sim,Telefone
+OCO00594,LOJ022,2026-06-06,Produto,Cliente pediu orientação de uso do produto.,Não,E-mail
+OCO00595,LOJ022,2026-06-03,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Loja
+OCO00596,LOJ022,2026-07-25,Produto,Cliente pediu orientação de uso do produto.,Não,WhatsApp
+OCO00597,LOJ022,2026-07-04,Produto,Cliente pediu orientação de uso do produto.,Não,E-mail
+OCO00598,LOJ022,2026-08-08,Produto,Cliente pediu orientação de uso do produto.,Não,E-mail
+OCO00599,LOJ022,2026-08-18,Produto,Cliente pediu orientação de uso do produto.,Sim,Loja
+OCO00600,LOJ022,2026-09-18,Produto,Cliente pediu orientação de uso do produto.,Não,Loja
+OCO00601,LOJ022,2026-09-21,Produto,Cliente questionou preço maior que o de concorrente.,Sim,E-mail
+OCO00602,LOJ022,2026-09-22,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,Loja
+OCO00603,LOJ022,2026-09-03,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,WhatsApp
+OCO00604,LOJ023,2025-10-22,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,E-mail
+OCO00605,LOJ023,2025-10-23,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,E-mail
+OCO00606,LOJ023,2025-11-16,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,WhatsApp
+OCO00607,LOJ023,2025-11-11,Produto,Cliente pediu orientação de uso do produto.,Sim,Telefone
+OCO00608,LOJ023,2025-12-01,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,WhatsApp
+OCO00609,LOJ023,2025-12-06,Atendimento,Cliente relatou longa espera por falta de vendedores disponíveis.,Não,E-mail
+OCO00610,LOJ023,2025-12-11,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Loja
+OCO00611,LOJ023,2026-01-25,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Loja
+OCO00612,LOJ023,2026-01-18,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,Telefone
+OCO00613,LOJ023,2026-02-27,Produto,Cliente pediu cobertura de preço de outra loja.,Não,E-mail
+OCO00614,LOJ023,2026-02-11,Produto,Cliente questionou preço maior que o de concorrente.,Não,Telefone
+OCO00615,LOJ023,2026-02-16,Produto,Cliente questionou preço maior que o de concorrente.,Sim,E-mail
+OCO00616,LOJ023,2026-03-06,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,Loja
+OCO00617,LOJ023,2026-03-13,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,WhatsApp
+OCO00618,LOJ023,2026-04-01,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,Telefone
+OCO00619,LOJ023,2026-04-12,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Loja
+OCO00620,LOJ023,2026-05-05,Produto,Cliente pediu orientação de uso do produto.,Sim,Loja
+OCO00621,LOJ023,2026-05-27,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,Loja
+OCO00622,LOJ023,2026-06-20,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Telefone
+OCO00623,LOJ023,2026-06-11,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,WhatsApp
+OCO00624,LOJ023,2026-07-27,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,WhatsApp
+OCO00625,LOJ023,2026-07-22,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,E-mail
+OCO00626,LOJ023,2026-08-06,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,E-mail
+OCO00627,LOJ023,2026-08-28,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,E-mail
+OCO00628,LOJ023,2026-09-21,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Loja
+OCO00629,LOJ023,2026-09-01,Produto,Cliente pediu orientação de uso do produto.,Sim,E-mail
+OCO00630,LOJ024,2025-10-06,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Telefone
+OCO00631,LOJ024,2025-10-25,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,WhatsApp
+OCO00632,LOJ024,2025-11-17,Produto,Cliente pediu orientação de uso do produto.,Sim,Loja
+OCO00633,LOJ024,2025-11-27,Produto,Cliente pediu orientação de uso do produto.,Sim,E-mail
+OCO00634,LOJ024,2025-12-13,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Telefone
+OCO00635,LOJ024,2025-12-18,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,Telefone
+OCO00636,LOJ024,2026-01-19,Produto,Cliente pediu orientação de uso do produto.,Sim,WhatsApp
+OCO00637,LOJ024,2026-01-22,Produto,Cliente pediu orientação de uso do produto.,Não,E-mail
+OCO00638,LOJ024,2026-02-01,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,E-mail
+OCO00639,LOJ024,2026-02-17,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,Telefone
+OCO00640,LOJ024,2026-03-09,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,Telefone
+OCO00641,LOJ024,2026-03-15,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Loja
+OCO00642,LOJ024,2026-04-18,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Telefone
+OCO00643,LOJ024,2026-04-12,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,Telefone
+OCO00644,LOJ024,2026-05-09,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,WhatsApp
+OCO00645,LOJ024,2026-05-20,Produto,Cliente pediu orientação de uso do produto.,Sim,WhatsApp
+OCO00646,LOJ024,2026-06-13,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,E-mail
+OCO00647,LOJ024,2026-06-23,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,WhatsApp
+OCO00648,LOJ024,2026-07-23,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,Telefone
+OCO00649,LOJ024,2026-07-02,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,WhatsApp
+OCO00650,LOJ024,2026-08-02,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Telefone
+OCO00651,LOJ024,2026-08-16,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,WhatsApp
+OCO00652,LOJ024,2026-09-02,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Loja
+OCO00653,LOJ024,2026-09-01,Produto,Cliente pediu orientação de uso do produto.,Sim,Loja
+OCO00654,LOJ025,2025-10-22,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,E-mail
+OCO00655,LOJ025,2025-10-10,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,E-mail
+OCO00656,LOJ025,2025-11-07,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,WhatsApp
+OCO00657,LOJ025,2025-11-11,Produto,Cliente pediu orientação de uso do produto.,Não,Telefone
+OCO00658,LOJ025,2025-12-06,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Telefone
+OCO00659,LOJ025,2025-12-16,Produto,Cliente pediu orientação de uso do produto.,Sim,WhatsApp
+OCO00660,LOJ025,2026-01-13,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Loja
+OCO00661,LOJ025,2026-01-13,Produto,Cliente pediu orientação de uso do produto.,Não,WhatsApp
+OCO00662,LOJ025,2026-02-21,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Loja
+OCO00663,LOJ025,2026-02-07,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,E-mail
+OCO00664,LOJ025,2026-03-02,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Telefone
+OCO00665,LOJ025,2026-03-24,Produto,Cliente pediu orientação de uso do produto.,Sim,Telefone
+OCO00666,LOJ025,2026-04-06,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,Loja
+OCO00667,LOJ025,2026-04-09,Produto,Cliente pediu orientação de uso do produto.,Não,E-mail
+OCO00668,LOJ025,2026-05-22,Produto,Cliente pediu orientação de uso do produto.,Sim,E-mail
+OCO00669,LOJ025,2026-05-17,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Telefone
+OCO00670,LOJ025,2026-06-25,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,Loja
+OCO00671,LOJ025,2026-06-26,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Telefone
+OCO00672,LOJ025,2026-07-22,Produto,Cliente pediu orientação de uso do produto.,Sim,Loja
+OCO00673,LOJ025,2026-07-18,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Telefone
+OCO00674,LOJ025,2026-08-17,Produto,Cliente pediu orientação de uso do produto.,Não,WhatsApp
+OCO00675,LOJ025,2026-08-24,Produto,Cliente pediu cobertura de preço de outra loja.,Não,Loja
+OCO00676,LOJ025,2026-08-23,Produto,Cliente pediu orientação de uso do produto.,Não,Loja
+OCO00677,LOJ025,2026-09-05,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,WhatsApp
+OCO00678,LOJ025,2026-09-01,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,E-mail
+OCO00679,LOJ026,2025-10-14,Produto,Cliente pediu orientação de uso do produto.,Não,Telefone
+OCO00680,LOJ026,2025-10-22,Produto,Cliente pediu orientação de uso do produto.,Não,E-mail
+OCO00681,LOJ026,2025-11-20,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,E-mail
+OCO00682,LOJ026,2025-11-24,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,WhatsApp
+OCO00683,LOJ026,2025-12-20,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,E-mail
+OCO00684,LOJ026,2025-12-21,Produto,Cliente pediu orientação de uso do produto.,Não,E-mail
+OCO00685,LOJ026,2026-01-26,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,E-mail
+OCO00686,LOJ026,2026-01-21,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,WhatsApp
+OCO00687,LOJ026,2026-02-01,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,Telefone
+OCO00688,LOJ026,2026-02-04,Produto,Cliente pediu orientação de uso do produto.,Sim,WhatsApp
+OCO00689,LOJ026,2026-03-26,Produto,Cliente pediu orientação de uso do produto.,Sim,Loja
+OCO00690,LOJ026,2026-03-28,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Telefone
+OCO00691,LOJ026,2026-04-13,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Loja
+OCO00692,LOJ026,2026-04-28,Produto,Cliente pediu orientação de uso do produto.,Sim,WhatsApp
+OCO00693,LOJ026,2026-05-27,Produto,Cliente pediu orientação de uso do produto.,Sim,Telefone
+OCO00694,LOJ026,2026-05-17,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,WhatsApp
+OCO00695,LOJ026,2026-06-23,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Loja
+OCO00696,LOJ026,2026-06-12,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,WhatsApp
+OCO00697,LOJ026,2026-07-10,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,E-mail
+OCO00698,LOJ026,2026-07-03,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,E-mail
+OCO00699,LOJ026,2026-08-03,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,WhatsApp
+OCO00700,LOJ026,2026-08-17,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,Loja
+OCO00701,LOJ026,2026-09-15,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Loja
+OCO00702,LOJ026,2026-09-28,Produto,Cliente pediu orientação de uso do produto.,Não,WhatsApp
+OCO00703,LOJ026,2026-09-11,Produto,Cliente pediu cobertura de preço de outra loja.,Não,E-mail
+OCO00704,LOJ026,2026-09-27,Produto,Cliente questionou preço maior que o de concorrente.,Sim,Loja
+OCO00705,LOJ027,2025-10-11,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,E-mail
+OCO00706,LOJ027,2025-10-05,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,Loja
+OCO00707,LOJ027,2025-11-20,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,WhatsApp
+OCO00708,LOJ027,2025-11-03,Produto,Cliente pediu orientação de uso do produto.,Não,Loja
+OCO00709,LOJ027,2025-12-23,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,E-mail
+OCO00710,LOJ027,2025-12-05,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,E-mail
+OCO00711,LOJ027,2026-01-14,Produto,Cliente pediu orientação de uso do produto.,Sim,Loja
+OCO00712,LOJ027,2026-01-25,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,E-mail
+OCO00713,LOJ027,2026-02-06,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,Loja
+OCO00714,LOJ027,2026-02-24,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,E-mail
+OCO00715,LOJ027,2026-03-21,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,WhatsApp
+OCO00716,LOJ027,2026-03-19,Produto,Cliente pediu orientação de uso do produto.,Sim,Loja
+OCO00717,LOJ027,2026-04-08,Produto,Cliente pediu orientação de uso do produto.,Não,Loja
+OCO00718,LOJ027,2026-04-07,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,E-mail
+OCO00719,LOJ027,2026-05-12,Produto,Cliente pediu orientação de uso do produto.,Não,E-mail
+OCO00720,LOJ027,2026-05-02,Produto,Cliente pediu orientação de uso do produto.,Sim,Telefone
+OCO00721,LOJ027,2026-06-12,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,Telefone
+OCO00722,LOJ027,2026-06-14,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,Telefone
+OCO00723,LOJ027,2026-07-06,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Loja
+OCO00724,LOJ027,2026-07-25,Produto,Cliente pediu orientação de uso do produto.,Sim,WhatsApp
+OCO00725,LOJ027,2026-08-13,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,WhatsApp
+OCO00726,LOJ027,2026-08-22,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,WhatsApp
+OCO00727,LOJ027,2026-09-23,Produto,Cliente pediu orientação de uso do produto.,Sim,Telefone
+OCO00728,LOJ027,2026-09-03,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,E-mail
+OCO00729,LOJ028,2025-10-16,Produto,Cliente pediu orientação de uso do produto.,Sim,WhatsApp
+OCO00730,LOJ028,2025-10-12,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Telefone
+OCO00731,LOJ028,2025-11-10,Produto,Cliente pediu orientação de uso do produto.,Sim,WhatsApp
+OCO00732,LOJ028,2025-11-21,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,E-mail
+OCO00733,LOJ028,2025-12-18,Produto,Cliente pediu orientação de uso do produto.,Sim,E-mail
+OCO00734,LOJ028,2025-12-12,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,WhatsApp
+OCO00735,LOJ028,2026-01-18,Produto,Cliente pediu orientação de uso do produto.,Sim,WhatsApp
+OCO00736,LOJ028,2026-01-20,Produto,Cliente pediu orientação de uso do produto.,Sim,WhatsApp
+OCO00737,LOJ028,2026-02-17,Produto,Cliente pediu orientação de uso do produto.,Sim,Telefone
+OCO00738,LOJ028,2026-02-21,Produto,Cliente pediu orientação de uso do produto.,Sim,Telefone
+OCO00739,LOJ028,2026-03-08,Produto,Cliente pediu orientação de uso do produto.,Não,WhatsApp
+OCO00740,LOJ028,2026-03-22,Produto,Cliente pediu orientação de uso do produto.,Sim,Telefone
+OCO00741,LOJ028,2026-04-04,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Telefone
+OCO00742,LOJ028,2026-04-12,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,E-mail
+OCO00743,LOJ028,2026-05-11,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,E-mail
+OCO00744,LOJ028,2026-05-11,Produto,Cliente pediu orientação de uso do produto.,Sim,WhatsApp
+OCO00745,LOJ028,2026-06-02,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,E-mail
+OCO00746,LOJ028,2026-06-24,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,Telefone
+OCO00747,LOJ028,2026-07-02,Produto,Cliente pediu orientação de uso do produto.,Sim,WhatsApp
+OCO00748,LOJ028,2026-07-21,Produto,Cliente pediu orientação de uso do produto.,Sim,E-mail
+OCO00749,LOJ028,2026-08-05,Produto,Cliente pediu orientação de uso do produto.,Não,E-mail
+OCO00750,LOJ028,2026-08-02,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Loja
+OCO00751,LOJ028,2026-09-25,Produto,Cliente pediu orientação de uso do produto.,Sim,E-mail
+OCO00752,LOJ028,2026-09-26,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Loja
+OCO00753,LOJ028,2026-09-05,Produto,Cliente perguntou sobre condições de pagamento antes de decidir.,Sim,E-mail
+OCO00754,LOJ028,2026-09-04,Produto,Cliente perguntou sobre condições de pagamento antes de decidir.,Sim,E-mail
+OCO00755,LOJ029,2025-10-14,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,WhatsApp
+OCO00756,LOJ029,2025-10-14,Produto,Cliente pediu orientação de uso do produto.,Não,Telefone
+OCO00757,LOJ029,2025-11-02,Produto,Cliente pediu orientação de uso do produto.,Não,WhatsApp
+OCO00758,LOJ029,2025-11-03,Produto,Cliente pediu orientação de uso do produto.,Sim,Loja
+OCO00759,LOJ029,2025-12-06,Produto,Cliente pediu orientação de uso do produto.,Sim,WhatsApp
+OCO00760,LOJ029,2025-12-06,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Telefone
+OCO00761,LOJ029,2026-01-01,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,E-mail
+OCO00762,LOJ029,2026-01-21,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,Telefone
+OCO00763,LOJ029,2026-02-13,Produto,Cliente pediu orientação de uso do produto.,Não,Loja
+OCO00764,LOJ029,2026-02-12,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,Telefone
+OCO00765,LOJ029,2026-03-20,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,E-mail
+OCO00766,LOJ029,2026-03-14,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Loja
+OCO00767,LOJ029,2026-04-08,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,WhatsApp
+OCO00768,LOJ029,2026-04-13,Produto,Cliente pediu orientação de uso do produto.,Sim,Telefone
+OCO00769,LOJ029,2026-05-27,Atendimento,Cliente precisou de novo contato para resolver a mesma solicitação.,Não,WhatsApp
+OCO00770,LOJ029,2026-05-15,Atendimento,Cliente precisou de novo contato para resolver a mesma solicitação.,Sim,Telefone
+OCO00771,LOJ029,2026-05-22,Atendimento,Cliente precisou de novo contato para resolver a mesma solicitação.,Não,Telefone
+OCO00772,LOJ029,2026-06-23,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,E-mail
+OCO00773,LOJ029,2026-06-04,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,E-mail
+OCO00774,LOJ029,2026-07-20,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,E-mail
+OCO00775,LOJ029,2026-07-10,Produto,Cliente pediu orientação de uso do produto.,Sim,E-mail
+OCO00776,LOJ029,2026-08-16,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,WhatsApp
+OCO00777,LOJ029,2026-08-10,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Loja
+OCO00778,LOJ029,2026-09-02,Produto,Cliente pediu orientação de uso do produto.,Sim,E-mail
+OCO00779,LOJ029,2026-09-07,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,E-mail
+OCO00780,LOJ030,2025-10-24,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,WhatsApp
+OCO00781,LOJ030,2025-10-26,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,E-mail
+OCO00782,LOJ030,2025-11-22,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,WhatsApp
+OCO00783,LOJ030,2025-11-07,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,E-mail
+OCO00784,LOJ030,2025-12-25,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,Telefone
+OCO00785,LOJ030,2025-12-22,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,E-mail
+OCO00786,LOJ030,2026-01-18,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,E-mail
+OCO00787,LOJ030,2026-01-14,Produto,Cliente pediu orientação de uso do produto.,Não,E-mail
+OCO00788,LOJ030,2026-02-06,Produto,Cliente pediu orientação de uso do produto.,Sim,Loja
+OCO00789,LOJ030,2026-02-02,Produto,Cliente pediu orientação de uso do produto.,Sim,E-mail
+OCO00790,LOJ030,2026-03-25,Produto,Cliente pediu orientação de uso do produto.,Não,WhatsApp
+OCO00791,LOJ030,2026-03-20,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Loja
+OCO00792,LOJ030,2026-04-05,Produto,Cliente pediu orientação de uso do produto.,Sim,Telefone
+OCO00793,LOJ030,2026-04-06,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,WhatsApp
+OCO00794,LOJ030,2026-05-16,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,Loja
+OCO00795,LOJ030,2026-05-03,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,WhatsApp
+OCO00796,LOJ030,2026-06-10,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,Loja
+OCO00797,LOJ030,2026-06-11,Produto,Cliente pediu orientação de uso do produto.,Sim,Telefone
+OCO00798,LOJ030,2026-07-13,Produto,Cliente pediu orientação de uso do produto.,Sim,E-mail
+OCO00799,LOJ030,2026-07-03,Produto,Cliente pediu orientação de uso do produto.,Sim,E-mail
+OCO00800,LOJ030,2026-08-20,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,E-mail
+OCO00801,LOJ030,2026-08-23,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,E-mail
+OCO00802,LOJ030,2026-09-11,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Telefone
+OCO00803,LOJ030,2026-09-18,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,Loja
+OCO00804,LOJ030,2026-09-14,Produto,Cliente pediu cobertura de preço de outra loja.,Não,E-mail
+OCO00805,LOJ030,2026-09-11,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,WhatsApp
+OCO00806,LOJ031,2025-10-28,Produto,Cliente pediu orientação de uso do produto.,Não,WhatsApp
+OCO00807,LOJ031,2025-10-25,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,E-mail
+OCO00808,LOJ031,2025-11-21,Produto,Cliente pediu orientação de uso do produto.,Sim,Telefone
+OCO00809,LOJ031,2025-11-17,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,Loja
+OCO00810,LOJ031,2025-12-05,Produto,Cliente pediu orientação de uso do produto.,Sim,WhatsApp
+OCO00811,LOJ031,2025-12-20,Produto,Cliente pediu orientação de uso do produto.,Sim,WhatsApp
+OCO00812,LOJ031,2026-01-08,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Loja
+OCO00813,LOJ031,2026-01-13,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Telefone
+OCO00814,LOJ031,2026-02-03,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,WhatsApp
+OCO00815,LOJ031,2026-02-14,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,Loja
+OCO00816,LOJ031,2026-03-15,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,E-mail
+OCO00817,LOJ031,2026-03-18,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,WhatsApp
+OCO00818,LOJ031,2026-04-21,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,E-mail
+OCO00819,LOJ031,2026-04-18,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Loja
+OCO00820,LOJ031,2026-05-28,Produto,Cliente pediu orientação de uso do produto.,Sim,E-mail
+OCO00821,LOJ031,2026-05-10,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Loja
+OCO00822,LOJ031,2026-06-07,Produto,Cliente pediu orientação de uso do produto.,Sim,WhatsApp
+OCO00823,LOJ031,2026-06-20,Produto,Cliente pediu orientação de uso do produto.,Não,WhatsApp
+OCO00824,LOJ031,2026-07-18,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Loja
+OCO00825,LOJ031,2026-07-23,Produto,Cliente pediu orientação de uso do produto.,Sim,E-mail
+OCO00826,LOJ031,2026-08-18,Produto,Cliente pediu orientação de uso do produto.,Sim,E-mail
+OCO00827,LOJ031,2026-08-02,Produto,Cliente pediu orientação de uso do produto.,Sim,WhatsApp
+OCO00828,LOJ031,2026-09-28,Produto,Cliente pediu orientação de uso do produto.,Sim,WhatsApp
+OCO00829,LOJ031,2026-09-23,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,E-mail
+OCO00830,LOJ031,2026-09-21,Produto,Cliente perguntou sobre condições de pagamento antes de decidir.,Sim,Telefone
+OCO00831,LOJ031,2026-09-09,Produto,Cliente perguntou sobre condições de pagamento antes de decidir.,Sim,E-mail
+OCO00832,LOJ032,2025-10-08,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,E-mail
+OCO00833,LOJ032,2025-10-28,Produto,Cliente pediu orientação de uso do produto.,Sim,Telefone
+OCO00834,LOJ032,2025-11-24,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,WhatsApp
+OCO00835,LOJ032,2025-11-23,Produto,Cliente pediu orientação de uso do produto.,Sim,Loja
+OCO00836,LOJ032,2025-12-04,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,E-mail
+OCO00837,LOJ032,2025-12-16,Produto,Cliente pediu orientação de uso do produto.,Sim,Telefone
+OCO00838,LOJ032,2026-01-11,Produto,Cliente pediu orientação de uso do produto.,Não,Loja
+OCO00839,LOJ032,2026-01-01,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Telefone
+OCO00840,LOJ032,2026-02-15,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,WhatsApp
+OCO00841,LOJ032,2026-02-21,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Loja
+OCO00842,LOJ032,2026-03-03,Produto,Cliente pediu orientação de uso do produto.,Sim,Telefone
+OCO00843,LOJ032,2026-03-22,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,WhatsApp
+OCO00844,LOJ032,2026-04-18,Produto,Cliente pediu orientação de uso do produto.,Não,WhatsApp
+OCO00845,LOJ032,2026-04-28,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Telefone
+OCO00846,LOJ032,2026-05-19,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,WhatsApp
+OCO00847,LOJ032,2026-05-08,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,WhatsApp
+OCO00848,LOJ032,2026-06-13,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Telefone
+OCO00849,LOJ032,2026-06-17,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,WhatsApp
+OCO00850,LOJ032,2026-07-20,Produto,Cliente pediu orientação de uso do produto.,Sim,WhatsApp
+OCO00851,LOJ032,2026-07-12,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Telefone
+OCO00852,LOJ032,2026-08-07,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Telefone
+OCO00853,LOJ032,2026-08-23,Produto,Cliente pediu orientação de uso do produto.,Não,E-mail
+OCO00854,LOJ032,2026-09-23,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,E-mail
+OCO00855,LOJ032,2026-09-05,Produto,Cliente pediu orientação de uso do produto.,Sim,Telefone
+OCO00856,LOJ033,2025-10-17,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Loja
+OCO00857,LOJ033,2025-10-26,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Loja
+OCO00858,LOJ033,2025-11-17,Produto,Cliente pediu orientação de uso do produto.,Sim,Telefone
+OCO00859,LOJ033,2025-11-15,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,Loja
+OCO00860,LOJ033,2025-12-22,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,Loja
+OCO00861,LOJ033,2025-12-03,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Telefone
+OCO00862,LOJ033,2025-12-16,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,E-mail
+OCO00863,LOJ033,2026-01-17,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,Loja
+OCO00864,LOJ033,2026-01-05,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,E-mail
+OCO00865,LOJ033,2026-02-06,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Telefone
+OCO00866,LOJ033,2026-02-07,Produto,Cliente pediu orientação de uso do produto.,Não,WhatsApp
+OCO00867,LOJ033,2026-03-16,Produto,Cliente pediu orientação de uso do produto.,Sim,Telefone
+OCO00868,LOJ033,2026-03-09,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,Telefone
+OCO00869,LOJ033,2026-04-11,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,Loja
+OCO00870,LOJ033,2026-04-27,Produto,Cliente pediu orientação de uso do produto.,Sim,E-mail
+OCO00871,LOJ033,2026-05-02,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,WhatsApp
+OCO00872,LOJ033,2026-05-16,Produto,Cliente perguntou sobre condições de pagamento antes de decidir.,Não,Loja
+OCO00873,LOJ033,2026-05-14,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,WhatsApp
+OCO00874,LOJ033,2026-06-25,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,WhatsApp
+OCO00875,LOJ033,2026-06-06,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Telefone
+OCO00876,LOJ033,2026-07-23,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,Telefone
+OCO00877,LOJ033,2026-07-22,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,Telefone
+OCO00878,LOJ033,2026-08-26,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Loja
+OCO00879,LOJ033,2026-08-20,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Loja
+OCO00880,LOJ033,2026-09-07,Produto,Cliente pediu orientação de uso do produto.,Sim,WhatsApp
+OCO00881,LOJ033,2026-09-18,Produto,Cliente pediu orientação de uso do produto.,Sim,Loja
+OCO00882,LOJ034,2025-10-07,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,Loja
+OCO00883,LOJ034,2025-10-19,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Loja
+OCO00884,LOJ034,2025-11-08,Produto,Cliente pediu orientação de uso do produto.,Sim,Telefone
+OCO00885,LOJ034,2025-11-02,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,WhatsApp
+OCO00886,LOJ034,2025-12-15,Produto,Cliente pediu orientação de uso do produto.,Sim,Loja
+OCO00887,LOJ034,2025-12-26,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Loja
+OCO00888,LOJ034,2026-01-21,Produto,Cliente pediu orientação de uso do produto.,Sim,WhatsApp
+OCO00889,LOJ034,2026-01-11,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,WhatsApp
+OCO00890,LOJ034,2026-02-26,Produto,Cliente pediu orientação de uso do produto.,Não,Loja
+OCO00891,LOJ034,2026-02-28,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,Telefone
+OCO00892,LOJ034,2026-03-12,Produto,Cliente pediu orientação de uso do produto.,Sim,E-mail
+OCO00893,LOJ034,2026-03-02,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Telefone
+OCO00894,LOJ034,2026-04-09,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Loja
+OCO00895,LOJ034,2026-04-06,Produto,Cliente pediu orientação de uso do produto.,Sim,WhatsApp
+OCO00896,LOJ034,2026-05-28,Produto,Cliente pediu orientação de uso do produto.,Sim,Loja
+OCO00897,LOJ034,2026-05-25,Produto,Cliente pediu orientação de uso do produto.,Não,E-mail
+OCO00898,LOJ034,2026-06-26,Produto,Cliente pediu orientação de uso do produto.,Sim,Loja
+OCO00899,LOJ034,2026-06-19,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,WhatsApp
+OCO00900,LOJ034,2026-07-03,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,WhatsApp
+OCO00901,LOJ034,2026-07-01,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Telefone
+OCO00902,LOJ034,2026-08-23,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,E-mail
+OCO00903,LOJ034,2026-08-11,Produto,Cliente pediu orientação de uso do produto.,Sim,Loja
+OCO00904,LOJ034,2026-09-03,Produto,Cliente perguntou sobre condições de pagamento antes de decidir.,Não,E-mail
+OCO00905,LOJ034,2026-09-22,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,E-mail
+OCO00906,LOJ034,2026-09-28,Produto,Cliente pediu orientação de uso do produto.,Sim,E-mail
+OCO00907,LOJ034,2026-09-19,Produto,Cliente perguntou sobre condições de pagamento antes de decidir.,Sim,WhatsApp
+OCO00908,LOJ035,2025-10-23,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,E-mail
+OCO00909,LOJ035,2025-10-27,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Telefone
+OCO00910,LOJ035,2025-11-20,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Telefone
+OCO00911,LOJ035,2025-11-07,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Telefone
+OCO00912,LOJ035,2025-12-16,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,WhatsApp
+OCO00913,LOJ035,2025-12-28,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,E-mail
+OCO00914,LOJ035,2025-12-18,Atendimento,Cliente relatou longa espera por falta de vendedores disponíveis.,Não,Loja
+OCO00915,LOJ035,2026-01-03,Produto,Cliente pediu orientação de uso do produto.,Não,WhatsApp
+OCO00916,LOJ035,2026-01-04,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Loja
+OCO00917,LOJ035,2026-02-28,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,WhatsApp
+OCO00918,LOJ035,2026-02-16,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Loja
+OCO00919,LOJ035,2026-03-23,Produto,Cliente pediu orientação de uso do produto.,Não,Loja
+OCO00920,LOJ035,2026-03-19,Produto,Cliente pediu orientação de uso do produto.,Sim,E-mail
+OCO00921,LOJ035,2026-04-12,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,E-mail
+OCO00922,LOJ035,2026-04-01,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Telefone
+OCO00923,LOJ035,2026-05-11,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,Loja
+OCO00924,LOJ035,2026-05-07,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,WhatsApp
+OCO00925,LOJ035,2026-06-06,Produto,Cliente pediu orientação de uso do produto.,Não,WhatsApp
+OCO00926,LOJ035,2026-06-26,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,WhatsApp
+OCO00927,LOJ035,2026-07-06,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Loja
+OCO00928,LOJ035,2026-07-16,Produto,Cliente pediu orientação de uso do produto.,Não,WhatsApp
+OCO00929,LOJ035,2026-08-17,Produto,Cliente pediu orientação de uso do produto.,Não,Telefone
+OCO00930,LOJ035,2026-08-27,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Loja
+OCO00931,LOJ035,2026-09-08,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Loja
+OCO00932,LOJ035,2026-09-14,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,WhatsApp
+OCO00933,LOJ036,2025-10-26,Produto,Cliente pediu orientação de uso do produto.,Sim,WhatsApp
+OCO00934,LOJ036,2025-10-20,Produto,Cliente pediu orientação de uso do produto.,Sim,Telefone
+OCO00935,LOJ036,2025-11-18,Produto,Cliente pediu orientação de uso do produto.,Não,Telefone
+OCO00936,LOJ036,2025-11-04,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Telefone
+OCO00937,LOJ036,2025-12-02,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,E-mail
+OCO00938,LOJ036,2025-12-03,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,Loja
+OCO00939,LOJ036,2026-01-02,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,E-mail
+OCO00940,LOJ036,2026-01-19,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,WhatsApp
+OCO00941,LOJ036,2026-02-23,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,WhatsApp
+OCO00942,LOJ036,2026-02-25,Produto,Cliente pediu orientação de uso do produto.,Sim,E-mail
+OCO00943,LOJ036,2026-03-27,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,Loja
+OCO00944,LOJ036,2026-03-07,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,E-mail
+OCO00945,LOJ036,2026-04-18,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,WhatsApp
+OCO00946,LOJ036,2026-04-03,Produto,Cliente pediu orientação de uso do produto.,Sim,WhatsApp
+OCO00947,LOJ036,2026-05-22,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,WhatsApp
+OCO00948,LOJ036,2026-05-21,Produto,Cliente pediu orientação de uso do produto.,Sim,WhatsApp
+OCO00949,LOJ036,2026-06-23,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,WhatsApp
+OCO00950,LOJ036,2026-06-12,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,E-mail
+OCO00951,LOJ036,2026-07-19,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,E-mail
+OCO00952,LOJ036,2026-07-26,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Loja
+OCO00953,LOJ036,2026-08-17,Produto,Cliente pediu orientação de uso do produto.,Sim,Loja
+OCO00954,LOJ036,2026-08-06,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,WhatsApp
+OCO00955,LOJ036,2026-09-28,Produto,Cliente pediu orientação de uso do produto.,Não,E-mail
+OCO00956,LOJ036,2026-09-02,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,E-mail
+OCO00957,LOJ037,2025-10-19,Produto,Cliente pediu orientação de uso do produto.,Não,E-mail
+OCO00958,LOJ037,2025-10-15,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,WhatsApp
+OCO00959,LOJ037,2025-11-05,Produto,Cliente pediu orientação de uso do produto.,Não,Loja
+OCO00960,LOJ037,2025-11-08,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,WhatsApp
+OCO00961,LOJ037,2025-12-13,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,WhatsApp
+OCO00962,LOJ037,2025-12-22,Produto,Cliente pediu orientação de uso do produto.,Sim,E-mail
+OCO00963,LOJ037,2026-01-24,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,WhatsApp
+OCO00964,LOJ037,2026-01-10,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Telefone
+OCO00965,LOJ037,2026-02-07,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Telefone
+OCO00966,LOJ037,2026-02-17,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Telefone
+OCO00967,LOJ037,2026-03-14,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,E-mail
+OCO00968,LOJ037,2026-03-17,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,Telefone
+OCO00969,LOJ037,2026-04-09,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,WhatsApp
+OCO00970,LOJ037,2026-04-20,Produto,Cliente pediu orientação de uso do produto.,Sim,Loja
+OCO00971,LOJ037,2026-05-27,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,WhatsApp
+OCO00972,LOJ037,2026-05-24,Produto,Cliente questionou preço maior que o de concorrente.,Sim,E-mail
+OCO00973,LOJ037,2026-05-24,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,E-mail
+OCO00974,LOJ037,2026-06-03,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Loja
+OCO00975,LOJ037,2026-06-09,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,Telefone
+OCO00976,LOJ037,2026-07-19,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Loja
+OCO00977,LOJ037,2026-07-02,Produto,Cliente pediu orientação de uso do produto.,Não,Loja
+OCO00978,LOJ037,2026-08-21,Produto,Cliente pediu orientação de uso do produto.,Sim,Telefone
+OCO00979,LOJ037,2026-08-09,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,E-mail
+OCO00980,LOJ037,2026-09-24,Produto,Cliente pediu orientação de uso do produto.,Sim,WhatsApp
+OCO00981,LOJ037,2026-09-17,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Telefone
+OCO00982,LOJ037,2026-09-13,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Telefone
+OCO00983,LOJ037,2026-09-06,Produto,Cliente perguntou sobre condições de pagamento antes de decidir.,Não,Loja
+OCO00984,LOJ038,2025-10-14,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Telefone
+OCO00985,LOJ038,2025-10-04,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Loja
+OCO00986,LOJ038,2025-11-03,Produto,Cliente perguntou sobre condições de pagamento antes de decidir.,Sim,Loja
+OCO00987,LOJ038,2025-11-03,Produto,Cliente perguntou sobre condições de pagamento antes de decidir.,Sim,Telefone
+OCO00988,LOJ038,2025-11-27,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,WhatsApp
+OCO00989,LOJ038,2025-12-01,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Loja
+OCO00990,LOJ038,2025-12-06,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Telefone
+OCO00991,LOJ038,2026-01-14,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,WhatsApp
+OCO00992,LOJ038,2026-01-05,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Loja
+OCO00993,LOJ038,2026-02-02,Produto,Cliente pediu orientação de uso do produto.,Não,WhatsApp
+OCO00994,LOJ038,2026-02-04,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,E-mail
+OCO00995,LOJ038,2026-03-09,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,E-mail
+OCO00996,LOJ038,2026-03-13,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,WhatsApp
+OCO00997,LOJ038,2026-04-26,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,WhatsApp
+OCO00998,LOJ038,2026-04-08,Produto,Cliente pediu orientação de uso do produto.,Não,Telefone
+OCO00999,LOJ038,2026-05-19,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Telefone
+OCO01000,LOJ038,2026-05-09,Produto,Cliente pediu orientação de uso do produto.,Não,E-mail
+OCO01001,LOJ038,2026-06-03,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Telefone
+OCO01002,LOJ038,2026-06-12,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,WhatsApp
+OCO01003,LOJ038,2026-07-02,Produto,Cliente pediu orientação de uso do produto.,Sim,WhatsApp
+OCO01004,LOJ038,2026-07-13,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,E-mail
+OCO01005,LOJ038,2026-08-19,Produto,Cliente pediu orientação de uso do produto.,Não,E-mail
+OCO01006,LOJ038,2026-08-06,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,Loja
+OCO01007,LOJ038,2026-08-14,Atendimento,Reclamação de fila no caixa com apenas um operador.,Sim,Loja
+OCO01008,LOJ038,2026-09-03,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,E-mail
+OCO01009,LOJ038,2026-09-03,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,WhatsApp
+OCO01010,LOJ039,2025-10-05,Produto,Cliente pediu orientação de uso do produto.,Não,Telefone
+OCO01011,LOJ039,2025-10-15,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Telefone
+OCO01012,LOJ039,2025-11-10,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,E-mail
+OCO01013,LOJ039,2025-11-07,Produto,Cliente pediu orientação de uso do produto.,Sim,WhatsApp
+OCO01014,LOJ039,2025-12-04,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Telefone
+OCO01015,LOJ039,2025-12-13,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,WhatsApp
+OCO01016,LOJ039,2026-01-05,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,E-mail
+OCO01017,LOJ039,2026-01-18,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,Telefone
+OCO01018,LOJ039,2026-02-09,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Telefone
+OCO01019,LOJ039,2026-02-21,Produto,Cliente pediu orientação de uso do produto.,Sim,Loja
+OCO01020,LOJ039,2026-03-16,Produto,Cliente pediu orientação de uso do produto.,Sim,Loja
+OCO01021,LOJ039,2026-03-16,Produto,Cliente pediu orientação de uso do produto.,Sim,E-mail
+OCO01022,LOJ039,2026-03-03,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Telefone
+OCO01023,LOJ039,2026-04-20,Produto,Cliente pediu cobertura de preço de outra loja.,Sim,E-mail
+OCO01024,LOJ039,2026-04-11,Produto,Cliente pediu cobertura de preço de outra loja.,Sim,E-mail
+OCO01025,LOJ039,2026-04-11,Produto,Cliente questionou preço maior que o de concorrente.,Sim,E-mail
+OCO01026,LOJ039,2026-05-04,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Loja
+OCO01027,LOJ039,2026-05-06,Produto,Cliente pediu orientação de uso do produto.,Sim,Telefone
+OCO01028,LOJ039,2026-06-08,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,E-mail
+OCO01029,LOJ039,2026-06-08,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,WhatsApp
+OCO01030,LOJ039,2026-07-08,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,E-mail
+OCO01031,LOJ039,2026-07-03,Produto,Cliente pediu orientação de uso do produto.,Sim,Telefone
+OCO01032,LOJ039,2026-08-12,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,Telefone
+OCO01033,LOJ039,2026-08-04,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,E-mail
+OCO01034,LOJ039,2026-09-26,Produto,Cliente pediu orientação de uso do produto.,Sim,E-mail
+OCO01035,LOJ039,2026-09-09,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,WhatsApp
+OCO01036,LOJ040,2025-10-11,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,E-mail
+OCO01037,LOJ040,2025-10-21,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Telefone
+OCO01038,LOJ040,2025-11-10,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,WhatsApp
+OCO01039,LOJ040,2025-11-17,Produto,Cliente pediu orientação de uso do produto.,Sim,Loja
+OCO01040,LOJ040,2025-12-15,Produto,Cliente pediu orientação de uso do produto.,Sim,Loja
+OCO01041,LOJ040,2025-12-19,Produto,Cliente pediu orientação de uso do produto.,Não,Telefone
+OCO01042,LOJ040,2026-01-06,Produto,Cliente pediu orientação de uso do produto.,Sim,Loja
+OCO01043,LOJ040,2026-01-22,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Loja
+OCO01044,LOJ040,2026-02-08,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,E-mail
+OCO01045,LOJ040,2026-02-01,Produto,Cliente pediu orientação de uso do produto.,Sim,E-mail
+OCO01046,LOJ040,2026-03-03,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,E-mail
+OCO01047,LOJ040,2026-03-08,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Telefone
+OCO01048,LOJ040,2026-04-15,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Telefone
+OCO01049,LOJ040,2026-04-28,Produto,Cliente pediu orientação de uso do produto.,Não,Telefone
+OCO01050,LOJ040,2026-05-05,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,WhatsApp
+OCO01051,LOJ040,2026-05-08,Produto,Cliente pediu orientação de uso do produto.,Não,E-mail
+OCO01052,LOJ040,2026-06-19,Produto,Cliente pediu orientação de uso do produto.,Sim,Telefone
+OCO01053,LOJ040,2026-06-10,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,E-mail
+OCO01054,LOJ040,2026-07-04,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,WhatsApp
+OCO01055,LOJ040,2026-07-23,Produto,Cliente pediu orientação de uso do produto.,Não,E-mail
+OCO01056,LOJ040,2026-08-06,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Loja
+OCO01057,LOJ040,2026-08-13,Produto,Cliente pediu orientação de uso do produto.,Sim,Loja
+OCO01058,LOJ040,2026-09-10,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,E-mail
+OCO01059,LOJ040,2026-09-02,Produto,Cliente perguntou sobre condições de pagamento antes de decidir.,Sim,E-mail
+OCO01060,LOJ040,2026-09-25,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Telefone
+OCO01061,LOJ040,2026-09-13,Produto,Cliente pediu orientação de uso do produto.,Sim,Telefone
+OCO01062,LOJ001,2026-10-05,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,E-mail
+OCO01063,LOJ001,2026-10-25,Produto,Cliente pediu orientação de uso do produto.,Sim,Loja
+OCO01064,LOJ002,2026-10-21,Produto,Cliente pediu orientação de uso do produto.,Sim,E-mail
+OCO01065,LOJ002,2026-10-16,Produto,Cliente pediu orientação de uso do produto.,Sim,E-mail
+OCO01066,LOJ003,2026-10-15,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Telefone
+OCO01067,LOJ003,2026-10-04,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,Loja
+OCO01068,LOJ004,2026-10-18,Produto,Cliente pediu orientação de uso do produto.,Sim,E-mail
+OCO01069,LOJ004,2026-10-07,Produto,Cliente pediu orientação de uso do produto.,Não,E-mail
+OCO01070,LOJ005,2026-10-13,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,E-mail
+OCO01071,LOJ005,2026-10-14,Produto,Cliente pediu orientação de uso do produto.,Sim,E-mail
+OCO01072,LOJ006,2026-10-11,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,Loja
+OCO01073,LOJ006,2026-10-23,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,WhatsApp
+OCO01074,LOJ007,2026-10-07,Produto,Cliente pediu orientação de uso do produto.,Não,Loja
+OCO01075,LOJ007,2026-10-04,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,Telefone
+OCO01076,LOJ008,2026-10-12,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,WhatsApp
+OCO01077,LOJ008,2026-10-09,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,WhatsApp
+OCO01078,LOJ009,2026-10-02,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,Loja
+OCO01079,LOJ009,2026-10-14,Produto,Cliente pediu orientação de uso do produto.,Sim,WhatsApp
+OCO01080,LOJ010,2026-10-10,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,Loja
+OCO01081,LOJ010,2026-10-28,Produto,Cliente pediu orientação de uso do produto.,Não,WhatsApp
+OCO01082,LOJ011,2026-10-14,Produto,Cliente pediu orientação de uso do produto.,Não,E-mail
+OCO01083,LOJ011,2026-10-11,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Telefone
+OCO01084,LOJ012,2026-10-10,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,WhatsApp
+OCO01085,LOJ012,2026-10-14,Produto,Cliente pediu orientação de uso do produto.,Sim,E-mail
+OCO01086,LOJ013,2026-10-23,Produto,Cliente pediu orientação de uso do produto.,Sim,Loja
+OCO01087,LOJ013,2026-10-06,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,WhatsApp
+OCO01088,LOJ014,2026-10-16,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,WhatsApp
+OCO01089,LOJ014,2026-10-01,Produto,Cliente pediu orientação de uso do produto.,Não,Telefone
+OCO01090,LOJ015,2026-10-14,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,WhatsApp
+OCO01091,LOJ015,2026-10-03,Produto,Cliente pediu orientação de uso do produto.,Sim,E-mail
+OCO01092,LOJ016,2026-10-28,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,Telefone
+OCO01093,LOJ016,2026-10-27,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,E-mail
+OCO01094,LOJ017,2026-10-19,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Loja
+OCO01095,LOJ017,2026-10-21,Produto,Cliente pediu orientação de uso do produto.,Sim,E-mail
+OCO01096,LOJ018,2026-10-21,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,E-mail
+OCO01097,LOJ018,2026-10-11,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Telefone
+OCO01098,LOJ019,2026-10-18,Produto,Cliente pediu orientação de uso do produto.,Não,E-mail
+OCO01099,LOJ019,2026-10-07,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,E-mail
+OCO01100,LOJ020,2026-10-04,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,Telefone
+OCO01101,LOJ020,2026-10-05,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,E-mail
+OCO01102,LOJ021,2026-10-03,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Loja
+OCO01103,LOJ021,2026-10-06,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Loja
+OCO01104,LOJ022,2026-10-18,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,E-mail
+OCO01105,LOJ022,2026-10-20,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,Loja
+OCO01106,LOJ023,2026-10-04,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,WhatsApp
+OCO01107,LOJ023,2026-10-05,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Não,Telefone
+OCO01108,LOJ024,2026-10-28,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,WhatsApp
+OCO01109,LOJ024,2026-10-12,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Loja
+OCO01110,LOJ025,2026-10-17,Produto,Cliente pediu orientação de uso do produto.,Não,E-mail
+OCO01111,LOJ025,2026-10-23,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,E-mail
+OCO01112,LOJ026,2026-10-05,Atendimento,Cliente precisou de novo contato para resolver a mesma solicitação.,Não,WhatsApp
+OCO01113,LOJ026,2026-10-14,Atendimento,Cliente precisou de novo contato para resolver a mesma solicitação.,Sim,E-mail
+OCO01114,LOJ026,2026-10-28,Troca,Estorno não processado por erro de operação no novo sistema.,Sim,Telefone
+OCO01115,LOJ026,2026-10-02,Atendimento,Informação divergente entre vendedor e caixa sobre a política de troca.,Sim,WhatsApp
+OCO01116,LOJ026,2026-10-20,Produto,Cliente pediu orientação de uso do produto.,Sim,Telefone
+OCO01117,LOJ027,2026-10-18,Atendimento,Cliente precisou de novo contato para resolver a mesma solicitação.,Sim,WhatsApp
+OCO01118,LOJ027,2026-10-13,Atendimento,Cliente precisou de novo contato para resolver a mesma solicitação.,Sim,Loja
+OCO01119,LOJ027,2026-10-10,Atendimento,Cliente precisou de novo contato para resolver a mesma solicitação.,Sim,WhatsApp
+OCO01120,LOJ027,2026-10-13,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,E-mail
+OCO01121,LOJ027,2026-10-13,Troca,Troca registrada errada no sistema novo; cliente retornou à loja.,Sim,Loja
+OCO01122,LOJ028,2026-10-14,Atendimento,Informação divergente entre vendedor e caixa sobre a política de troca.,Não,WhatsApp
+OCO01123,LOJ028,2026-10-18,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,E-mail
+OCO01124,LOJ028,2026-10-03,Troca,Estorno não processado por erro de operação no novo sistema.,Sim,E-mail
+OCO01125,LOJ028,2026-10-10,Atendimento,Cliente precisou de novo contato para resolver a mesma solicitação.,Sim,Telefone
+OCO01126,LOJ029,2026-10-13,Troca,Troca registrada errada no sistema novo; cliente retornou à loja.,Não,E-mail
+OCO01127,LOJ029,2026-10-05,Atendimento,Informação divergente entre vendedor e caixa sobre a política de troca.,Sim,Loja
+OCO01128,LOJ029,2026-10-28,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,E-mail
+OCO01129,LOJ029,2026-10-12,Troca,Estorno não processado por erro de operação no novo sistema.,Sim,WhatsApp
+OCO01130,LOJ029,2026-10-14,Atendimento,Cliente precisou de novo contato para resolver a mesma solicitação.,Sim,Loja
+OCO01131,LOJ030,2026-10-16,Atendimento,Cliente precisou de novo contato para resolver a mesma solicitação.,Não,Telefone
+OCO01132,LOJ030,2026-10-26,Troca,Troca registrada errada no sistema novo; cliente retornou à loja.,Sim,Telefone
+OCO01133,LOJ030,2026-10-16,Troca,Estorno não processado por erro de operação no novo sistema.,Sim,Loja
+OCO01134,LOJ030,2026-10-01,Troca,Estorno não processado por erro de operação no novo sistema.,Sim,WhatsApp
+OCO01135,LOJ030,2026-10-28,Produto,Cliente pediu orientação de uso do produto.,Sim,Loja
+OCO01136,LOJ031,2026-10-03,Atendimento,Informação divergente entre vendedor e caixa sobre a política de troca.,Sim,Telefone
+OCO01137,LOJ031,2026-10-06,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,WhatsApp
+OCO01138,LOJ031,2026-10-06,Atendimento,Cliente precisou de novo contato para resolver a mesma solicitação.,Sim,E-mail
+OCO01139,LOJ031,2026-10-23,Troca,Troca registrada errada no sistema novo; cliente retornou à loja.,Sim,WhatsApp
+OCO01140,LOJ031,2026-10-06,Atendimento,Informação divergente entre vendedor e caixa sobre a política de troca.,Sim,Telefone
+OCO01141,LOJ032,2026-10-03,Troca,Estorno não processado por erro de operação no novo sistema.,Sim,E-mail
+OCO01142,LOJ032,2026-10-11,Atendimento,Informação divergente entre vendedor e caixa sobre a política de troca.,Não,WhatsApp
+OCO01143,LOJ032,2026-10-09,Atendimento,Informação divergente entre vendedor e caixa sobre a política de troca.,Sim,E-mail
+OCO01144,LOJ032,2026-10-08,Troca,Estorno não processado por erro de operação no novo sistema.,Sim,WhatsApp
+OCO01145,LOJ032,2026-10-07,Atendimento,Cliente precisou de novo contato para resolver a mesma solicitação.,Não,E-mail
+OCO01146,LOJ033,2026-10-27,Troca,Estorno não processado por erro de operação no novo sistema.,Não,Telefone
+OCO01147,LOJ033,2026-10-21,Troca,Estorno não processado por erro de operação no novo sistema.,Sim,WhatsApp
+OCO01148,LOJ033,2026-10-08,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,Telefone
+OCO01149,LOJ033,2026-10-13,Troca,Troca registrada errada no sistema novo; cliente retornou à loja.,Sim,WhatsApp
+OCO01150,LOJ034,2026-10-11,Troca,Estorno não processado por erro de operação no novo sistema.,Sim,Telefone
+OCO01151,LOJ034,2026-10-15,Atendimento,Informação divergente entre vendedor e caixa sobre a política de troca.,Não,Loja
+OCO01152,LOJ034,2026-10-06,Atendimento,Cliente precisou de novo contato para resolver a mesma solicitação.,Sim,E-mail
+OCO01153,LOJ034,2026-10-24,Troca,Troca registrada errada no sistema novo; cliente retornou à loja.,Sim,Loja
+OCO01154,LOJ034,2026-10-04,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,Loja
+OCO01155,LOJ035,2026-10-11,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,E-mail
+OCO01156,LOJ035,2026-10-02,Produto,Cliente pediu orientação de uso do produto.,Não,WhatsApp
+OCO01157,LOJ036,2026-10-27,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,Telefone
+OCO01158,LOJ036,2026-10-01,Produto,Cliente pediu orientação de uso do produto.,Não,Telefone
+OCO01159,LOJ037,2026-10-19,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,WhatsApp
+OCO01160,LOJ037,2026-10-17,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Não,WhatsApp
+OCO01161,LOJ038,2026-10-22,Entrega,"Cliente pediu atualização do prazo de entrega, dentro do prazo.",Sim,E-mail
+OCO01162,LOJ038,2026-10-27,Produto,Cliente pediu orientação de uso do produto.,Sim,Telefone
+OCO01163,LOJ039,2026-10-09,Produto,Cliente pediu orientação de uso do produto.,Não,E-mail
+OCO01164,LOJ039,2026-10-02,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,WhatsApp
+OCO01165,LOJ040,2026-10-28,Produto,Cliente pediu orientação de uso do produto.,Sim,Loja
+OCO01166,LOJ040,2026-10-06,Troca,"Cliente solicitou troca de tamanho, resolvida no balcão.",Sim,E-mail

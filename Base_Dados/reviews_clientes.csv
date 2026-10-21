@@ -1,0 +1,460 @@
+﻿ID_Review,ID_Loja,Data,Nota,Comentario,Canal
+REV00001,LOJ001,2026-05-21,4,Encontrei tudo o que precisava e fui atendido rapidamente.,Pesquisa NPS
+REV00002,LOJ001,2026-05-25,5,Boa variedade de produtos e atendimento cordial.,App
+REV00003,LOJ001,2025-10-05,2,Poucos atendentes para o movimento da loja.,App
+REV00004,LOJ001,2026-03-28,2,Poucos atendentes para o movimento da loja.,App
+REV00005,LOJ001,2026-01-30,4,Encontrei tudo o que precisava e fui atendido rapidamente.,App
+REV00006,LOJ001,2026-03-31,5,"Loja organizada, produtos bem expostos e checkout ágil.",App
+REV00007,LOJ001,2025-10-28,5,Boa variedade de produtos e atendimento cordial.,Google
+REV00008,LOJ001,2026-02-02,2,Poucos atendentes para o movimento da loja.,Pesquisa NPS
+REV00009,LOJ001,2026-09-13,4,Boa variedade de produtos e atendimento cordial.,Pesquisa NPS
+REV00010,LOJ001,2025-10-05,5,Boa variedade de produtos e atendimento cordial.,App
+REV00011,LOJ001,2026-03-30,5,Boa variedade de produtos e atendimento cordial.,Pesquisa NPS
+REV00012,LOJ002,2025-10-12,3,Havia fila para ser atendido porque poucos vendedores estavam disponíveis.,Google
+REV00013,LOJ002,2026-06-27,3,Demorei para encontrar alguém disponível para me ajudar.,App
+REV00014,LOJ002,2026-07-12,2,O atendimento demorou mais do que o esperado por falta de pessoal.,App
+REV00015,LOJ002,2026-08-02,1,Demorei para encontrar alguém disponível para me ajudar.,App
+REV00016,LOJ002,2025-12-05,2,"A equipe foi educada, mas parecia reduzida para o fluxo de clientes.",App
+REV00017,LOJ002,2026-05-20,1,Havia fila para ser atendido porque poucos vendedores estavam disponíveis.,App
+REV00018,LOJ002,2026-01-01,1,Poucos atendentes para o movimento da loja.,Pesquisa NPS
+REV00019,LOJ002,2026-06-08,2,Poucos atendentes para o movimento da loja.,App
+REV00020,LOJ002,2026-04-30,2,Demorei para encontrar alguém disponível para me ajudar.,E-mail
+REV00021,LOJ002,2025-11-21,3,Demorei para encontrar alguém disponível para me ajudar.,Google
+REV00022,LOJ002,2026-07-19,2,Poucos atendentes para o movimento da loja.,E-mail
+REV00023,LOJ002,2026-05-14,2,Demorei para encontrar alguém disponível para me ajudar.,App
+REV00024,LOJ003,2026-06-21,5,Boa variedade de produtos e atendimento cordial.,Google
+REV00025,LOJ003,2026-08-16,4,Atendimento muito atencioso e equipe prestativa.,Pesquisa NPS
+REV00026,LOJ003,2026-08-13,5,"Loja organizada, produtos bem expostos e checkout ágil.",App
+REV00027,LOJ003,2026-05-25,5,Boa variedade de produtos e atendimento cordial.,Google
+REV00028,LOJ003,2026-07-15,4,Encontrei tudo o que precisava e fui atendido rapidamente.,Pesquisa NPS
+REV00029,LOJ003,2026-09-19,5,Atendimento muito atencioso e equipe prestativa.,App
+REV00030,LOJ003,2026-05-24,4,Boa variedade de produtos e atendimento cordial.,E-mail
+REV00031,LOJ003,2026-04-07,5,Atendimento muito atencioso e equipe prestativa.,E-mail
+REV00032,LOJ003,2025-10-15,5,Atendimento muito atencioso e equipe prestativa.,Pesquisa NPS
+REV00033,LOJ003,2026-04-24,5,"Loja organizada, produtos bem expostos e checkout ágil.",App
+REV00034,LOJ004,2025-10-19,1,Não gostei da experiência no pós-venda desta unidade.,Google
+REV00035,LOJ004,2025-12-08,3,Atendimento muito demorado no caixa.,E-mail
+REV00036,LOJ004,2025-12-20,2,Precisei repetir minha solicitação mais de uma vez.,Google
+REV00037,LOJ004,2026-05-10,3,Não gostei da experiência no pós-venda desta unidade.,Google
+REV00038,LOJ004,2026-09-04,2,A solução do meu problema demorou e faltou orientação.,Pesquisa NPS
+REV00039,LOJ004,2026-01-26,2,Atendimento muito demorado no caixa.,E-mail
+REV00040,LOJ004,2026-04-17,2,A fila estava longa e o atendimento foi confuso.,E-mail
+REV00041,LOJ004,2026-07-30,2,A solução do meu problema demorou e faltou orientação.,E-mail
+REV00042,LOJ004,2026-08-18,3,Atendimento muito demorado no caixa.,Pesquisa NPS
+REV00043,LOJ005,2026-05-06,4,"Experiência excelente, voltarei a comprar nesta unidade.",App
+REV00044,LOJ005,2026-08-08,5,"Experiência excelente, voltarei a comprar nesta unidade.",Google
+REV00045,LOJ005,2026-06-12,5,Atendimento muito atencioso e equipe prestativa.,App
+REV00046,LOJ005,2025-12-15,5,"Experiência excelente, voltarei a comprar nesta unidade.",E-mail
+REV00047,LOJ005,2025-10-14,5,"Experiência excelente, voltarei a comprar nesta unidade.",E-mail
+REV00048,LOJ005,2026-07-15,2,Faltaram vários produtos que eu procurava nas prateleiras.,App
+REV00049,LOJ005,2026-03-23,5,"Loja organizada, produtos bem expostos e checkout ágil.",E-mail
+REV00050,LOJ005,2026-05-28,4,"Experiência excelente, voltarei a comprar nesta unidade.",Google
+REV00051,LOJ005,2026-01-05,5,"Experiência excelente, voltarei a comprar nesta unidade.",Pesquisa NPS
+REV00052,LOJ005,2026-05-02,1,Faltaram vários produtos que eu procurava nas prateleiras.,Google
+REV00053,LOJ006,2026-06-04,2,Muitos itens da promoção estavam indisponíveis.,E-mail
+REV00054,LOJ006,2025-12-15,2,Não encontrei meu tamanho e disseram que o estoque não tinha reposição.,App
+REV00055,LOJ006,2026-03-20,1,Muitos itens da promoção estavam indisponíveis.,Google
+REV00056,LOJ006,2026-01-01,2,Muitos itens da promoção estavam indisponíveis.,E-mail
+REV00057,LOJ006,2025-12-09,1,Não encontrei meu tamanho e disseram que o estoque não tinha reposição.,E-mail
+REV00058,LOJ006,2026-01-27,3,Faltaram vários produtos que eu procurava nas prateleiras.,Google
+REV00059,LOJ006,2025-12-30,2,Não encontrei meu tamanho e disseram que o estoque não tinha reposição.,E-mail
+REV00060,LOJ006,2026-04-25,2,Muitos itens da promoção estavam indisponíveis.,App
+REV00061,LOJ006,2026-08-06,2,Faltaram vários produtos que eu procurava nas prateleiras.,Google
+REV00062,LOJ006,2026-09-09,1,Muitos itens da promoção estavam indisponíveis.,App
+REV00063,LOJ006,2026-01-01,2,Faltaram vários produtos que eu procurava nas prateleiras.,Pesquisa NPS
+REV00064,LOJ006,2026-08-29,3,Não encontrei meu tamanho e disseram que o estoque não tinha reposição.,App
+REV00065,LOJ006,2025-11-16,3,Precisei trocar de produto porque o item anunciado estava sem estoque.,Pesquisa NPS
+REV00066,LOJ007,2026-04-24,3,"A loja estava organizada, mas faltavam produtos básicos.",E-mail
+REV00067,LOJ007,2026-05-15,3,Não encontrei meu tamanho e disseram que o estoque não tinha reposição.,Pesquisa NPS
+REV00068,LOJ007,2025-11-28,1,Precisei trocar de produto porque o item anunciado estava sem estoque.,App
+REV00069,LOJ007,2026-08-05,3,Precisei trocar de produto porque o item anunciado estava sem estoque.,Pesquisa NPS
+REV00070,LOJ007,2026-05-21,2,Faltaram vários produtos que eu procurava nas prateleiras.,App
+REV00071,LOJ007,2026-04-07,1,Não encontrei meu tamanho e disseram que o estoque não tinha reposição.,App
+REV00072,LOJ007,2026-07-25,1,"A loja estava organizada, mas faltavam produtos básicos.",App
+REV00073,LOJ007,2026-03-28,5,Atendimento muito atencioso e equipe prestativa.,App
+REV00074,LOJ007,2026-06-29,3,Não encontrei meu tamanho e disseram que o estoque não tinha reposição.,Pesquisa NPS
+REV00075,LOJ007,2026-09-15,1,Faltaram vários produtos que eu procurava nas prateleiras.,Google
+REV00076,LOJ007,2025-10-26,1,"A loja estava organizada, mas faltavam produtos básicos.",Google
+REV00077,LOJ007,2025-12-12,2,Faltaram vários produtos que eu procurava nas prateleiras.,E-mail
+REV00078,LOJ008,2026-08-14,4,"Experiência excelente, voltarei a comprar nesta unidade.",Google
+REV00079,LOJ008,2026-08-13,5,Boa variedade de produtos e atendimento cordial.,E-mail
+REV00080,LOJ008,2026-09-17,4,Atendimento muito atencioso e equipe prestativa.,Google
+REV00081,LOJ008,2025-12-13,4,"Loja organizada, produtos bem expostos e checkout ágil.",E-mail
+REV00082,LOJ008,2026-07-20,5,Encontrei tudo o que precisava e fui atendido rapidamente.,E-mail
+REV00083,LOJ008,2025-11-01,4,Atendimento muito atencioso e equipe prestativa.,Pesquisa NPS
+REV00084,LOJ008,2026-01-08,5,Atendimento muito atencioso e equipe prestativa.,Google
+REV00085,LOJ008,2026-02-11,5,"Loja organizada, produtos bem expostos e checkout ágil.",E-mail
+REV00086,LOJ008,2025-12-07,5,Atendimento muito atencioso e equipe prestativa.,App
+REV00087,LOJ008,2026-03-10,4,Encontrei tudo o que precisava e fui atendido rapidamente.,App
+REV00088,LOJ008,2026-08-24,5,Encontrei tudo o que precisava e fui atendido rapidamente.,E-mail
+REV00089,LOJ008,2026-02-07,5,"Loja organizada, produtos bem expostos e checkout ágil.",E-mail
+REV00090,LOJ008,2026-06-16,2,Faltaram vários produtos que eu procurava nas prateleiras.,Google
+REV00091,LOJ009,2026-04-21,2,Tive dificuldade para encontrar produtos e para concluir a troca.,E-mail
+REV00092,LOJ009,2026-05-14,1,Poucos atendentes para o movimento da loja.,App
+REV00093,LOJ009,2026-04-21,3,Tive dificuldade para encontrar produtos e para concluir a troca.,App
+REV00094,LOJ009,2026-02-10,2,Demorei para encontrar alguém disponível para me ajudar.,E-mail
+REV00095,LOJ009,2025-10-23,3,Não encontrei o que precisava e esperei bastante por ajuda.,Google
+REV00096,LOJ009,2025-12-12,1,Não encontrei o que precisava e esperei bastante por ajuda.,Pesquisa NPS
+REV00097,LOJ009,2025-11-12,2,"A equipe tentou ajudar, mas havia poucos vendedores e pouco estoque.",Google
+REV00098,LOJ009,2025-12-14,2,Não encontrei o que precisava e esperei bastante por ajuda.,Pesquisa NPS
+REV00099,LOJ009,2025-11-22,1,A experiência foi prejudicada por fila e falta de alguns itens.,E-mail
+REV00100,LOJ010,2025-10-09,1,A solução do meu problema demorou e faltou orientação.,Google
+REV00101,LOJ010,2026-02-03,1,Precisei repetir minha solicitação mais de uma vez.,E-mail
+REV00102,LOJ010,2026-04-20,2,Não gostei da experiência no pós-venda desta unidade.,Google
+REV00103,LOJ010,2026-06-08,4,Atendimento muito atencioso e equipe prestativa.,App
+REV00104,LOJ010,2025-12-10,2,A fila estava longa e o atendimento foi confuso.,Pesquisa NPS
+REV00105,LOJ010,2026-01-11,3,A fila estava longa e o atendimento foi confuso.,App
+REV00106,LOJ010,2026-08-05,3,Não gostei da experiência no pós-venda desta unidade.,E-mail
+REV00107,LOJ010,2026-01-09,4,Atendimento muito atencioso e equipe prestativa.,E-mail
+REV00108,LOJ010,2026-01-12,3,A solução do meu problema demorou e faltou orientação.,Pesquisa NPS
+REV00109,LOJ010,2026-09-20,1,A fila estava longa e o atendimento foi confuso.,App
+REV00110,LOJ010,2026-09-19,3,Atendimento muito demorado no caixa.,Pesquisa NPS
+REV00111,LOJ011,2026-05-31,4,"Loja organizada, produtos bem expostos e checkout ágil.",E-mail
+REV00112,LOJ011,2026-03-03,5,"Experiência excelente, voltarei a comprar nesta unidade.",Pesquisa NPS
+REV00113,LOJ011,2026-07-28,4,"Experiência excelente, voltarei a comprar nesta unidade.",Google
+REV00114,LOJ011,2026-03-19,5,Atendimento muito atencioso e equipe prestativa.,E-mail
+REV00115,LOJ011,2026-01-12,4,"Loja organizada, produtos bem expostos e checkout ágil.",Google
+REV00116,LOJ011,2026-05-31,5,Atendimento muito atencioso e equipe prestativa.,Google
+REV00117,LOJ011,2025-11-06,5,"Experiência excelente, voltarei a comprar nesta unidade.",App
+REV00118,LOJ011,2025-11-20,4,Atendimento muito atencioso e equipe prestativa.,App
+REV00119,LOJ011,2026-07-01,4,Encontrei tudo o que precisava e fui atendido rapidamente.,E-mail
+REV00120,LOJ011,2025-11-13,4,"Loja organizada, produtos bem expostos e checkout ágil.",Google
+REV00121,LOJ011,2026-03-25,5,Boa variedade de produtos e atendimento cordial.,Pesquisa NPS
+REV00122,LOJ011,2026-03-05,5,Atendimento muito atencioso e equipe prestativa.,App
+REV00123,LOJ012,2026-01-01,2,Não encontrei meu tamanho e disseram que o estoque não tinha reposição.,App
+REV00124,LOJ012,2026-01-28,1,"A loja estava organizada, mas faltavam produtos básicos.",App
+REV00125,LOJ012,2026-03-25,2,Faltaram vários produtos que eu procurava nas prateleiras.,App
+REV00126,LOJ012,2026-04-16,3,Faltaram vários produtos que eu procurava nas prateleiras.,Pesquisa NPS
+REV00127,LOJ012,2026-04-26,5,Atendimento muito atencioso e equipe prestativa.,Google
+REV00128,LOJ012,2026-02-24,2,Faltaram vários produtos que eu procurava nas prateleiras.,E-mail
+REV00129,LOJ012,2025-11-12,1,Muitos itens da promoção estavam indisponíveis.,Google
+REV00130,LOJ012,2026-02-15,3,Muitos itens da promoção estavam indisponíveis.,E-mail
+REV00131,LOJ012,2026-04-24,1,Muitos itens da promoção estavam indisponíveis.,E-mail
+REV00132,LOJ012,2026-06-15,3,Muitos itens da promoção estavam indisponíveis.,App
+REV00133,LOJ012,2026-08-07,2,"A loja estava organizada, mas faltavam produtos básicos.",App
+REV00134,LOJ012,2025-10-25,2,Não encontrei meu tamanho e disseram que o estoque não tinha reposição.,Google
+REV00135,LOJ012,2026-02-09,2,Não encontrei meu tamanho e disseram que o estoque não tinha reposição.,Pesquisa NPS
+REV00136,LOJ013,2026-09-02,4,Atendimento muito atencioso e equipe prestativa.,E-mail
+REV00137,LOJ013,2026-03-18,5,Boa variedade de produtos e atendimento cordial.,Pesquisa NPS
+REV00138,LOJ013,2025-11-01,5,Atendimento muito atencioso e equipe prestativa.,E-mail
+REV00139,LOJ013,2025-12-12,4,"Loja organizada, produtos bem expostos e checkout ágil.",E-mail
+REV00140,LOJ013,2026-02-03,5,"Experiência excelente, voltarei a comprar nesta unidade.",Google
+REV00141,LOJ013,2026-03-11,4,Atendimento muito atencioso e equipe prestativa.,App
+REV00142,LOJ013,2026-07-29,5,"Experiência excelente, voltarei a comprar nesta unidade.",App
+REV00143,LOJ013,2026-06-05,4,"Experiência excelente, voltarei a comprar nesta unidade.",Pesquisa NPS
+REV00144,LOJ013,2025-11-20,5,Encontrei tudo o que precisava e fui atendido rapidamente.,Google
+REV00145,LOJ013,2026-03-25,4,Atendimento muito atencioso e equipe prestativa.,Pesquisa NPS
+REV00146,LOJ014,2026-09-07,4,"Experiência excelente, voltarei a comprar nesta unidade.",Pesquisa NPS
+REV00147,LOJ014,2026-01-01,5,"Loja organizada, produtos bem expostos e checkout ágil.",App
+REV00148,LOJ014,2026-02-10,4,Encontrei tudo o que precisava e fui atendido rapidamente.,Pesquisa NPS
+REV00149,LOJ014,2025-11-19,5,"Loja organizada, produtos bem expostos e checkout ágil.",E-mail
+REV00150,LOJ014,2026-09-23,2,Poucos atendentes para o movimento da loja.,App
+REV00151,LOJ014,2025-10-09,4,"Experiência excelente, voltarei a comprar nesta unidade.",App
+REV00152,LOJ014,2026-07-11,5,Encontrei tudo o que precisava e fui atendido rapidamente.,E-mail
+REV00153,LOJ014,2026-05-22,5,"Experiência excelente, voltarei a comprar nesta unidade.",App
+REV00154,LOJ014,2026-01-22,4,Encontrei tudo o que precisava e fui atendido rapidamente.,E-mail
+REV00155,LOJ014,2026-05-21,4,"Loja organizada, produtos bem expostos e checkout ágil.",Pesquisa NPS
+REV00156,LOJ015,2025-11-04,2,Havia fila para ser atendido porque poucos vendedores estavam disponíveis.,Google
+REV00157,LOJ015,2025-10-02,2,O atendimento demorou mais do que o esperado por falta de pessoal.,Pesquisa NPS
+REV00158,LOJ015,2026-06-16,3,"A equipe foi educada, mas parecia reduzida para o fluxo de clientes.",Google
+REV00159,LOJ015,2026-01-18,2,"A equipe foi educada, mas parecia reduzida para o fluxo de clientes.",Google
+REV00160,LOJ015,2025-10-10,2,Demorei para encontrar alguém disponível para me ajudar.,Google
+REV00161,LOJ015,2026-09-08,2,Havia fila para ser atendido porque poucos vendedores estavam disponíveis.,Pesquisa NPS
+REV00162,LOJ015,2026-07-08,3,Demorei para encontrar alguém disponível para me ajudar.,App
+REV00163,LOJ015,2025-12-24,1,Poucos atendentes para o movimento da loja.,Pesquisa NPS
+REV00164,LOJ015,2026-09-11,2,Havia fila para ser atendido porque poucos vendedores estavam disponíveis.,Pesquisa NPS
+REV00165,LOJ016,2026-02-27,5,Atendimento muito atencioso e equipe prestativa.,Pesquisa NPS
+REV00166,LOJ016,2025-10-19,4,"Loja organizada, produtos bem expostos e checkout ágil.",App
+REV00167,LOJ016,2025-10-10,4,"Loja organizada, produtos bem expostos e checkout ágil.",Pesquisa NPS
+REV00168,LOJ016,2026-05-05,5,Boa variedade de produtos e atendimento cordial.,App
+REV00169,LOJ016,2025-12-04,4,"Loja organizada, produtos bem expostos e checkout ágil.",E-mail
+REV00170,LOJ016,2026-05-26,4,Boa variedade de produtos e atendimento cordial.,App
+REV00171,LOJ016,2026-04-22,5,Atendimento muito atencioso e equipe prestativa.,App
+REV00172,LOJ016,2026-03-20,3,Poucos atendentes para o movimento da loja.,Pesquisa NPS
+REV00173,LOJ016,2026-05-28,5,Boa variedade de produtos e atendimento cordial.,Google
+REV00174,LOJ017,2026-04-27,3,"A equipe tentou ajudar, mas havia poucos vendedores e pouco estoque.",Pesquisa NPS
+REV00175,LOJ017,2026-03-06,3,"A equipe foi educada, mas parecia reduzida para o fluxo de clientes.",App
+REV00176,LOJ017,2026-02-15,2,Faltaram produtos e também havia demora para conseguir atendimento.,App
+REV00177,LOJ017,2026-07-15,1,"A equipe foi educada, mas parecia reduzida para o fluxo de clientes.",Google
+REV00178,LOJ017,2026-03-16,1,"A equipe tentou ajudar, mas havia poucos vendedores e pouco estoque.",Pesquisa NPS
+REV00179,LOJ017,2026-05-16,3,A experiência foi prejudicada por fila e falta de alguns itens.,Pesquisa NPS
+REV00180,LOJ017,2026-05-11,2,Muitos itens da promoção estavam indisponíveis.,App
+REV00181,LOJ017,2025-10-24,2,Não encontrei o que precisava e esperei bastante por ajuda.,E-mail
+REV00182,LOJ017,2025-11-18,2,"A equipe foi educada, mas parecia reduzida para o fluxo de clientes.",Google
+REV00183,LOJ017,2025-12-03,1,"A equipe tentou ajudar, mas havia poucos vendedores e pouco estoque.",Google
+REV00184,LOJ018,2025-12-05,5,Atendimento muito atencioso e equipe prestativa.,Pesquisa NPS
+REV00185,LOJ018,2026-03-09,5,Atendimento muito atencioso e equipe prestativa.,Google
+REV00186,LOJ018,2026-03-09,5,Atendimento muito atencioso e equipe prestativa.,E-mail
+REV00187,LOJ018,2026-05-03,4,Encontrei tudo o que precisava e fui atendido rapidamente.,App
+REV00188,LOJ018,2026-06-12,4,Encontrei tudo o que precisava e fui atendido rapidamente.,E-mail
+REV00189,LOJ018,2026-05-16,4,"Experiência excelente, voltarei a comprar nesta unidade.",App
+REV00190,LOJ018,2026-05-21,5,Boa variedade de produtos e atendimento cordial.,Google
+REV00191,LOJ018,2026-07-30,4,Atendimento muito atencioso e equipe prestativa.,E-mail
+REV00192,LOJ018,2026-08-11,5,Boa variedade de produtos e atendimento cordial.,Google
+REV00193,LOJ018,2026-03-19,1,Faltaram vários produtos que eu procurava nas prateleiras.,Google
+REV00194,LOJ018,2026-09-29,4,Boa variedade de produtos e atendimento cordial.,App
+REV00195,LOJ019,2026-06-10,2,Faltaram vários produtos que eu procurava nas prateleiras.,App
+REV00196,LOJ019,2026-05-02,3,Precisei trocar de produto porque o item anunciado estava sem estoque.,E-mail
+REV00197,LOJ019,2026-01-22,1,Muitos itens da promoção estavam indisponíveis.,E-mail
+REV00198,LOJ019,2026-06-03,2,Muitos itens da promoção estavam indisponíveis.,Google
+REV00199,LOJ019,2026-06-25,2,Muitos itens da promoção estavam indisponíveis.,Pesquisa NPS
+REV00200,LOJ019,2026-08-08,2,Faltaram vários produtos que eu procurava nas prateleiras.,Google
+REV00201,LOJ019,2026-09-04,2,Muitos itens da promoção estavam indisponíveis.,E-mail
+REV00202,LOJ019,2025-10-01,2,Faltaram vários produtos que eu procurava nas prateleiras.,App
+REV00203,LOJ019,2026-07-07,2,Muitos itens da promoção estavam indisponíveis.,Pesquisa NPS
+REV00204,LOJ020,2025-12-01,1,"A loja estava organizada, mas faltavam produtos básicos.",E-mail
+REV00205,LOJ020,2026-09-18,2,"A loja estava organizada, mas faltavam produtos básicos.",App
+REV00206,LOJ020,2026-02-01,1,Faltaram vários produtos que eu procurava nas prateleiras.,Pesquisa NPS
+REV00207,LOJ020,2026-04-25,1,Faltaram vários produtos que eu procurava nas prateleiras.,Pesquisa NPS
+REV00208,LOJ020,2025-12-08,3,Precisei trocar de produto porque o item anunciado estava sem estoque.,E-mail
+REV00209,LOJ020,2026-01-13,2,Precisei trocar de produto porque o item anunciado estava sem estoque.,Google
+REV00210,LOJ020,2025-10-02,5,Atendimento muito atencioso e equipe prestativa.,App
+REV00211,LOJ020,2026-07-26,1,Precisei trocar de produto porque o item anunciado estava sem estoque.,Google
+REV00212,LOJ020,2025-11-13,3,Não encontrei meu tamanho e disseram que o estoque não tinha reposição.,Google
+REV00213,LOJ020,2026-08-17,1,"A loja estava organizada, mas faltavam produtos básicos.",E-mail
+REV00214,LOJ020,2026-06-28,3,Muitos itens da promoção estavam indisponíveis.,Pesquisa NPS
+REV00215,LOJ020,2026-04-02,3,Não encontrei meu tamanho e disseram que o estoque não tinha reposição.,Google
+REV00216,LOJ020,2026-09-21,1,"A loja estava organizada, mas faltavam produtos básicos.",E-mail
+REV00217,LOJ021,2026-03-30,5,"Loja organizada, produtos bem expostos e checkout ágil.",Pesquisa NPS
+REV00218,LOJ021,2026-03-28,5,Boa variedade de produtos e atendimento cordial.,Google
+REV00219,LOJ021,2026-03-05,5,Boa variedade de produtos e atendimento cordial.,Google
+REV00220,LOJ021,2025-12-22,5,Boa variedade de produtos e atendimento cordial.,App
+REV00221,LOJ021,2025-11-30,5,"Experiência excelente, voltarei a comprar nesta unidade.",Pesquisa NPS
+REV00222,LOJ021,2025-10-08,5,Atendimento muito atencioso e equipe prestativa.,Pesquisa NPS
+REV00223,LOJ021,2025-10-26,4,Atendimento muito atencioso e equipe prestativa.,E-mail
+REV00224,LOJ021,2026-07-02,4,"Experiência excelente, voltarei a comprar nesta unidade.",App
+REV00225,LOJ021,2026-02-06,4,Atendimento muito atencioso e equipe prestativa.,App
+REV00226,LOJ021,2026-08-15,5,"Loja organizada, produtos bem expostos e checkout ágil.",App
+REV00227,LOJ021,2025-12-03,5,"Loja organizada, produtos bem expostos e checkout ágil.",E-mail
+REV00228,LOJ021,2026-09-30,5,Encontrei tudo o que precisava e fui atendido rapidamente.,App
+REV00229,LOJ021,2025-10-24,5,"Loja organizada, produtos bem expostos e checkout ágil.",Google
+REV00230,LOJ022,2026-01-04,5,"Loja organizada, produtos bem expostos e checkout ágil.",App
+REV00231,LOJ022,2026-09-04,4,Boa variedade de produtos e atendimento cordial.,Google
+REV00232,LOJ022,2026-02-27,5,"Loja organizada, produtos bem expostos e checkout ágil.",Pesquisa NPS
+REV00233,LOJ022,2026-07-06,5,Atendimento muito atencioso e equipe prestativa.,Google
+REV00234,LOJ022,2026-01-06,5,Encontrei tudo o que precisava e fui atendido rapidamente.,Google
+REV00235,LOJ022,2026-03-15,4,"Experiência excelente, voltarei a comprar nesta unidade.",E-mail
+REV00236,LOJ022,2026-03-09,4,Encontrei tudo o que precisava e fui atendido rapidamente.,Google
+REV00237,LOJ022,2026-02-09,5,Atendimento muito atencioso e equipe prestativa.,Pesquisa NPS
+REV00238,LOJ022,2025-11-23,2,Faltaram vários produtos que eu procurava nas prateleiras.,Google
+REV00239,LOJ022,2026-08-30,5,Encontrei tudo o que precisava e fui atendido rapidamente.,Pesquisa NPS
+REV00240,LOJ022,2026-07-28,4,Atendimento muito atencioso e equipe prestativa.,E-mail
+REV00241,LOJ022,2025-11-18,5,Boa variedade de produtos e atendimento cordial.,App
+REV00242,LOJ022,2026-07-31,5,"Loja organizada, produtos bem expostos e checkout ágil.",Google
+REV00243,LOJ023,2025-11-08,5,Atendimento muito atencioso e equipe prestativa.,Pesquisa NPS
+REV00244,LOJ023,2026-01-08,4,Encontrei tudo o que precisava e fui atendido rapidamente.,E-mail
+REV00245,LOJ023,2026-05-24,4,"Loja organizada, produtos bem expostos e checkout ágil.",Google
+REV00246,LOJ023,2026-09-20,5,Atendimento muito atencioso e equipe prestativa.,E-mail
+REV00247,LOJ023,2026-03-06,4,Atendimento muito atencioso e equipe prestativa.,Pesquisa NPS
+REV00248,LOJ023,2025-12-09,4,"Loja organizada, produtos bem expostos e checkout ágil.",Google
+REV00249,LOJ023,2026-04-07,5,"Experiência excelente, voltarei a comprar nesta unidade.",Google
+REV00250,LOJ023,2026-05-03,5,Boa variedade de produtos e atendimento cordial.,E-mail
+REV00251,LOJ023,2026-08-21,5,Encontrei tudo o que precisava e fui atendido rapidamente.,Pesquisa NPS
+REV00252,LOJ023,2026-03-22,5,Atendimento muito atencioso e equipe prestativa.,Google
+REV00253,LOJ024,2026-08-13,1,Precisei repetir minha solicitação mais de uma vez.,App
+REV00254,LOJ024,2026-09-01,2,Poucos atendentes para o movimento da loja.,E-mail
+REV00255,LOJ024,2026-04-25,1,Havia fila para ser atendido porque poucos vendedores estavam disponíveis.,App
+REV00256,LOJ024,2026-04-21,3,Demorei para encontrar alguém disponível para me ajudar.,E-mail
+REV00257,LOJ024,2026-02-18,4,Atendimento muito atencioso e equipe prestativa.,Google
+REV00258,LOJ024,2026-03-07,4,Atendimento muito atencioso e equipe prestativa.,App
+REV00259,LOJ024,2026-04-01,5,Encontrei tudo o que precisava e fui atendido rapidamente.,Google
+REV00260,LOJ024,2026-01-30,4,"Loja organizada, produtos bem expostos e checkout ágil.",Google
+REV00261,LOJ024,2026-07-26,4,"Loja organizada, produtos bem expostos e checkout ágil.",Pesquisa NPS
+REV00262,LOJ024,2026-04-10,5,"Experiência excelente, voltarei a comprar nesta unidade.",App
+REV00263,LOJ024,2026-04-15,5,Boa variedade de produtos e atendimento cordial.,App
+REV00264,LOJ024,2026-04-22,5,Encontrei tudo o que precisava e fui atendido rapidamente.,Pesquisa NPS
+REV00265,LOJ024,2026-06-16,2,Precisei repetir minha solicitação mais de uma vez.,Pesquisa NPS
+REV00266,LOJ025,2026-07-10,4,Atendimento muito atencioso e equipe prestativa.,E-mail
+REV00267,LOJ025,2026-07-16,5,"Loja organizada, produtos bem expostos e checkout ágil.",Pesquisa NPS
+REV00268,LOJ025,2025-10-22,5,Boa variedade de produtos e atendimento cordial.,App
+REV00269,LOJ025,2026-09-08,5,"Experiência excelente, voltarei a comprar nesta unidade.",E-mail
+REV00270,LOJ025,2026-04-22,4,Faltaram vários produtos que eu procurava nas prateleiras.,App
+REV00271,LOJ025,2025-10-31,2,Poucos atendentes para o movimento da loja.,Pesquisa NPS
+REV00272,LOJ025,2026-07-16,5,Boa variedade de produtos e atendimento cordial.,E-mail
+REV00273,LOJ025,2026-03-09,4,"Loja organizada, produtos bem expostos e checkout ágil.",App
+REV00274,LOJ025,2025-12-09,5,"Experiência excelente, voltarei a comprar nesta unidade.",Pesquisa NPS
+REV00275,LOJ025,2026-06-10,5,Atendimento muito atencioso e equipe prestativa.,App
+REV00276,LOJ025,2026-07-13,4,Atendimento muito atencioso e equipe prestativa.,E-mail
+REV00277,LOJ026,2025-10-02,3,Não gostei da experiência no pós-venda desta unidade.,E-mail
+REV00278,LOJ026,2026-07-12,1,Atendimento muito demorado no caixa.,E-mail
+REV00279,LOJ026,2025-10-12,2,A solução do meu problema demorou e faltou orientação.,Pesquisa NPS
+REV00280,LOJ026,2026-07-01,2,Precisei repetir minha solicitação mais de uma vez.,App
+REV00281,LOJ026,2026-03-26,1,A fila estava longa e o atendimento foi confuso.,E-mail
+REV00282,LOJ026,2025-10-12,5,Atendimento muito atencioso e equipe prestativa.,App
+REV00283,LOJ026,2026-09-10,2,A solução do meu problema demorou e faltou orientação.,E-mail
+REV00284,LOJ026,2026-03-03,2,Atendimento muito demorado no caixa.,E-mail
+REV00285,LOJ026,2025-12-23,1,A solução do meu problema demorou e faltou orientação.,Pesquisa NPS
+REV00286,LOJ026,2026-04-29,1,Não gostei da experiência no pós-venda desta unidade.,E-mail
+REV00287,LOJ026,2026-02-25,3,Atendimento muito demorado no caixa.,Pesquisa NPS
+REV00288,LOJ026,2025-10-04,2,A solução do meu problema demorou e faltou orientação.,Google
+REV00289,LOJ026,2026-06-30,2,Precisei repetir minha solicitação mais de uma vez.,App
+REV00290,LOJ027,2026-01-15,5,Atendimento muito atencioso e equipe prestativa.,App
+REV00291,LOJ027,2026-05-03,4,"Experiência excelente, voltarei a comprar nesta unidade.",E-mail
+REV00292,LOJ027,2025-12-03,4,"Loja organizada, produtos bem expostos e checkout ágil.",Google
+REV00293,LOJ027,2026-09-08,5,"Experiência excelente, voltarei a comprar nesta unidade.",E-mail
+REV00294,LOJ027,2026-08-23,5,Boa variedade de produtos e atendimento cordial.,Google
+REV00295,LOJ027,2025-10-10,4,Boa variedade de produtos e atendimento cordial.,Google
+REV00296,LOJ027,2026-05-20,5,"Loja organizada, produtos bem expostos e checkout ágil.",E-mail
+REV00297,LOJ027,2026-03-22,4,Atendimento muito atencioso e equipe prestativa.,App
+REV00298,LOJ027,2026-08-01,5,Atendimento muito atencioso e equipe prestativa.,E-mail
+REV00299,LOJ027,2026-03-06,5,Encontrei tudo o que precisava e fui atendido rapidamente.,Pesquisa NPS
+REV00300,LOJ028,2026-07-05,5,Boa variedade de produtos e atendimento cordial.,App
+REV00301,LOJ028,2026-05-01,3,Poucos atendentes para o movimento da loja.,App
+REV00302,LOJ028,2026-07-24,5,"Loja organizada, produtos bem expostos e checkout ágil.",E-mail
+REV00303,LOJ028,2026-06-13,5,Atendimento muito atencioso e equipe prestativa.,E-mail
+REV00304,LOJ028,2026-01-07,4,"Loja organizada, produtos bem expostos e checkout ágil.",Pesquisa NPS
+REV00305,LOJ028,2026-07-12,5,Boa variedade de produtos e atendimento cordial.,Pesquisa NPS
+REV00306,LOJ028,2026-07-21,4,Boa variedade de produtos e atendimento cordial.,Google
+REV00307,LOJ028,2026-09-03,5,Atendimento muito atencioso e equipe prestativa.,Pesquisa NPS
+REV00308,LOJ028,2026-06-16,4,Boa variedade de produtos e atendimento cordial.,App
+REV00309,LOJ028,2025-10-21,4,Boa variedade de produtos e atendimento cordial.,Google
+REV00310,LOJ028,2026-04-20,5,Atendimento muito atencioso e equipe prestativa.,Google
+REV00311,LOJ028,2026-02-17,4,"Experiência excelente, voltarei a comprar nesta unidade.",App
+REV00312,LOJ029,2025-11-09,5,"Experiência excelente, voltarei a comprar nesta unidade.",E-mail
+REV00313,LOJ029,2026-02-02,4,"Experiência excelente, voltarei a comprar nesta unidade.",App
+REV00314,LOJ029,2026-01-23,4,"Experiência excelente, voltarei a comprar nesta unidade.",App
+REV00315,LOJ029,2026-04-16,5,Encontrei tudo o que precisava e fui atendido rapidamente.,Pesquisa NPS
+REV00316,LOJ029,2026-02-01,3,Poucos atendentes para o movimento da loja.,Pesquisa NPS
+REV00317,LOJ029,2026-08-26,5,Boa variedade de produtos e atendimento cordial.,Google
+REV00318,LOJ029,2026-09-14,5,Boa variedade de produtos e atendimento cordial.,Google
+REV00319,LOJ029,2026-03-07,5,Boa variedade de produtos e atendimento cordial.,App
+REV00320,LOJ029,2025-12-17,2,Poucos atendentes para o movimento da loja.,Pesquisa NPS
+REV00321,LOJ029,2026-09-19,5,"Experiência excelente, voltarei a comprar nesta unidade.",Google
+REV00322,LOJ029,2026-07-08,4,"Experiência excelente, voltarei a comprar nesta unidade.",Pesquisa NPS
+REV00323,LOJ029,2025-10-13,5,Boa variedade de produtos e atendimento cordial.,App
+REV00324,LOJ029,2026-03-24,4,Boa variedade de produtos e atendimento cordial.,E-mail
+REV00325,LOJ030,2026-02-20,2,A seleção de produtos não me chamou atenção desta vez.,E-mail
+REV00326,LOJ030,2026-05-27,1,A loja parecia com menos movimento do que normalmente.,Google
+REV00327,LOJ030,2026-09-11,2,Poucas novidades em relação ao mês passado.,E-mail
+REV00328,LOJ030,2025-10-22,2,A loja parecia com menos movimento do que normalmente.,App
+REV00329,LOJ030,2025-12-11,3,Não encontrei uma promoção que justificasse a visita.,Google
+REV00330,LOJ030,2026-06-17,3,A loja parecia com menos movimento do que normalmente.,Pesquisa NPS
+REV00331,LOJ030,2026-01-05,3,A seleção de produtos não me chamou atenção desta vez.,App
+REV00332,LOJ030,2026-09-01,1,A loja parecia com menos movimento do que normalmente.,Pesquisa NPS
+REV00333,LOJ030,2026-09-29,3,A loja estava bem vazia e havia pouca movimentação.,E-mail
+REV00334,LOJ030,2026-08-28,2,Poucas novidades em relação ao mês passado.,E-mail
+REV00335,LOJ030,2026-05-22,3,A seleção de produtos não me chamou atenção desta vez.,Pesquisa NPS
+REV00336,LOJ031,2026-04-02,2,Havia fila para ser atendido porque poucos vendedores estavam disponíveis.,E-mail
+REV00337,LOJ031,2026-02-06,2,O atendimento demorou mais do que o esperado por falta de pessoal.,Pesquisa NPS
+REV00338,LOJ031,2026-01-23,2,"A equipe foi educada, mas parecia reduzida para o fluxo de clientes.",Google
+REV00339,LOJ031,2026-07-23,3,Demorei para encontrar alguém disponível para me ajudar.,Google
+REV00340,LOJ031,2026-08-02,5,Atendimento muito atencioso e equipe prestativa.,Google
+REV00341,LOJ031,2026-01-20,3,O atendimento demorou mais do que o esperado por falta de pessoal.,Pesquisa NPS
+REV00342,LOJ031,2026-07-21,3,Havia fila para ser atendido porque poucos vendedores estavam disponíveis.,Google
+REV00343,LOJ031,2026-02-22,2,Havia fila para ser atendido porque poucos vendedores estavam disponíveis.,E-mail
+REV00344,LOJ031,2026-01-31,1,Poucos atendentes para o movimento da loja.,Pesquisa NPS
+REV00345,LOJ031,2025-12-27,1,"A equipe foi educada, mas parecia reduzida para o fluxo de clientes.",App
+REV00346,LOJ031,2026-09-03,2,Havia fila para ser atendido porque poucos vendedores estavam disponíveis.,Pesquisa NPS
+REV00347,LOJ032,2026-04-13,2,A solução do meu problema demorou e faltou orientação.,App
+REV00348,LOJ032,2026-05-13,3,Não gostei da experiência no pós-venda desta unidade.,Google
+REV00349,LOJ032,2026-07-04,2,Atendimento muito demorado no caixa.,E-mail
+REV00350,LOJ032,2026-05-08,3,Precisei repetir minha solicitação mais de uma vez.,Pesquisa NPS
+REV00351,LOJ032,2026-01-03,2,A solução do meu problema demorou e faltou orientação.,Google
+REV00352,LOJ032,2025-12-31,2,Não gostei da experiência no pós-venda desta unidade.,E-mail
+REV00353,LOJ032,2026-08-26,1,Precisei repetir minha solicitação mais de uma vez.,E-mail
+REV00354,LOJ032,2026-09-24,1,Não gostei da experiência no pós-venda desta unidade.,E-mail
+REV00355,LOJ032,2026-08-29,2,Atendimento muito demorado no caixa.,Google
+REV00356,LOJ032,2026-07-17,1,A fila estava longa e o atendimento foi confuso.,E-mail
+REV00357,LOJ032,2025-10-08,2,A fila estava longa e o atendimento foi confuso.,E-mail
+REV00358,LOJ033,2026-01-08,1,O atendimento demorou mais do que o esperado por falta de pessoal.,Pesquisa NPS
+REV00359,LOJ033,2026-06-30,3,O atendimento demorou mais do que o esperado por falta de pessoal.,Pesquisa NPS
+REV00360,LOJ033,2026-01-25,1,O atendimento demorou mais do que o esperado por falta de pessoal.,App
+REV00361,LOJ033,2026-04-26,1,Poucos atendentes para o movimento da loja.,Google
+REV00362,LOJ033,2026-08-05,2,Havia fila para ser atendido porque poucos vendedores estavam disponíveis.,E-mail
+REV00363,LOJ033,2026-08-04,3,"A equipe foi educada, mas parecia reduzida para o fluxo de clientes.",App
+REV00364,LOJ033,2026-04-25,1,Demorei para encontrar alguém disponível para me ajudar.,Google
+REV00365,LOJ033,2026-05-10,2,Havia fila para ser atendido porque poucos vendedores estavam disponíveis.,E-mail
+REV00366,LOJ033,2026-09-27,4,Atendimento muito atencioso e equipe prestativa.,Pesquisa NPS
+REV00367,LOJ033,2026-04-24,3,Demorei para encontrar alguém disponível para me ajudar.,App
+REV00368,LOJ033,2026-05-21,2,Demorei para encontrar alguém disponível para me ajudar.,E-mail
+REV00369,LOJ034,2026-07-26,4,Atendimento muito atencioso e equipe prestativa.,App
+REV00370,LOJ034,2026-04-15,2,"A loja estava organizada, mas faltavam produtos básicos.",E-mail
+REV00371,LOJ034,2026-02-24,2,Muitos itens da promoção estavam indisponíveis.,Google
+REV00372,LOJ034,2026-07-01,3,Faltaram vários produtos que eu procurava nas prateleiras.,Google
+REV00373,LOJ034,2026-04-22,2,"A loja estava organizada, mas faltavam produtos básicos.",E-mail
+REV00374,LOJ034,2026-08-04,2,"A loja estava organizada, mas faltavam produtos básicos.",E-mail
+REV00375,LOJ034,2026-09-24,2,Muitos itens da promoção estavam indisponíveis.,Google
+REV00376,LOJ034,2026-05-28,3,Muitos itens da promoção estavam indisponíveis.,Pesquisa NPS
+REV00377,LOJ034,2026-02-04,2,Precisei trocar de produto porque o item anunciado estava sem estoque.,Pesquisa NPS
+REV00378,LOJ034,2025-10-06,2,Faltaram vários produtos que eu procurava nas prateleiras.,E-mail
+REV00379,LOJ034,2025-11-05,1,"A loja estava organizada, mas faltavam produtos básicos.",Pesquisa NPS
+REV00380,LOJ034,2025-10-28,1,"A loja estava organizada, mas faltavam produtos básicos.",Google
+REV00381,LOJ035,2026-04-27,2,Demorei para encontrar alguém disponível para me ajudar.,Google
+REV00382,LOJ035,2025-10-23,1,O atendimento demorou mais do que o esperado por falta de pessoal.,App
+REV00383,LOJ035,2026-07-17,2,Poucos atendentes para o movimento da loja.,Google
+REV00384,LOJ035,2026-08-19,1,Demorei para encontrar alguém disponível para me ajudar.,App
+REV00385,LOJ035,2026-09-16,2,O atendimento demorou mais do que o esperado por falta de pessoal.,Pesquisa NPS
+REV00386,LOJ035,2026-04-15,5,Atendimento muito atencioso e equipe prestativa.,E-mail
+REV00387,LOJ035,2026-03-01,2,Demorei para encontrar alguém disponível para me ajudar.,Google
+REV00388,LOJ035,2026-07-16,2,Poucos atendentes para o movimento da loja.,E-mail
+REV00389,LOJ035,2026-02-18,2,Havia fila para ser atendido porque poucos vendedores estavam disponíveis.,Google
+REV00390,LOJ035,2026-04-25,2,Havia fila para ser atendido porque poucos vendedores estavam disponíveis.,Google
+REV00391,LOJ035,2026-04-29,1,O atendimento demorou mais do que o esperado por falta de pessoal.,Pesquisa NPS
+REV00392,LOJ035,2026-07-01,1,O atendimento demorou mais do que o esperado por falta de pessoal.,App
+REV00393,LOJ036,2025-11-17,4,Atendimento muito atencioso e equipe prestativa.,Pesquisa NPS
+REV00394,LOJ036,2026-02-17,2,Faltaram vários produtos que eu procurava nas prateleiras.,Pesquisa NPS
+REV00395,LOJ036,2026-05-26,5,"Loja organizada, produtos bem expostos e checkout ágil.",Google
+REV00396,LOJ036,2026-05-01,4,Atendimento muito atencioso e equipe prestativa.,App
+REV00397,LOJ036,2026-06-25,4,Atendimento muito atencioso e equipe prestativa.,App
+REV00398,LOJ036,2026-09-28,4,Boa variedade de produtos e atendimento cordial.,Google
+REV00399,LOJ036,2026-04-28,4,Faltaram vários produtos que eu procurava nas prateleiras.,Google
+REV00400,LOJ036,2026-03-14,5,"Loja organizada, produtos bem expostos e checkout ágil.",Google
+REV00401,LOJ036,2026-08-24,4,Atendimento muito atencioso e equipe prestativa.,Pesquisa NPS
+REV00402,LOJ036,2026-09-10,4,Encontrei tudo o que precisava e fui atendido rapidamente.,E-mail
+REV00403,LOJ036,2026-02-12,5,"Experiência excelente, voltarei a comprar nesta unidade.",E-mail
+REV00404,LOJ036,2026-02-09,5,"Experiência excelente, voltarei a comprar nesta unidade.",E-mail
+REV00405,LOJ036,2026-05-11,5,Atendimento muito atencioso e equipe prestativa.,Pesquisa NPS
+REV00406,LOJ037,2025-11-29,1,Faltaram produtos e também havia demora para conseguir atendimento.,E-mail
+REV00407,LOJ037,2026-06-06,2,"A equipe foi educada, mas parecia reduzida para o fluxo de clientes.",App
+REV00408,LOJ037,2025-12-01,2,Não encontrei o que precisava e esperei bastante por ajuda.,E-mail
+REV00409,LOJ037,2026-04-15,1,"A equipe foi educada, mas parecia reduzida para o fluxo de clientes.",E-mail
+REV00410,LOJ037,2026-02-19,2,Faltaram produtos e também havia demora para conseguir atendimento.,App
+REV00411,LOJ037,2026-04-22,3,Não encontrei o que precisava e esperei bastante por ajuda.,Google
+REV00412,LOJ037,2026-04-05,2,Tive dificuldade para encontrar produtos e para concluir a troca.,Pesquisa NPS
+REV00413,LOJ037,2026-01-10,2,Muitos itens da promoção estavam indisponíveis.,Pesquisa NPS
+REV00414,LOJ037,2026-01-18,2,Havia fila para ser atendido porque poucos vendedores estavam disponíveis.,App
+REV00415,LOJ037,2026-04-12,2,A experiência foi prejudicada por fila e falta de alguns itens.,Pesquisa NPS
+REV00416,LOJ037,2026-09-18,3,Não encontrei o que precisava e esperei bastante por ajuda.,Google
+REV00417,LOJ037,2026-08-07,1,Tive dificuldade para encontrar produtos e para concluir a troca.,App
+REV00418,LOJ038,2025-10-17,5,Encontrei tudo o que precisava e fui atendido rapidamente.,Pesquisa NPS
+REV00419,LOJ038,2025-12-28,5,"Experiência excelente, voltarei a comprar nesta unidade.",E-mail
+REV00420,LOJ038,2026-04-28,5,Encontrei tudo o que precisava e fui atendido rapidamente.,E-mail
+REV00421,LOJ038,2025-12-23,4,"Loja organizada, produtos bem expostos e checkout ágil.",Google
+REV00422,LOJ038,2026-09-26,4,"Experiência excelente, voltarei a comprar nesta unidade.",E-mail
+REV00423,LOJ038,2025-10-24,5,Encontrei tudo o que precisava e fui atendido rapidamente.,App
+REV00424,LOJ038,2026-07-21,5,Encontrei tudo o que precisava e fui atendido rapidamente.,Google
+REV00425,LOJ038,2026-05-21,5,"Loja organizada, produtos bem expostos e checkout ágil.",Pesquisa NPS
+REV00426,LOJ038,2026-02-19,5,Boa variedade de produtos e atendimento cordial.,Pesquisa NPS
+REV00427,LOJ039,2026-01-07,2,A seleção de produtos não me chamou atenção desta vez.,Pesquisa NPS
+REV00428,LOJ039,2026-03-07,2,Poucas novidades em relação ao mês passado.,Pesquisa NPS
+REV00429,LOJ039,2026-02-19,3,Poucas novidades em relação ao mês passado.,Pesquisa NPS
+REV00430,LOJ039,2026-08-17,3,Poucas novidades em relação ao mês passado.,E-mail
+REV00431,LOJ039,2025-11-05,5,Atendimento muito atencioso e equipe prestativa.,App
+REV00432,LOJ039,2026-04-26,2,A loja parecia com menos movimento do que normalmente.,Pesquisa NPS
+REV00433,LOJ039,2026-03-03,3,A seleção de produtos não me chamou atenção desta vez.,App
+REV00434,LOJ039,2026-01-05,2,A seleção de produtos não me chamou atenção desta vez.,Pesquisa NPS
+REV00435,LOJ039,2026-03-30,4,Atendimento muito atencioso e equipe prestativa.,Google
+REV00436,LOJ039,2026-05-08,3,A loja estava bem vazia e havia pouca movimentação.,Google
+REV00437,LOJ039,2025-12-19,2,Poucas novidades em relação ao mês passado.,E-mail
+REV00438,LOJ039,2026-03-14,5,Atendimento muito atencioso e equipe prestativa.,E-mail
+REV00439,LOJ040,2026-06-30,5,Boa variedade de produtos e atendimento cordial.,Google
+REV00440,LOJ040,2025-10-07,4,Encontrei tudo o que precisava e fui atendido rapidamente.,Google
+REV00441,LOJ040,2026-01-29,4,Encontrei tudo o que precisava e fui atendido rapidamente.,App
+REV00442,LOJ040,2025-11-27,5,"Experiência excelente, voltarei a comprar nesta unidade.",Google
+REV00443,LOJ040,2026-08-25,4,Atendimento muito atencioso e equipe prestativa.,E-mail
+REV00444,LOJ040,2026-09-05,4,Encontrei tudo o que precisava e fui atendido rapidamente.,E-mail
+REV00445,LOJ040,2025-10-06,4,Atendimento muito atencioso e equipe prestativa.,E-mail
+REV00446,LOJ040,2026-04-24,4,"Loja organizada, produtos bem expostos e checkout ágil.",Google
+REV00447,LOJ040,2026-08-21,5,"Experiência excelente, voltarei a comprar nesta unidade.",App
+REV00448,LOJ040,2026-08-05,5,Atendimento muito atencioso e equipe prestativa.,Pesquisa NPS
+REV00449,LOJ017,2026-09-03,2,Muitos itens da promoção estavam indisponíveis e precisei trocar de produto.,Google
+REV00450,LOJ017,2026-09-08,2,"A equipe foi educada, mas havia poucos vendedores para o movimento da loja.",Pesquisa NPS
+REV00451,LOJ017,2026-09-12,1,Faltaram produtos e também havia demora para conseguir atendimento.,Google
+REV00452,LOJ017,2026-09-18,2,Esperei bastante por ajuda e o produto que eu queria estava sem estoque.,App
+REV00453,LOJ017,2026-09-23,2,Não encontrei meu tamanho e a fila para atendimento estava longa.,Google
+REV00454,LOJ008,2026-09-05,5,"Atendimento excelente, loja organizada e encontrei tudo o que precisava.",Google
+REV00455,LOJ008,2026-09-16,5,Equipe muito atenciosa e checkout rápido.,Pesquisa NPS
+REV00456,LOJ008,2026-09-21,5,Boa variedade de produtos e ótima experiência nesta unidade.,App
+REV00457,LOJ024,2026-09-04,3,A loja estava cheia e demorou um pouco para conseguir atendimento.,Google
+REV00458,LOJ024,2026-09-14,4,"Boa experiência no geral, mas havia fila no horário de pico.",Pesquisa NPS
+REV00459,LOJ024,2026-09-22,3,"A equipe foi cordial, porém o atendimento demorou mais do que o esperado.",Google

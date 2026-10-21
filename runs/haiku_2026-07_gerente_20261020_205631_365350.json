@@ -1,0 +1,66 @@
+{
+  "mes": "2026-07",
+  "tipo": "gerente",
+  "decisao_jev": "runs/jev_2026-07_20261020_205611.json",
+  "enviado": {
+    "model": "anthropic/claude-haiku-4.5",
+    "max_tokens": 800,
+    "temperature": 0.3,
+    "messages": [
+      {
+        "role": "system",
+        "content": "Você é um redator de comunicação executiva de uma rede varejista. Escreva em português do Brasil, com tom profissional e direto. A decisão abaixo foi tomada pelo JEV e é um FATO: não altere a causa nem o score, não invente números. Não reinterprete, não questione e não contradiga a decisão. Use somente os números fornecidos. Sem emojis. Escreva em texto simples, sem Markdown: nada de **, #, tabelas ou ---. O texto deve ficar pronto para colar em e-mail ou WhatsApp."
+      },
+      {
+        "role": "user",
+        "content": "FATOS (decisão do JEV e números calculados):\nMês analisado: Julho/2026 (rede inteira, 40 lojas)\nCausa provável (JEV): Estoque\nScore de certeza: 100 de 100\nEtiqueta: Agir\nRisco da rede: Alto (3,00 numa escala de 0 a 4)\nRevisão humana: NÃO necessária\nLojas prioritárias:\n  1. LOJ003 Santa Cruz do Sul (Sul), gerente Camila Ferreira, atingimento da meta 69,4%\n  2. LOJ007 Blumenau Centro (Sul), gerente Renata Rocha, atingimento da meta 72,2%\n  3. LOJ004 Pelotas Centro (Sul), gerente Bruno Martins, atingimento da meta 72,6%\nNúmeros da rede no mês:\n  Faturamento: R$ 8,05 mi (meta R$ 8,66 mi)\n  Atingimento da meta: 92,9%\n  NPS médio: 72,2\n  Ocorrências de pós-venda: 108\n\nTAREFA:\nEscreva uma mensagem ao gerente da loja prioritária nº 1, citando a causa apontada pelo JEV, o número que coloca a loja como prioridade, 2 a 3 ações práticas e um prazo de retorno. Até 150 palavras.\n\nLembrete: não altere a causa nem o score, não invente números."
+      }
+    ]
+  },
+  "recebido": {
+    "id": "gen-1792540611-4XRvySQeoo5iIQenSs7V",
+    "object": "chat.completion",
+    "created": 1792540611,
+    "model": "anthropic/claude-haiku-4.5",
+    "provider": "Amazon Bedrock",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "end_turn",
+        "message": {
+          "role": "assistant",
+          "content": "Camila,\n\nA análise de julho identificou que a LOJ003 Santa Cruz do Sul apresenta atingimento de meta em 69,4%, colocando a loja como prioridade máxima na rede. O JEV apontou Estoque como causa provável com score de certeza 100.\n\nSolicitamos ações imediatas:\n\n1. Realizar auditoria completa do estoque, verificando divergências entre sistema e físico, com foco em itens de maior rotatividade.\n\n2. Revisar a política de reposição com a central, garantindo que produtos de demanda alta estejam sempre disponíveis nas prateleiras.\n\n3. Implementar controle diário de falta de estoque, registrando itens indisponíveis para ajuste rápido.\n\nPedimos retorno com relatório das ações implementadas até o próximo dia 15. Sua atuação é fundamental para recuperar o desempenho da loja.\n\nContamos com seu comprometimento.",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 552,
+      "completion_tokens": 245,
+      "total_tokens": 797,
+      "cost": 0.001777,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.001777,
+        "upstream_inference_prompt_cost": 0.000552,
+        "upstream_inference_completions_cost": 0.001225
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  }
+}

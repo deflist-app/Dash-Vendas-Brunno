@@ -1,0 +1,141 @@
+{
+  "mes": "2026-10",
+  "enviado": {
+    "model": "typesafe/jev-1.13",
+    "state": "DOSSIÊ DA REDE — Outubro/2026 (40 lojas, 5 regiões)\n\n1. INDICADORES DA REDE vs Setembro/2026\n- Faturamento: R$ 8,30 mi (+3,1%)\n- Atingimento da meta: 94,9% (+1,0 p.p.)\n- NPS médio: 70,5 (antes 73,8)\n\n2. POR REGIÃO (do pior para o melhor atingimento)\n- Nordeste: atingimento 88,4%, NPS 60,9, variação do atingimento -4,7 p.p.\n- Centro-Oeste: atingimento 96,3%, NPS 76,2, variação do atingimento -1,8 p.p.\n- Sudeste: atingimento 96,3%, NPS 71,9, variação do atingimento +2,6 p.p.\n- Sul: atingimento 96,9%, NPS 74,0, variação do atingimento +1,6 p.p.\n- Norte: atingimento 98,1%, NPS 72,5, variação do atingimento +7,6 p.p.\n\n3. AS 5 LOJAS COM PIOR ATINGIMENTO DA META\n- LOJ032 Aracaju Jardins (Nordeste): atingimento 82,8%, conversão 4,41% (-0,8 p.p.), visitas 25.392 (-2,1%), NPS 62\n- LOJ031 Maceió Ponta Verde (Nordeste): atingimento 86,7%, conversão 4,08% (-0,6 p.p.), visitas 28.438 (+13,3%), NPS 58\n- LOJ033 São Luís Renascença (Nordeste): atingimento 88,1%, conversão 5,53% (-0,3 p.p.), visitas 18.148 (+0,4%), NPS 63\n- LOJ030 João Pessoa Manaíra (Nordeste): atingimento 88,2%, conversão 4,30% (-0,1 p.p.), visitas 30.622 (+4,9%), NPS 64\n- LOJ027 Recife Boa Viagem (Nordeste): atingimento 88,6%, conversão 5,13% (-0,6 p.p.), visitas 24.791 (+3,6%), NPS 67\n\n4. PÓS-VENDA DA REDE vs Setembro/2026\n- Total: 105 (antes 100)\n- Produto: 24 (antes 47)\n- Entrega: 22 (antes 24)\n- Troca: 40 (antes 26)\n- Atendimento: 19 (antes 3)\n- Disponibilidade: 0 (antes 0)\n\n5. COMENTÁRIOS DOS GERENTES DESSAS 5 LOJAS\n- LOJ032: Quadro de pessoal ok; o problema é o processo novo de atendimento e trocas.\n- LOJ031: Quadro de pessoal ok; o problema é o processo novo de atendimento e trocas.\n- LOJ033: Treinamento do sistema novo foi insuficiente; clientes voltando para corrigir trocas.\n- LOJ030: Treinamento do sistema novo foi insuficiente; clientes voltando para corrigir trocas.\n- LOJ027: Equipe completa, mas o novo sistema de trocas gerou muitos erros e retrabalho.\n\n6. AS 10 AVALIAÇÕES DE MENOR NOTA DESSAS 5 LOJAS\n- (sem avaliações)\n\n7. OCORRÊNCIAS DE PÓS-VENDA DESSAS 5 LOJAS (até 8)\n- LOJ030 [Troca]: Estorno não processado por erro de operação no novo sistema.\n- LOJ031 [Atendimento]: Informação divergente entre vendedor e caixa sobre a política de troca.\n- LOJ032 [Troca]: Estorno não processado por erro de operação no novo sistema.\n- LOJ031 [Entrega]: Cliente pediu atualização do prazo de entrega, dentro do prazo.\n- LOJ031 [Atendimento]: Cliente precisou de novo contato para resolver a mesma solicitação.\n- LOJ031 [Atendimento]: Informação divergente entre vendedor e caixa sobre a política de troca.\n- LOJ032 [Atendimento]: Cliente precisou de novo contato para resolver a mesma solicitação.\n- LOJ032 [Troca]: Estorno não processado por erro de operação no novo sistema.",
+    "questions": {
+      "causa_principal": {
+        "type": "choice",
+        "instructions": "Com base no dossiê da rede inteira neste mês, qual é a causa mais provável do resultado? Pequenas oscilações em 1 ou 2 lojas são normais e não definem a causa da rede. Só aponte uma causa quando houver sinais consistentes nos números E nos textos (comentários dos gerentes, reviews e pós-venda).",
+        "criteria": {
+          "Estoque": "Ruptura, falta de produto, atraso de reposição limitando vendas",
+          "Equipe": "Falta de pessoal, rotatividade, desfalque ou treinamento insuficiente",
+          "Atendimento": "Mau atendimento, demora, reclamações de tratamento ao cliente",
+          "Demanda": "Menos clientes/visitas por fatores de mercado, sazonalidade ou concorrência",
+          "Preço": "Preço acima do mercado, promoções da concorrência, sensibilidade a preço",
+          "Sem problema relevante": "Rede perto da meta, sem região com queda forte, comentários sem queixas"
+        }
+      },
+      "risco_rede": {
+        "type": "score",
+        "instructions": "Qual o nível de risco para o resultado da rede, considerando o dossiê deste mês?",
+        "criteria": [
+          "Muito baixo",
+          "Baixo",
+          "Moderado",
+          "Alto",
+          "Muito alto"
+        ]
+      },
+      "revisao_humana": {
+        "type": "noul",
+        "instructions": "Os sinais deste mês são ambíguos ou contraditórios a ponto de exigir que um analista confirme a causa antes de agir? Avalie apenas a incerteza sobre a causa, não a gravidade do resultado.",
+        "criteria": {
+          "true": "Números e textos apontam para causas diferentes ou não sustentam uma causa clara",
+          "false": "Números e textos convergem para a mesma causa, mesmo que o resultado seja grave"
+        }
+      }
+    }
+  },
+  "recebido": {
+    "model": "typesafe/jev-1.13-20260917",
+    "answers": {
+      "causa_principal": {
+        "type": "choice",
+        "choice": "Atendimento",
+        "probabilities": {
+          "Estoque": 0,
+          "Equipe": 0.22,
+          "Atendimento": 0.78,
+          "Demanda": 0,
+          "Preço": 0,
+          "Sem problema relevante": 0
+        },
+        "confidence": 0.74
+      },
+      "risco_rede": {
+        "type": "score",
+        "score": 2.5,
+        "legend": {
+          "0": "Muito baixo",
+          "1": "Baixo",
+          "2": "Moderado",
+          "3": "Alto",
+          "4": "Muito alto"
+        },
+        "probabilities": {
+          "0": 0,
+          "1": 0.03,
+          "2": 0.44,
+          "3": 0.53,
+          "4": 0
+        },
+        "confidence": 0.58
+      },
+      "revisao_humana": {
+        "type": "noul",
+        "noul": 0.25
+      }
+    },
+    "usage": {
+      "input_tokens": 1839,
+      "output_tokens": 110,
+      "cost": 7.7238e-05
+    },
+    "id": "gen-dec-1792540344-rsHItJhrzUXDcfr13l5o",
+    "provider": "TypeSafe"
+  },
+  "prioridades": [
+    {
+      "id_loja": "LOJ032",
+      "loja": "Aracaju Jardins",
+      "regiao": "Nordeste",
+      "gerente": "Lucas Lima",
+      "atingimento": 0.8275,
+      "var_faturamento": -0.19667551532178384,
+      "maior_queda": {
+        "fator": "Conversão",
+        "variacao": -0.15517241379310354
+      },
+      "fatores": {
+        "Visitas": -0.02089920567594661,
+        "Conversão": -0.15517241379310354,
+        "Ticket médio": -0.027977704421234817
+      }
+    },
+    {
+      "id_loja": "LOJ031",
+      "loja": "Maceió Ponta Verde",
+      "regiao": "Nordeste",
+      "gerente": "Tatiane Ferreira",
+      "atingimento": 0.8674,
+      "var_faturamento": -0.011042689398069516,
+      "maior_queda": {
+        "fator": "Conversão",
+        "variacao": -0.1282051282051282
+      },
+      "fatores": {
+        "Visitas": 0.13330410871557796,
+        "Conversão": -0.1282051282051282,
+        "Ticket médio": 0.0009147038646240002
+      }
+    },
+    {
+      "id_loja": "LOJ033",
+      "loja": "São Luís Renascença",
+      "regiao": "Nordeste",
+      "gerente": "Beatriz Silva",
+      "atingimento": 0.8807,
+      "var_faturamento": -0.035844233112725665,
+      "maior_queda": {
+        "fator": "Conversão",
+        "variacao": -0.04982817869415812
+      },
+      "fatores": {
+        "Visitas": 0.0042054006197431715,
+        "Conversão": -0.04982817869415812,
+        "Ticket médio": 0.00932659745739195
+      }
+    }
+  ]
+}

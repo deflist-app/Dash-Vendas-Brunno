@@ -1,0 +1,111 @@
+{
+  "mes": "2026-09",
+  "enviado": {
+    "model": "typesafe/jev-1.13",
+    "state": "DOSSIÊ DA REDE — Setembro/2026 (40 lojas, 5 regiões)\n\n1. INDICADORES DA REDE vs Agosto/2026\n- Faturamento: R$ 8,05 mi (+3,9%)\n- Atingimento da meta: 93,9% (+1,7 p.p.)\n- NPS médio: 73,8 (antes 70,2)\n\n2. POR REGIÃO (do pior para o melhor atingimento)\n- Norte: atingimento 90,5%, NPS 74,8, variação do atingimento -6,9 p.p.\n- Nordeste: atingimento 93,1%, NPS 74,1, variação do atingimento -4,5 p.p.\n- Sudeste: atingimento 93,7%, NPS 71,7, variação do atingimento +12,6 p.p.\n- Sul: atingimento 95,3%, NPS 74,9, variação do atingimento -0,6 p.p.\n- Centro-Oeste: atingimento 98,1%, NPS 74,8, variação do atingimento +3,4 p.p.\n\n3. AS 5 LOJAS COM PIOR ATINGIMENTO DA META\n- LOJ037 Palmas Plano Diretor (Norte): atingimento 85,1%, conversão 5,59% (-0,2 p.p.), visitas 19.473 (-10,9%), NPS 83\n- LOJ014 Ribeirão Preto (Sudeste): atingimento 86,6%, conversão 5,12% (-0,1 p.p.), visitas 24.881 (+2,0%), NPS 69\n- LOJ029 Natal Tirol (Nordeste): atingimento 86,6%, conversão 5,23% (-0,3 p.p.), visitas 14.488 (-1,7%), NPS 72\n- LOJ008 Curitiba Batel (Sul): atingimento 86,6%, conversão 4,73% (-0,3 p.p.), visitas 18.976 (+0,5%), NPS 79\n- LOJ030 João Pessoa Manaíra (Nordeste): atingimento 87,2%, conversão 4,39% (-0,5 p.p.), visitas 29.190 (-1,3%), NPS 75\n\n4. PÓS-VENDA DA REDE vs Agosto/2026\n- Total: 100 (antes 113)\n- Produto: 47 (antes 22)\n- Entrega: 24 (antes 22)\n- Troca: 26 (antes 25)\n- Atendimento: 3 (antes 44)\n- Disponibilidade: 0 (antes 0)\n\n5. COMENTÁRIOS DOS GERENTES DESSAS 5 LOJAS\n- LOJ037: Movimento do shopping caiu, menos clientes circulando.\n- LOJ014: Operação estável, sem ocorrências relevantes.\n- LOJ029: Mês irregular; algumas semanas boas, outras fracas.\n- LOJ008: Resultado oscilou; ainda avaliando o que explica a variação.\n- LOJ030: Clientes comparando preço com sites; algumas vendas perdidas.\n\n6. AS 10 AVALIAÇÕES DE MENOR NOTA DESSAS 5 LOJAS\n- LOJ030 (nota 1, Pesquisa NPS): A loja parecia com menos movimento do que normalmente.\n- LOJ014 (nota 2, App): Poucos atendentes para o movimento da loja.\n- LOJ030 (nota 2, E-mail): Poucas novidades em relação ao mês passado.\n- LOJ030 (nota 3, E-mail): A loja estava bem vazia e havia pouca movimentação.\n- LOJ037 (nota 3, Google): Não encontrei o que precisava e esperei bastante por ajuda.\n- LOJ008 (nota 4, Google): Atendimento muito atencioso e equipe prestativa.\n- LOJ014 (nota 4, Pesquisa NPS): Experiência excelente, voltarei a comprar nesta unidade.\n- LOJ029 (nota 5, Google): Boa variedade de produtos e atendimento cordial.\n- LOJ029 (nota 5, Google): Experiência excelente, voltarei a comprar nesta unidade.\n- LOJ008 (nota 5, Google): Atendimento excelente, loja organizada e encontrei tudo o que precisava.\n\n7. OCORRÊNCIAS DE PÓS-VENDA DESSAS 5 LOJAS (até 8)\n- LOJ029 [Produto]: Cliente pediu orientação de uso do produto.\n- LOJ037 [Produto]: Cliente perguntou sobre condições de pagamento antes de decidir.\n- LOJ014 [Produto]: Cliente pediu orientação de uso do produto.\n- LOJ029 [Troca]: Cliente solicitou troca de tamanho, resolvida no balcão.\n- LOJ030 [Troca]: Cliente solicitou troca de tamanho, resolvida no balcão.\n- LOJ030 [Troca]: Cliente solicitou troca de tamanho, resolvida no balcão.\n- LOJ037 [Troca]: Cliente solicitou troca de tamanho, resolvida no balcão.\n- LOJ030 [Produto]: Cliente pediu cobertura de preço de outra loja.",
+    "questions": {
+      "causa_principal": {
+        "type": "choice",
+        "instructions": "Com base no dossiê da rede inteira neste mês, qual é a causa mais provável do resultado? Pequenas oscilações em 1 ou 2 lojas são normais e não definem a causa da rede. Só aponte uma causa quando houver sinais consistentes nos números E nos textos (comentários dos gerentes, reviews e pós-venda).",
+        "criteria": {
+          "Estoque": "Ruptura, falta de produto, atraso de reposição limitando vendas",
+          "Equipe": "Falta de pessoal, rotatividade, desfalque ou treinamento insuficiente",
+          "Atendimento": "Mau atendimento, demora, reclamações de tratamento ao cliente",
+          "Demanda": "Menos clientes/visitas por fatores de mercado, sazonalidade ou concorrência",
+          "Preço": "Preço acima do mercado, promoções da concorrência, sensibilidade a preço",
+          "Sem problema relevante": "Rede perto da meta, sem região com queda forte, comentários sem queixas"
+        }
+      },
+      "risco_rede": {
+        "type": "score",
+        "instructions": "Qual o nível de risco para o resultado da rede, considerando o dossiê deste mês?",
+        "criteria": [
+          "Muito baixo",
+          "Baixo",
+          "Moderado",
+          "Alto",
+          "Muito alto"
+        ]
+      },
+      "revisao_humana": {
+        "type": "noul",
+        "instructions": "Os sinais deste mês são ambíguos ou contraditórios a ponto de exigir que um analista confirme a causa antes de agir? Avalie apenas a incerteza sobre a causa, não a gravidade do resultado.",
+        "criteria": {
+          "true": "Números e textos apontam para causas diferentes ou não sustentam uma causa clara",
+          "false": "Números e textos convergem para a mesma causa, mesmo que o resultado seja grave"
+        }
+      }
+    }
+  },
+  "recebido": {
+    "model": "typesafe/jev-1.13-20260917",
+    "answers": {
+      "causa_principal": {
+        "type": "choice",
+        "choice": "Demanda",
+        "probabilities": {
+          "Estoque": 0.02,
+          "Equipe": 0.01,
+          "Atendimento": 0.01,
+          "Demanda": 0.79,
+          "Preço": 0.11,
+          "Sem problema relevante": 0.06
+        },
+        "confidence": 0.75
+      },
+      "risco_rede": {
+        "type": "score",
+        "score": 1.86,
+        "legend": {
+          "0": "Muito baixo",
+          "1": "Baixo",
+          "2": "Moderado",
+          "3": "Alto",
+          "4": "Muito alto"
+        },
+        "probabilities": {
+          "0": 0,
+          "1": 0.23,
+          "2": 0.67,
+          "3": 0.1,
+          "4": 0
+        },
+        "confidence": 0.72
+      },
+      "revisao_humana": {
+        "type": "noul",
+        "noul": 0.83
+      }
+    },
+    "usage": {
+      "input_tokens": 2020,
+      "output_tokens": 109,
+      "cost": 8.484e-05
+    },
+    "id": "gen-dec-1792539410-XT75h0nigXMLB60k5kOc",
+    "provider": "TypeSafe"
+  },
+  "prioridades": [
+    {
+      "id_loja": "LOJ037",
+      "loja": "Palmas Plano Diretor",
+      "regiao": "Norte",
+      "gerente": "Amanda Martins",
+      "atingimento": 0.8508
+    },
+    {
+      "id_loja": "LOJ014",
+      "loja": "Ribeirão Preto",
+      "regiao": "Sudeste",
+      "gerente": "Gustavo Carvalho",
+      "atingimento": 0.8659
+    },
+    {
+      "id_loja": "LOJ029",
+      "loja": "Natal Tirol",
+      "regiao": "Nordeste",
+      "gerente": "Luana Rocha",
+      "atingimento": 0.8661
+    }
+  ]
+}
